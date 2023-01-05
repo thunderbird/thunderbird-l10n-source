@@ -44,10 +44,10 @@ calendar-invitation-panel-reply-status = * You have not decided or responded yet
 
 calendar-invitation-panel-more-button = More
 
-calendar-invitation-panel-menu-item-save = 
+calendar-invitation-panel-menu-item-save =
   .label = Save to calendar
 
-calendar-invitation-panel-menu-item-toggle-changes= 
+calendar-invitation-panel-menu-item-toggle-changes=
   .label = Show Changes
 
 calendar-invitation-panel-prop-title-when = When:
