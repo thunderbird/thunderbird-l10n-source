@@ -90,6 +90,7 @@
 <!ENTITY calendar.week.button.label             "Week" >
 <!ENTITY calendar.month.button.label            "Month" >
 <!ENTITY calendar.multiweek.button.label        "Multiweek" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "Workweek days only" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Tasks in View" >

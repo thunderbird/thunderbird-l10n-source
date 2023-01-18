@@ -19,3 +19,50 @@ calendar-refresh-calendars =
 calendar-new-event-primary-button = New Event
 
 calendar-new-task-primary-button = New Task
+
+calendar-nav-button-prev-tooltip-day =
+  .title = Previous Day
+  .accesskey = s
+
+calendar-nav-button-prev-tooltip-week =
+  .title = Previous Week
+  .accesskey = s
+
+calendar-nav-button-prev-tooltip-multiweek =
+  .title = Previous Week
+  .accesskey = s
+
+calendar-nav-button-prev-tooltip-month =
+  .title = Previous Month
+  .accesskey = s
+
+calendar-nav-button-next-tooltip-day =
+  .title = Next Day
+  .accesskey = x
+
+calendar-nav-button-next-tooltip-week =
+  .title = Next Week
+  .accesskey = x
+
+calendar-nav-button-next-tooltip-multiweek =
+  .title = Next Week
+  .accesskey = x
+
+calendar-nav-button-next-tooltip-month =
+  .title = Next Month
+  .accesskey = x
+
+calendar-today-button-tooltip =
+  .title = Go to Today
+
+calendar-view-toggle-day = Day
+  .title = Switch to day view
+
+calendar-view-toggle-week = Week
+  .title = Switch to week view
+
+calendar-view-toggle-multiweek = Multiweek
+  .title = Switch to multiweek view
+
+calendar-view-toggle-month = Month
+  .title = Switch to month view
