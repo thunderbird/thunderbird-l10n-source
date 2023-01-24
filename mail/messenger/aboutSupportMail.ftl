@@ -19,6 +19,8 @@ send-via-email = Send via email
 
 app-basics-telemetry = Telemetry Data
 
+app-basics-cache-use = Cache Use
+
 mail-libs-title = Libraries
 libs-table-heading-library = Library
 libs-table-heading-expected-version = Expected minimum version
