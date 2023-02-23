@@ -6,6 +6,9 @@ compact-dialog-window =
     .title = Compact folders
     .style = width: 50em;
 
+compact-dialog-window-title =
+    .title = Compact folders
+
 compact-dialog =
     .buttonlabelaccept = Compact now
     .buttonaccesskeyaccept = C
