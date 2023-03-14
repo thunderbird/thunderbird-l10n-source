@@ -21,24 +21,6 @@ account-hub-support = Support
 
 account-hub-donate = Donate
 
-## Start page
-
-account-hub-email-button = Set up email account
-
-account-hub-new-email-button = Get a new email address
-
-account-hub-calendar-button = Set up calendar
-
-account-hub-address-book-button = Set up address book
-
-account-hub-chat-button = Set up chat
-
-account-hub-feed-button = Set up RSS feed
-
-account-hub-newsgroup-button = Set up newsgroup
-
-account-hub-import-button = Import profile
-
 ## Initial setup page
 
 account-hub-email-setup-button = Email Account

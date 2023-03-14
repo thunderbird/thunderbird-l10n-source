@@ -16,11 +16,6 @@ calendar-list-header = Calendars
 
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-  .title = { $calendarName } calendar option
-
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
   .title = { $calendarName } calendar has been muted
 
