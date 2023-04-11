@@ -24,10 +24,6 @@ tree-list-view-column-picker =
 tree-list-view-column-picker-restore =
   .label = Restore column order
 
-tree-list-view-row-thread =
-  .alt = Thread message indicator
-  .title = This is a threaded message
-
 tree-list-view-row-thread-icon =
   .alt = Thread message indicator
   .title = This is a threaded message
