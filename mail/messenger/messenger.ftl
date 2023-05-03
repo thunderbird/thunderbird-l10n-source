@@ -191,6 +191,10 @@ context-menu-decrypt-to-folder =
     .label = Copy As Decrypted To
     .accesskey = y
 
+context-menu-decrypt-to-folder2 =
+    .label = Create Decrypted Copy In
+    .accesskey = y
+
 ## Message header pane
 
 other-action-redirect-msg =
