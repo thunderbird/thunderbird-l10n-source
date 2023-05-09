@@ -153,7 +153,7 @@ openpgp-import-keep-passphrases =
 
 openpgp-passphrase-prompt-title = Passphrase required
 
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Please enter the passphrase to unlock the following key: { $key }
 
 openpgp-import-key-button =
