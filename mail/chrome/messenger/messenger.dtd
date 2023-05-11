@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "D">
 <!ENTITY unsubscribeNewsgroupCmd.label "Unsubscribe">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Select">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "All">
