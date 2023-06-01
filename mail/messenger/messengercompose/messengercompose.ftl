@@ -218,29 +218,21 @@ menu-open-key-manager =
     .label = Key Manager
     .accesskey = M
 
+openpgp-key-issue-notification-one =
+    End-to-end encryption requires resolving key issues for { $addr }
+openpgp-key-issue-notification-many =
+    End-to-end encryption requires resolving key issues for { $count } recipients.
+
+smime-cert-issue-notification-one =
+    End-to-end encryption requires resolving certificate issues for { $addr }.
+smime-cert-issue-notification-many =
+    End-to-end encryption requires resolving certificate issues for { $count } recipients.
+
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from =
     You are not set up to send end-to-end encrypted messages from { $addr }.
-
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one =
-    End-to-end encryption requires resolving key issues for { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many =
-    End-to-end encryption requires resolving key issues for { $count } recipients.
-
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one =
-    End-to-end encryption requires resolving certificate issues for { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many =
-    End-to-end encryption requires resolving certificate issues for { $count } recipients.
 
 # Variables:
 # $addr (String) - Email address with key issues.
