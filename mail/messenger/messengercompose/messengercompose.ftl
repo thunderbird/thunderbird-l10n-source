@@ -345,6 +345,16 @@ many-public-recipients-notice = { $count ->
   [one] Your message has a public recipient. You can avoid disclosing recipients by using Bcc instead.
   *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
 }
+
+public-recipients-notice-single =
+    Your message has a public recipient. You can avoid disclosing the recipient by using Bcc instead.
+
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = { $count ->
+  *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
+}
+
 many-public-recipients-bcc =
   .label = Use Bcc Instead
   .accesskey = U

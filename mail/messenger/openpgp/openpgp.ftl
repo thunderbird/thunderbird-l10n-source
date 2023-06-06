@@ -31,11 +31,6 @@ e2e-encrypt-drafts =
     .label = Store draft messages in encrypted format
     .accesskey = r
 
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Send OpenPGP public key(s) in the email headers for compatibility with Autocrypt
-    .accesskey = t
-
 openpgp-key-user-id-label = Account / User ID
 openpgp-keygen-title-label =
     .title = Generate OpenPGP Key
@@ -66,6 +61,11 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Advanced…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOTE: Key generation may take up to several minutes to complete.</a> Do not exit the application while key generation is in progress. Actively browsing or performing disk-intensive operations during key generation will replenish the ‘randomness pool’ and speed-up the process. You will be alerted when key generation is completed.
+
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Send OpenPGP public key(s) in the email headers for compatibility with Autocrypt
+    .accesskey = t
 
 openpgp-key-created-label =
     .label = Created
