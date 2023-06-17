@@ -5,6 +5,8 @@
 openpgp-change-key-expiry-title =
     .title = Change Key Expiration
 
+openpgp-change-expiry-title = Change Key Expiration
+
 # Variables:
 # $date (String) - Date the key is expiring on.
 info-will-expire = This key is currently configured to expire on { $date }.
@@ -22,3 +24,7 @@ expire-never-label =
 expire-in-label =
   .label = Key will expire in:
 expire-in-months = Months
+
+expire-no-change-label = Do not change the expiry date
+expire-in-time-label = Key will expire in:
+expire-never-expire-label = Key will never expire
