@@ -91,41 +91,11 @@ about-addressbook-sort-email-ascending =
 about-addressbook-sort-email-descending =
   .label = Sort by email address (Z > A)
 
-about-addressbook-horizontal-layout =
-  .label = Switch to horizontal layout
-about-addressbook-vertical-layout =
-  .label = Switch to vertical layout
-
 about-addressbook-table-layout =
   .label = Table layout
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
-
-about-addressbook-column-header-generatedname = Name
-about-addressbook-column-label-generatedname =
-  .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Email Addresses
-about-addressbook-column-label-emailaddresses =
-  .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Phone Numbers
-about-addressbook-column-label-phonenumbers =
-  .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Addresses
-about-addressbook-column-label-addresses =
-  .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Title
-about-addressbook-column-label-title =
-  .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Department
-about-addressbook-column-label-department =
-  .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organization
-about-addressbook-column-label-organization =
-  .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Address Book
-about-addressbook-column-label-addrbook =
-  .label = { about-addressbook-column-header-addrbook }
 
 about-addressbook-column-header-generatedname2 = Name
   .title = Sort by name
@@ -203,15 +173,6 @@ about-addressbook-confirm-remove-contacts-title =
     *[other] Remove Contacts
   }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-  { $count ->
-     [one] Are you sure you want to remove { $name } from { $list }?
-    *[other] Are you sure you want to remove these { $count } contacts from { $list }?
-  }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single =
@@ -230,15 +191,6 @@ about-addressbook-confirm-delete-contacts-title =
      [one] Delete Contact
     *[other] Delete Contacts
   }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-  { $count ->
-     [one] Are you sure you want to delete the contact { $name }?
-    *[other] Are you sure you want to delete these { $count } contacts?
-  }
-
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single =
@@ -292,7 +244,6 @@ about-addressbook-prefer-display-name = Prefer display name over message header
 about-addressbook-write-action-button = Write
 about-addressbook-event-action-button = Event
 about-addressbook-search-action-button = Search
-
 about-addressbook-new-list-action-button = New List
 
 about-addressbook-begin-edit-contact-button = Edit
@@ -324,7 +275,6 @@ about-addressbook-entry-name-role = Role
 about-addressbook-entry-name-organization = Organization
 about-addressbook-entry-name-website = Website
 about-addressbook-entry-name-time-zone = Time Zone
-
 about-addressbook-entry-name-custom1 = Custom 1
 about-addressbook-entry-name-custom2 = Custom 2
 about-addressbook-entry-name-custom3 = Custom 3

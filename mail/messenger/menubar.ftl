@@ -54,10 +54,6 @@ menu-help-exit-troubleshoot-mode =
     .label = Turn Troubleshoot Mode Off
     .accesskey = M
 
-menu-help-more-troubleshooting-info =
-    .label = More Troubleshooting Information
-    .accesskey = M
-
 menu-help-troubleshooting-info =
     .label = Troubleshooting Information
     .accesskey = T
@@ -142,14 +138,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Compact
     .accesskey = C
-
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 
 mail-uidensity-default =
     .label = Default

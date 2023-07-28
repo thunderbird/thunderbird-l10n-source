@@ -30,7 +30,6 @@ openpgp-invalid-sig = Invalid Digital Signature
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Invalid Digital Signature - Signed on { $date }
 openpgp-good-sig = Good Digital Signature
-
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Good Digital Signature - Signed on { $date }

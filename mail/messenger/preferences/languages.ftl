@@ -21,10 +21,6 @@ languages-customize-add =
     .label = Add
     .accesskey = A
 
-messenger-languages-window =
-    .title = { -brand-short-name } Language Settings
-    .style = width: 40em
-
 messenger-languages-window2 =
     .title = { -brand-short-name } Language Settings
 

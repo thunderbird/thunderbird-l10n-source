@@ -145,8 +145,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Compact View
     .accesskey = C
 
-## Menu
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -212,18 +210,6 @@ appmenu-settings =
 appmenu-addons-and-themes =
     .label = Add-ons and Themes
 
-appmenu-help-enter-troubleshoot-mode =
-    .label = Troubleshoot Mode…
-
-appmenu-help-exit-troubleshoot-mode =
-    .label = Turn Troubleshoot Mode Off
-
-appmenu-help-more-troubleshooting-info =
-    .label = More Troubleshooting Information
-
-appmenu-redirect-msg =
-    .label = Redirect
-
 ## Context menu
 
 context-menu-redirect-msg =
@@ -237,10 +223,6 @@ mail-context-delete-messages =
             [one] Delete Message
            *[other] Delete Selected Messages
         }
-
-context-menu-decrypt-to-folder =
-    .label = Copy As Decrypted To
-    .accesskey = y
 
 # Variables:
 # $count (Number) - Number of selected messages.
@@ -348,8 +330,6 @@ no-reply-message = The reply address ({ $email }) does not appear to be a monito
 no-reply-reply-anyway-button = Reply Anyway
 
 ## error messages
-
-decrypt-and-copy-failures = { $failures } of { $total } messages could not be decrypted and were not copied.
 
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

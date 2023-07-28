@@ -14,9 +14,6 @@ fonts-label-default =
 fonts-label-default-unnamed =
     .label = Default
 
-fonts-encoding-dialog-title =
-    .title = Fonts & Encodings
-
 fonts-language-legend =
     .value = Fonts for:
     .accesskey = t

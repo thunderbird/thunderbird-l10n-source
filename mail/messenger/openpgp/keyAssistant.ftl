@@ -96,7 +96,6 @@ openpgp-key-assistant-key-collected-autocrypt = Autocrypt header
 openpgp-key-assistant-key-collected-keyserver = keyserver
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Web Key Directory
-
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG keyring
 

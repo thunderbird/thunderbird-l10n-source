@@ -218,16 +218,6 @@ menu-open-key-manager =
     .label = Key Manager
     .accesskey = M
 
-openpgp-key-issue-notification-one =
-    End-to-end encryption requires resolving key issues for { $addr }
-openpgp-key-issue-notification-many =
-    End-to-end encryption requires resolving key issues for { $count } recipients.
-
-smime-cert-issue-notification-one =
-    End-to-end encryption requires resolving certificate issues for { $addr }.
-smime-cert-issue-notification-many =
-    End-to-end encryption requires resolving certificate issues for { $count } recipients.
-
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -339,12 +329,6 @@ show-bcc-row-button = Bcc
 
 extra-address-rows-menu-button =
     .title = Other addressing fields to show
-
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice = { $count ->
-  [one] Your message has a public recipient. You can avoid disclosing recipients by using Bcc instead.
-  *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
-}
 
 public-recipients-notice-single =
     Your message has a public recipient. You can avoid disclosing the recipient by using Bcc instead.
