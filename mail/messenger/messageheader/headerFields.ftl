@@ -18,6 +18,8 @@ message-header-bcc-list-name = Bcc
 
 message-header-newsgroups-list-name = Newsgroups
 
+message-header-followup-to-list-name = Followup to
+
 message-header-tags-list-name = Tags
 
 ## Other message headers.
