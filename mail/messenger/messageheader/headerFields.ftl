@@ -31,9 +31,6 @@ message-header-organization-field = Organization<span data-l10n-name="field-sepa
 
 message-header-subject-field = Subject<span data-l10n-name="field-separator">:</span>
 
-message-header-followup-to-field = Followup to<span data-l10n-name="field-separator">:</span>
-
-
 message-header-date-field = Date<span data-l10n-name="field-separator">:</span>
 
 message-header-user-agent-field = User agent<span data-l10n-name="field-separator">:</span>
