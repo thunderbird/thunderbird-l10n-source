@@ -257,6 +257,8 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+## Message header customize panel
+
 message-header-customize-panel-title = Message Header Settings
 
 message-header-customize-button-style =
