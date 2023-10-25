@@ -91,6 +91,10 @@ locales = [
     reference = "mail/branding/thunderbird/**"
     l10n = "{l}mail/branding/thunderbird/**"
 
+[[paths]]
+    reference = "mail/branding/tb_beta/**"
+    l10n = "{l}mail/branding/tb_beta/**"
+
 [[includes]]
     path = "_configs/devtools-client.toml"
 
