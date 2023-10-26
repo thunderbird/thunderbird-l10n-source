@@ -468,7 +468,7 @@ quick-filter-bar-toggle =
   .accesskey = Q
 
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
   .key = k
 
