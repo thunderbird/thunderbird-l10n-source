@@ -5,6 +5,8 @@
 dock-options-window-dialog2 =
     .title = App icon options
 
+dock-options-dialog-title = App icon options
+
 dock-options-show-badge =
     .label = Show badge icon
     .accesskey = b

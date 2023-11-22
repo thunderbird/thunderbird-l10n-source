@@ -5,6 +5,8 @@
 receipts-dialog-window =
     .title = Return Receipts
 
+receipts-dialog-title = Return Receipts
+
 return-receipt-checkbox-control =
     .label = When sending messages, always request a return receipt
     .accesskey = W

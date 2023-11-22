@@ -4,6 +4,8 @@
 
 saved-logins =
     .title = Saved Logins
+
+saved-logins-title = Saved Logins
 window-close =
     .key = w
 focus-search-primary-shortcut =
