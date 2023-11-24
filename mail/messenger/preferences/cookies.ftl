@@ -5,6 +5,8 @@
 cookies-window-dialog2 =
     .title = Cookies
 
+cookies-dialog-title = Cookies
+
 window-close-key =
     .key = w
 

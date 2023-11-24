@@ -5,6 +5,8 @@
 notifications-dialog-window =
     .title = Customize New Mail Alert
 
+notifications-dialog-title = Customize New Mail Alert
+
 customize-alert-description = Choose which fields to show in the alert notification:
 
 preview-text-checkbox =

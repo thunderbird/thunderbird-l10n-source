@@ -24,6 +24,8 @@ languages-customize-add =
 messenger-languages-window2 =
     .title = { -brand-short-name } Language Settings
 
+messenger-languages-dialog-title = { -brand-short-name } Language Settings
+
 messenger-languages-description = { -brand-short-name } will display the first language as your default and will display alternate languages if necessary in the order they appear.
 
 messenger-languages-search = Search for more languages…

@@ -5,6 +5,8 @@
 permissions-reminder-window2 =
     .title = Exceptions
 
+permissions-dialog-title = Exceptions
+
 permission-preferences-close-window =
     .key = w
 

@@ -5,6 +5,8 @@
 offline-dialog-window =
     .title = Offline Settings
 
+offline-dialog-title = Offline Settings
+
 autodetect-online-label =
     .label = Automatically follow detected online state
     .accesskey = d
