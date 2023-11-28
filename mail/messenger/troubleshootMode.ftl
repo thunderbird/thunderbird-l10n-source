@@ -6,6 +6,8 @@ troubleshoot-mode-window =
     .title = { -brand-short-name } Troubleshoot Mode
     .style = width: 40em;
 
+troubleshoot-mode-dialog-title = { -brand-short-name } Troubleshoot Mode
+
 troubleshoot-mode-description = Use { -brand-short-name } troubleshoot mode to diagnose issues. Your add-ons and customizations will be temporarily disabled.
 
 troubleshoot-mode-description2 = You can make some or all of these changes permanent:
