@@ -5,6 +5,8 @@
 system-integration-title =
     .title = System Integration
 
+system-integration-dialog-title = System Integration
+
 system-integration-dialog =
     .buttonlabelaccept = Set as Default
     .buttonlabelcancel = Skip Integration

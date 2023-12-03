@@ -5,6 +5,8 @@
 compact-dialog-window-title =
     .title = Compact folders
 
+compact-folders-dialog-title = Compact folders
+
 compact-dialog =
     .buttonlabelaccept = Compact now
     .buttonaccesskeyaccept = C
