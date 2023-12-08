@@ -49,6 +49,8 @@ openpgp-cannot-change-expiry = This is a key with a complex structure, changing 
 
 openpgp-key-man-title =
     .title = OpenPGP Key Manager
+
+openpgp-key-man-dialog-title = OpenPGP Key Manager
 openpgp-key-man-generate =
     .label = New Key Pair
     .accesskey = K
