@@ -844,6 +844,7 @@ repeat-suffix-plural = more times.
 no-repeat = This alert will not be shown again.
 
 dlg-keep-setting = Remember my answer and do not ask me again
+
 dlg-button-ok = &OK
 dlg-button-close = &Close
 dlg-button-cancel = &Cancel
