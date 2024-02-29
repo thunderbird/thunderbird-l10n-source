@@ -748,6 +748,10 @@ junk-label =
     .label = When I mark messages as junk:
     .accesskey = W
 
+junk-marked-label =
+    .label = When messages are marked as junk:
+    .accesskey = W
+
 junk-move-label =
     .label = Move them to the account’s “Junk” folder
     .accesskey = o
@@ -759,6 +763,16 @@ junk-delete-label =
 junk-read-label =
     .label = Mark messages determined to be Junk as read
     .accesskey = M
+
+junk-read-description = Mark messages as read
+
+junk-read-manual-label =
+    .label = When manually marked as junk
+    .accesskey = M
+
+junk-read-auto-label =
+    .label = When { -brand-short-name } determines that they are junk
+    .accesskey = T
 
 junk-log-label =
     .label = Enable adaptive junk filter logging
