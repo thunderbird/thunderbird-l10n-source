@@ -60,6 +60,10 @@ openpgp-key-man-gen-revoke =
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Generate & Save Revocation Certificate
 
+openpgp-key-man-gen-revocation =
+  .label = Save Revocation Certificate To File
+  .accesskey = C
+
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
