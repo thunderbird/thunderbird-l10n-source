@@ -455,6 +455,8 @@ window-locked = Compose window is locked; send cancelled
 
 ## Strings in keyserver.jsm
 
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Aborted
 keyserver-error-unknown = An unknown error occurred
 keyserver-error-server-error = The keyserver reported an error.
@@ -466,6 +468,8 @@ keyserver-error-unsupported = The keyserver is not supported.
 
 ## Strings in mimeWkdHandler.jsm
 
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Your email provider processed your request to upload your public key to the OpenPGP Web Key Directory.
     Please confirm to complete the publishing of your public key.
@@ -475,6 +479,8 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -483,6 +489,8 @@ converter-decrypt-body-failed =
     Do you want to retry with a different passphrase or do you want to skip the message?
 
 ## Strings filters.jsm
+
+## Strings filters.sys.mjs
 
 filter-folder-required = You must select a target folder.
 filter-decrypt-move-warn-experimental =
@@ -500,6 +508,8 @@ filter-warn-key-not-secret =
     If you do not have the secret key for ‘{ $desc }’ you will no longer be able to read the emails.
 
 ## Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Decrypt permanently (OpenPGP)
 filter-decrypt-copy-label = Create decrypted Copy (OpenPGP)
@@ -576,6 +586,11 @@ openpgp-export-secret-fail = <b>Unable to export the selected secret key!</b>
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = The key { $userId } (key ID { $keyId }) is revoked.
 key-ring-pub-key-expired = The key { $userId } (key ID { $keyId }) has expired.
 key-ring-no-secret-key = You do not seem to have the secret key for { $userId } (key ID { $keyId }) on your keyring; you cannot use the key for signing.
@@ -588,10 +603,14 @@ key-ring-enc-sub-keys-expired = All encryption subkeys of key { $userId } (key I
 
 ## Strings in gnupg-keylist.jsm
 
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Photo
 user-att-photo = User attribute (JPEG image)
 
 ## Strings in key.jsm
+
+## Strings in key.sys.mjs
 
 already-revoked = This key has already been revoked.
 
@@ -621,6 +640,8 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Import
 
 delete-key-title = Delete OpenPGP Key
@@ -637,6 +658,8 @@ revoke-key-in-use-description = Unable to proceed! The Key you selected for revo
 
 ## Strings used in errorHandling.jsm
 
+## Strings used in errorHandling.sys.mjs
+
 # Variables:
 # $keySpec (String) - Email address.
 key-error-key-spec-not-found = The email address ‘{ $keySpec }’ cannot be matched to a key on your keyring.
@@ -647,18 +670,26 @@ key-error-not-accepted-as-personal = You have not confirmed that the key with ID
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = The function you have selected is not available in offline mode. Please go online and try again.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = We couldn’t find any usable key matching the specified search criteria.
 no-update-found = You already have the keys that were discovered online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Error - key extraction command failed
 
 ## Strings used in keyRing.jsm
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Error - Key receive cancelled by user
 not-first-block = Error - First OpenPGP block not public key block
@@ -671,6 +702,8 @@ no-pgp-block = Error - No valid armored OpenPGP data block found
 confirm-permissive-import = Import failed. The key you are trying to import might be corrupt or use unknown attributes. Would you like to attempt to import the parts that are correct? This might result in the import of incomplete and unusable keys.
 
 ## Strings used in trust.jsm
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = unknown
 key-valid-invalid = invalid
@@ -796,6 +829,8 @@ cannot-send-enc-because-no-own-key = Cannot send this message encrypted, because
 
 ## Strings used in decryption.jsm
 
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -819,9 +854,13 @@ dlg-button-view = &View
 
 ## Strings used in encryption.jsm
 
+## Strings used in encryption.sys.mjs
+
 not-required = Error - no encryption required
 
 ## Strings used in windows.jsm
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = No Photo available
 # Variables:
@@ -841,6 +880,8 @@ repeat-suffix-plural = more times.
 no-repeat = This alert will not be shown again.
 dlg-keep-setting = Remember my answer and do not ask me again
 
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Close
 dlg-button-cancel = &Cancel
@@ -851,6 +892,8 @@ enig-alert = OpenPGP Alert
 enig-info = OpenPGP Information
 
 ## Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Retry
 dlg-button-skip = &Skip
