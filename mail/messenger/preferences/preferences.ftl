@@ -517,6 +517,22 @@ close-move-delete =
 display-name-label =
     .value = Display name:
 
+address-display-legend = Message List
+
+address-display-description = Preferred address display format:
+
+address-display-full =
+    .label = Full name and email address
+    .accesskey = F
+
+address-display-email =
+    .label = Email only
+    .accesskey = E
+
+address-display-name =
+    .label = Name only
+    .accesskey = N
+
 condensed-addresses-label =
     .label = Show only display name for people in my address book
     .accesskey = S
