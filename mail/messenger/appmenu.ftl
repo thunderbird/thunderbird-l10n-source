@@ -51,6 +51,10 @@ appmenu-new-mail-account =
   .label = Existing Email
   .accesskey = E
 
+appmenu-new-email-account =
+  .label = Email
+  .accesskey = E
+
 appmenu-new-calendar =
   .label = Calendar
   .accesskey = C
