@@ -4,10 +4,10 @@
 
 saved-logins =
     .title = Saved Logins
-
-saved-logins-title = Saved Logins
 window-close =
     .key = w
+
+saved-logins-title = Saved Logins
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =

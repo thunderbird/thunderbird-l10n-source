@@ -116,8 +116,6 @@ account-hub-adding-account-title = Adding Account
 
 account-hub-adding-account-subheader = Re-testing account configuration settings
 
-account-hub-account-added-title = Account Added
-
 account-hub-lookup-email-configuration-title = Looking up configuration
 
 account-hub-lookup-email-configuration-subheader = Trying common server names…

@@ -5,10 +5,10 @@
 permissions-reminder-window2 =
     .title = Exceptions
 
-permissions-dialog-title = Exceptions
-
 permission-preferences-close-window =
     .key = w
+
+permissions-dialog-title = Exceptions
 
 website-address-label =
     .value = Address of website:
