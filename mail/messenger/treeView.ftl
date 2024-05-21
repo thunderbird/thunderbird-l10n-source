@@ -24,6 +24,9 @@ tree-list-view-column-picker =
 tree-list-view-column-picker-restore =
   .label = Restore column order
 
+tree-list-view-column-picker-restore-default-columns =
+  .label = Restore default columns
+
 tree-list-view-row-thread-button =
   .title = This is a threaded message
 
