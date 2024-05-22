@@ -1,0 +1,16 @@
+{
+  "branches": [
+    "comm",
+    "comm-beta",
+    "comm-release",
+    "comm-esr115"
+  ],
+  "head": "comm",
+  "paths": [
+    "calendar/locales",
+    "chat/locales",
+    "mail/branding/thunderbird/locales",
+    "mail/branding/tb_beta/locales",
+    "mail/locales"
+  ]
+}
