@@ -5,9 +5,9 @@
 name: Compare comm-strings
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
   #schedule:
   #  - cron: "0 11 * * 1"
   workflow_dispatch:
@@ -25,12 +25,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: l10n
-      - name: Clone gecko-strings repository
+      - name: Clone comm-l10n repository
         run: |
-          hg clone https://hg.mozilla.org/l10n/gecko-strings
-      - name: Copy content from gecko-strings
+          hg clone https://hg.mozilla.org/projects/comm-l10n
+      - name: Copy content from comm-l10n
         run: |
-          rsync -av --quiet --exclude={".hg","_configs"} gecko-strings/ l10n/
+          rsync -av --quiet --exclude={".hg","_configs"} comm-l10n/en-US/ l10n/
       - name: Compare content
         run: |
           diff=$(git diff --ignore-blank-lines)

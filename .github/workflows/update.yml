@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout l10n:main
         uses: actions/checkout@v4
-        with: { ref: main, fetch-depth: 0 }
+        with: {ref: main, fetch-depth: 0}
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
       - name: Get list of branches and paths
@@ -49,13 +49,13 @@ jobs:
     steps:
       - name: Checkout l10n:update
         uses: actions/checkout@v4
-        with: { ref: update, path: l10n }
-      - name: Checkout firefox:${{ matrix.ref }}
+        with: {ref: update, path: l10n}
+      - name: Checkout thunderbird:${{ matrix.ref }}
         uses: actions/checkout@v4
         with:
-          repository: mozilla/gecko-dev
+          repository: jfx2006/comm-unified
           ref: ${{ matrix.ref }}
-          path: firefox
+          path: thunderbird
           sparse-checkout: |
             ${{ needs.prepare.outputs.paths }}
       - uses: actions/setup-python@v5
@@ -67,9 +67,9 @@ jobs:
       - run: >
           python -m _scripts.update
           --branch ${{ matrix.ref }}
-          --commit $(cd ../firefox && git rev-parse --short HEAD)
-          --firefox ../firefox
-          --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml
+          --commit $(cd ../thunderbird && git rev-parse --short HEAD)
+          --firefox ../thunderbird
+          --configs mail/locales/l10n.toml calendar/locales/l10n.toml
         working-directory: l10n
       - name: git config
         run: |
@@ -79,7 +79,7 @@ jobs:
         working-directory: l10n
       - name: git commit & push any changes
         run: |
-          git diff-index --quiet HEAD || (git commit -F .update_msg && git push)
+          git diff-index --quiet HEAD # || (git commit -F .update_msg && git push)
         working-directory: l10n
   cleanup:
     needs: update
@@ -87,7 +87,7 @@ jobs:
     steps:
       - name: Checkout l10n:update
         uses: actions/checkout@v4
-        with: { ref: update }
+        with: {ref: update}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -101,7 +101,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - run: git add .
       - name: git commit & push any changes
-        run: git diff-index --quiet HEAD || (git commit -F .prune_msg && git push)
-      - run: gh pr create --base main --head update --title "Update messages" --body "" || true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git diff-index --quiet HEAD # || (git commit -F .prune_msg && git push)
+#      - run: gh pr create --base main --head update --title "Update messages" --body "" || true
+#        env:
+#          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
