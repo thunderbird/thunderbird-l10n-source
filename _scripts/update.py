@@ -84,7 +84,7 @@ def update(
         cfg_path = join(fx_root, cfg_name)
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
-        configs.append(TOMLParser().parse(cfg_path))
+        configs.append(TOMLParser().parse(cfg_path, ignore_missing_includes=True))
         if branch == cfg_automation["head"]:
             add_config(fx_root, cfg_name, fixed_configs, paths)
 
