@@ -20,7 +20,7 @@ jobs:
       - name: Install Linux packages
         run: |
           sudo apt update
-          sudo apt install mercurial -y
+          sudo apt install rsync mercurial -y
       - name: Clone l10n repository
         uses: actions/checkout@v4
         with:
@@ -30,7 +30,7 @@ jobs:
           hg clone https://hg.mozilla.org/projects/comm-l10n
       - name: Copy content from comm-l10n
         run: |
-          rsync -av --quiet --exclude={".hg","_configs"} comm-l10n/en-US/ l10n/
+          rsync -av --exclude={".hg","_configs","suite"} comm-l10n/en-US/ l10n/
       - name: Compare content
         run: |
           diff=$(git diff --ignore-blank-lines)
