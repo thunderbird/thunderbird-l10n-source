@@ -48,14 +48,20 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
         with open(join(fx_root, fx_cfg_path), "rb") as file:
             cfg = tomllib.load(file)
         cfg["basepath"] = ".."
+        _tmp = [p for p in cfg["paths"] if not p["reference"].startswith("{mozilla}/")]
+        cfg["paths"] = _tmp
         for path in cfg["paths"]:
             ref_path = path["reference"]
+            if ref_path.startswith("{mozilla}"):
+                continue
             if "/en-US/" in ref_path:
                 paths.add(ref_path[: ref_path.find("/en-US/")])
 
             # Remove placeholders like `{l}` from l10n paths
             path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
         if "includes" in cfg:
+            _tmp = [i for i in cfg["includes"] if not i["path"].startswith("{mozilla}/")]
+            cfg["includes"] = _tmp
             for incl in cfg["includes"]:
                 incl["path"] = add_config(fx_root, incl["path"], done, paths)
 
