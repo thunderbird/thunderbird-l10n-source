@@ -347,6 +347,7 @@ threadpane-column-header-sender = From
 
 threadpane-column-label-sender =
   .label = From
+
 threadpane-cell-sender =
   .aria-label = From
 
@@ -361,6 +362,7 @@ threadpane-column-header-recipient = Recipient
 
 threadpane-column-label-recipient =
   .label = Recipient
+
 threadpane-cell-recipient =
   .aria-label = Recipient
 
@@ -375,6 +377,7 @@ threadpane-column-header-correspondents = Correspondents
 
 threadpane-column-label-correspondents =
   .label = Correspondents
+
 threadpane-cell-correspondents =
   .aria-label = Correspondents
 
@@ -389,6 +392,7 @@ threadpane-column-header-subject = Subject
 
 threadpane-column-label-subject =
   .label = Subject
+
 threadpane-cell-subject =
   .aria-label = Subject
 
@@ -403,6 +407,7 @@ threadpane-column-header-date = Date
 
 threadpane-column-label-date =
   .label = Date
+
 threadpane-cell-date =
   .aria-label = Date
 
@@ -417,6 +422,7 @@ threadpane-column-header-received = Received
 
 threadpane-column-label-received =
   .label = Received
+
 threadpane-cell-received =
   .aria-label = Date received
 
@@ -431,6 +437,7 @@ threadpane-column-header-status = Status
 
 threadpane-column-label-status =
   .label = Status
+
 threadpane-cell-status =
   .aria-label = Status
 
@@ -445,6 +452,7 @@ threadpane-column-header-size = Size
 
 threadpane-column-label-size =
   .label = Size
+
 threadpane-cell-size =
   .aria-label = Size
 
@@ -459,6 +467,7 @@ threadpane-column-header-tags = Tags
 
 threadpane-column-label-tags =
   .label = Tags
+
 threadpane-cell-tags =
   .aria-label = Tags
 
@@ -473,6 +482,7 @@ threadpane-column-header-account = Account
 
 threadpane-column-label-account =
   .label = Account
+
 threadpane-cell-account =
   .aria-label = Account
 
@@ -487,6 +497,7 @@ threadpane-column-header-priority = Priority
 
 threadpane-column-label-priority =
   .label = Priority
+
 threadpane-cell-priority =
   .aria-label = Priority
 
@@ -501,6 +512,7 @@ threadpane-column-header-unread = Unread
 
 threadpane-column-label-unread =
   .label = Unread
+
 threadpane-cell-unread =
   .aria-label = Number of unread messages
 
@@ -515,6 +527,7 @@ threadpane-column-header-total = Total
 
 threadpane-column-label-total =
   .label = Total
+
 threadpane-cell-total =
   .aria-label = Total number of messages
 
@@ -529,6 +542,7 @@ threadpane-column-header-location = Location
 
 threadpane-column-label-location =
   .label = Location
+
 threadpane-cell-location =
   .aria-label = Location
 
@@ -543,6 +557,7 @@ threadpane-column-header-id = Order Received
 
 threadpane-column-label-id =
   .label = Order Received
+
 threadpane-cell-id =
   .aria-label = Order received
 
