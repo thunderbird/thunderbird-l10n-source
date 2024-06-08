@@ -19,6 +19,13 @@ about-addressbook-toolbar-new-list =
 about-addressbook-toolbar-import =
   .label = Import
 
+books-pane-create-contact-button = New Contact
+  .title = Create a new contact
+books-pane-create-book-button =
+  .title = Create a new address book
+books-pane-create-list-button =
+  .title = Create a new mailing list
+
 ## Books
 
 all-address-books-row =
@@ -71,6 +78,15 @@ about-addressbook-search =
   .placeholder = Search { $name }
 about-addressbook-search-all =
   .placeholder = Search all address books
+
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+  .label = Search { $name }
+  .placeholder = Search { $name }…
+about-addressbook-search-all2 =
+  .label = Search all address books
+  .placeholder = Search all address books…
 
 about-addressbook-sort-button2 =
   .title = List display options

@@ -9,8 +9,8 @@
   "paths": [
     "calendar/locales",
     "chat/locales",
-    "mail/branding/thunderbird/locales",
     "mail/branding/tb_beta/locales",
+    "mail/branding/thunderbird/locales",
     "mail/locales"
   ]
 }
