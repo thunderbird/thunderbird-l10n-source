@@ -1,9 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
 basepath = ".."
-
 locales = [
     "af",
     "ar",
@@ -73,44 +68,22 @@ locales = [
     "zh-CN",
     "zh-TW",
 ]
+paths = [
+    { reference = "mail/**", l10n = "{l}mail/**" },
+    { reference = "chat/**", l10n = "{l}chat/**" },
+    { reference = "mail/branding/thunderbird/**", l10n = "{l}mail/branding/thunderbird/**" },
+    { reference = "mail/branding/tb_beta/**", l10n = "{l}mail/branding/tb_beta/**" },
+]
+includes = [
+    { path = "_configs/calendar.toml" },
+]
 
 [env]
-    l = "{l10n_base}/{locale}/"
-    mozilla = ".."
+l = "{l10n_base}/{locale}/"
+mozilla = ".."
 
-
-[[paths]]
-    reference = "mail/**"
-    l10n = "{l}mail/**"
-
-[[paths]]
-    reference = "chat/**"
-    l10n = "{l}chat/**"
-
-[[paths]]
-    reference = "mail/branding/thunderbird/**"
-    l10n = "{l}mail/branding/thunderbird/**"
-
-[[paths]]
-    reference = "mail/branding/tb_beta/**"
-    l10n = "{l}mail/branding/tb_beta/**"
-
-[[includes]]
-    path = "_configs/devtools-client.toml"
-
-[[includes]]
-    path = "_configs/toolkit.toml"
-
-[[includes]]
-    path = "_configs/calendar.toml"
-
-[[paths]]
-    reference = "devtools/startup/**"
-    l10n = "{l}devtools/startup/**"
-
-# all-l10n.js can be missing completely
 [[filters]]
-    path = [
-        "{l}mail/all-l10n.js",
-    ]
-    action = "ignore"
+path = [
+    "{l}mail/all-l10n.js",
+]
+action = "ignore"

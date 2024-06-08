@@ -26,6 +26,7 @@ openpgp-key-verified = Accepted (verified)
 
 openpgp-key-unverified = Accepted (unverified)
 openpgp-key-undecided = Not accepted (undecided)
+
 openpgp-key-rejected = Not accepted (rejected)
 openpgp-key-expired = Expired
 

@@ -183,6 +183,10 @@ calendar-items-loading = Loading items…
 calendar-items-filter-input =
   .placeholder = Filter items…
 
+calendar-items-filter-input2 =
+  .label = Filter items
+  .placeholder = Filter items…
+
 calendar-select-all-items = Select all
 
 calendar-deselect-all-items = Deselect all
