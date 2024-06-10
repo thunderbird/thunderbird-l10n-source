@@ -12,6 +12,7 @@ about-addressbook-toolbar-add-carddav-address-book =
   .label = Add CardDAV Address Book
 about-addressbook-toolbar-add-ldap-address-book =
   .label = Add LDAP Address Book
+
 about-addressbook-toolbar-new-contact =
   .label = New Contact
 about-addressbook-toolbar-new-list =
