@@ -12,6 +12,7 @@ about-addressbook-toolbar-add-carddav-address-book =
   .label = Add CardDAV Address Book
 about-addressbook-toolbar-add-ldap-address-book =
   .label = Add LDAP Address Book
+
 about-addressbook-toolbar-new-contact =
   .label = New Contact
 about-addressbook-toolbar-new-list =
@@ -25,6 +26,9 @@ books-pane-create-book-button =
   .title = Create a new address book
 books-pane-create-list-button =
   .title = Create a new mailing list
+
+books-pane-import-button = Import
+  .title = Import address books
 
 ## Books
 
