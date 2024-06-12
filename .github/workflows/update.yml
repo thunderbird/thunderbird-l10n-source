@@ -101,7 +101,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - run: git add .
       - name: git commit & push any changes
-        run: git diff-index --quiet HEAD  || (git commit -F .prune_msg && git push)
+        run: git diff-index --quiet HEAD || (git commit -F .prune_msg && git push)
       - run: gh pr create --base main --head update --title "Update messages" --body "" || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
