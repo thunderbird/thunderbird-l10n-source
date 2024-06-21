@@ -221,6 +221,10 @@ appmenu-help-explore-features =
   .label = Explore Features
   .accesskey = F
 
+appmenu-help-get-release-help =
+    .label = Get Help with { -brand-short-name }
+    .accesskey = R
+
 appmenu-help-shortcuts =
   .label = Keyboard Shortcuts
   .accesskey = K

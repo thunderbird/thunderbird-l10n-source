@@ -30,6 +30,10 @@ menu-help-explore-features =
     .label = Explore Features
     .accesskey = F
 
+menu-help-get-release-help =
+    .label = Get Help with { -brand-short-name }
+    .accesskey = R
+
 menu-help-shortcuts =
     .label = Keyboard Shortcuts
     .accesskey = K
