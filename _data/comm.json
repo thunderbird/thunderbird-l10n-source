@@ -9032,7 +9032,7 @@
   ],
   "mail/messenger/addressbook/aboutAddressBook.ftl": [
     "about-addressbook-title",
-    "about-addressbook-toolbar-new-address-book",
+    "about-addressbook-toolbar-add-address-book",
     "about-addressbook-toolbar-add-carddav-address-book",
     "about-addressbook-toolbar-add-ldap-address-book",
     "books-pane-create-contact-button",
