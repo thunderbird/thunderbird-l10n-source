@@ -6,7 +6,7 @@ name: Update
 
 on:
   schedule:
-    - cron: "07 4 * * *"
+    - cron: "07 12 * * *"
   workflow_dispatch:
 
 permissions:
