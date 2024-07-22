@@ -9412,6 +9412,7 @@
     "menu-help-about-product",
     "menu-quit",
     "menu-quit-mac",
+    "system-tray-menu-quit",
     "quit-app-shortcut",
     "toolbar-junk-button",
     "toolbar-not-junk-button",
