@@ -728,8 +728,6 @@ no-update-found = You already have the keys that were discovered online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - key extraction command failed
