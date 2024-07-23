@@ -780,6 +780,33 @@ unit-weeks =
         *[other] { $count } weeks
     }
 
+# LOCALIZATION NOTE (unit)
+# Used to determine the correct plural form of a unit
+# $count count
+event-duration-unit-minutes =
+    { $count ->
+        [one] minute
+        *[other] minutes
+    }
+# $count count
+event-duration-unit-hours =
+    { $count ->
+        [one] hour
+        *[other] hours
+    }
+# $count count
+event-duration-unit-days =
+    { $count ->
+        [one] day
+        *[other] days
+    }
+# $count count
+event-duration-unit-weeks =
+    { $count ->
+        [one] week
+        *[other] weeks
+    }
+
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
