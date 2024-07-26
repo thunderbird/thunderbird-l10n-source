@@ -8810,7 +8810,15 @@
     "account-hub-email-account-added-title",
     "account-hub-find-settings-failed",
     "account-hub-notification-show-more",
-    "account-hub-notification-show-less"
+    "account-hub-notification-show-less",
+    "account-hub-email-setup-header",
+    "account-hub-email-setup-incoming",
+    "account-hub-email-setup-outgoing",
+    "account-hub-email-config-found",
+    "account-hub-email-enter-password",
+    "account-hub-email-sync-accounts",
+    "account-hub-test-configuration",
+    "account-hub-add-new-email"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
