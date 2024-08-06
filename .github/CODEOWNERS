@@ -2,5 +2,4 @@
 * @thunderbird/l10n-thunderbird
 
 # Code reviewers (workflows, scripts)
-/_scripts/ @thunderbird/build-release @jfx2006
-/.github/ @thunderbird/build-release @jfx2006
+/.github/ @jfx2006
