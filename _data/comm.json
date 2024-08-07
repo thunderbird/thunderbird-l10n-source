@@ -9397,6 +9397,9 @@
     "wizardpage-failed",
     "wizardpage-failed-message"
   ],
+  "mail/messenger/in-app-notifications.ftl": [
+    "in-app-notification-close-image"
+  ],
   "mail/messenger/mailWidgets.ftl": [
     "apply-current-view-to-menu",
     "threadpane-apply-changes-prompt-title",
