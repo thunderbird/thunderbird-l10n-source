@@ -9735,7 +9735,8 @@
     "link-preview-autoadd",
     "link-preview-replace-now",
     "link-preview-yes-replace",
-    "spell-add-dictionaries"
+    "spell-add-dictionaries",
+    "subject-encription-icon"
   ],
   "mail/messenger/migration.ftl": [
     "migration-progress-header"
