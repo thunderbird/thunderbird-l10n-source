@@ -87,6 +87,7 @@
     "calendar-event-listing-column-status",
     "calendar-event-listing-column-time-until-due",
     "calendar-event-listing-column-title",
+    "calendar-event-listing-interval-past",
     "calendar-event-listing-interval-calendar-month",
     "calendar-event-listing-interval-current-view",
     "calendar-event-listing-interval-next-7-days",
@@ -94,6 +95,7 @@
     "calendar-event-listing-interval-next-31-days",
     "calendar-event-listing-interval-next-6-months",
     "calendar-event-listing-interval-next-12-months",
+    "calendar-event-listing-interval-all",
     "calendar-event-listing-interval-selected-day",
     "calendar-event-listing-interval-today"
   ],
