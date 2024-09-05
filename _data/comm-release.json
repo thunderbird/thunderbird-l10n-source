@@ -8810,7 +8810,15 @@
     "account-hub-email-account-added-title",
     "account-hub-find-settings-failed",
     "account-hub-notification-show-more",
-    "account-hub-notification-show-less"
+    "account-hub-notification-show-less",
+    "account-hub-email-setup-header",
+    "account-hub-email-setup-incoming",
+    "account-hub-email-setup-outgoing",
+    "account-hub-email-config-found",
+    "account-hub-email-enter-password",
+    "account-hub-email-sync-accounts",
+    "account-hub-test-configuration",
+    "account-hub-add-new-email"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9032,7 +9040,7 @@
   ],
   "mail/messenger/addressbook/aboutAddressBook.ftl": [
     "about-addressbook-title",
-    "about-addressbook-toolbar-new-address-book",
+    "about-addressbook-toolbar-add-address-book",
     "about-addressbook-toolbar-add-carddav-address-book",
     "about-addressbook-toolbar-add-ldap-address-book",
     "books-pane-create-contact-button",
@@ -9412,6 +9420,7 @@
     "menu-help-about-product",
     "menu-quit",
     "menu-quit-mac",
+    "system-tray-menu-quit",
     "quit-app-shortcut",
     "toolbar-junk-button",
     "toolbar-not-junk-button",
@@ -9726,7 +9735,8 @@
     "link-preview-autoadd",
     "link-preview-replace-now",
     "link-preview-yes-replace",
-    "spell-add-dictionaries"
+    "spell-add-dictionaries",
+    "subject-encription-icon"
   ],
   "mail/messenger/migration.ftl": [
     "migration-progress-header"
