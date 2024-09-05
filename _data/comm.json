@@ -31,6 +31,10 @@
     "list-calendar-context-reload-menuitem",
     "calendar-item-context-menu-modify-menuitem"
   ],
+  "calendar/calendar/calendar-creation.ftl": [
+    "select-all-calendars",
+    "select-none-calendars"
+  ],
   "calendar/calendar/calendar-delete-prompt.ftl": [
     "calendar-delete-event-prompt-title",
     "calendar-delete-event-prompt-message",
