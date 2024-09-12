@@ -9408,7 +9408,7 @@
     "wizardpage-failed",
     "wizardpage-failed-message"
   ],
-  "mail/messenger/in-app-notifications.ftl": [
+  "mail/messenger/inAppNotifications.ftl": [
     "in-app-notification-close-image"
   ],
   "mail/messenger/mailWidgets.ftl": [
