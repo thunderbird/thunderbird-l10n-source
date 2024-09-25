@@ -6,7 +6,6 @@
     "reminder-title-at-start-task",
     "reminder-title-at-end-event",
     "reminder-title-at-end-task",
-    "reminder-snooze-ok-a11y",
     "reminder-custom-origin-begin-before-event",
     "reminder-custom-origin-begin-after-event",
     "reminder-custom-origin-end-before-event",
@@ -88,6 +87,7 @@
     "calendar-event-listing-column-status",
     "calendar-event-listing-column-time-until-due",
     "calendar-event-listing-column-title",
+    "calendar-event-listing-interval-past",
     "calendar-event-listing-interval-calendar-month",
     "calendar-event-listing-interval-current-view",
     "calendar-event-listing-interval-next-7-days",
@@ -95,6 +95,7 @@
     "calendar-event-listing-interval-next-31-days",
     "calendar-event-listing-interval-next-6-months",
     "calendar-event-listing-interval-next-12-months",
+    "calendar-event-listing-interval-all",
     "calendar-event-listing-interval-selected-day",
     "calendar-event-listing-interval-today"
   ],
@@ -496,9 +497,21 @@
     "extract-using",
     "extract-using-region",
     "unit-minutes",
+    "event-duration-menuitem-count-minutes",
     "unit-hours",
+    "event-duration-menuitem-count-hours",
     "unit-days",
+    "event-duration-menuitem-count-days",
     "unit-weeks",
+    "event-duration-menuitem-count-weeks",
+    "event-duration-menuitem-minutes",
+    "event-duration-label-minutes",
+    "event-duration-menuitem-hours",
+    "event-duration-label-hours",
+    "event-duration-menuitem-days",
+    "event-duration-label-days",
+    "event-duration-menuitem-weeks",
+    "event-duration-label-weeks",
     "show-calendar",
     "hide-calendar",
     "hide-calendar-title",
@@ -3013,20 +3026,7 @@
   ],
   "mail/chrome/messenger/AccountManager.dtd": [
     "accountManagerTitle.label",
-    "accountManagerCloseButton.label",
-    "accountActionsButton.label",
-    "accountActionsButton.accesskey",
-    "addMailAccountButton.label",
-    "addMailAccountButton.accesskey",
-    "addIMAccountButton.label",
-    "addIMAccountButton.accesskey",
-    "addFeedAccountButton.label",
-    "addFeedAccountButton.accesskey",
-    "setDefaultButton.label",
-    "setDefaultButton.accesskey",
-    "removeButton.label",
-    "removeButton.accesskey",
-    "addonsButton.label"
+    "accountManagerCloseButton.label"
   ],
   "mail/chrome/messenger/AccountWizard.dtd": [
     "windowTitle.label",
@@ -8753,7 +8753,11 @@
   "mail/messenger/accountManager.ftl": [
     "open-preferences-sidebar-button2",
     "open-addons-sidebar-button",
-    "account-action-add-newsgroup-account",
+    "account-tree-create-account-button",
+    "account-tree-add-mail-account",
+    "account-tree-add-chat-account",
+    "account-tree-add-feed-account",
+    "account-tree-add-newsgroup-account",
     "server-change-restart-required",
     "edit-vcard-dialog-accept-button",
     "edit-vcard-dialog-cancel-button",
@@ -8761,7 +8765,9 @@
   ],
   "mail/messenger/accountSettings.ftl": [
     "account-settings-color-label",
-    "account-settings-reset-color-button"
+    "account-settings-reset-color-button",
+    "delete-account-button",
+    "default-account-button"
   ],
   "mail/messenger/accountcreation/accountHub.ftl": [
     "account-hub-brand",
@@ -9396,6 +9402,9 @@
     "zip-file-too-big-message",
     "wizardpage-failed",
     "wizardpage-failed-message"
+  ],
+  "mail/messenger/in-app-notifications.ftl": [
+    "in-app-notification-close-image"
   ],
   "mail/messenger/mailWidgets.ftl": [
     "apply-current-view-to-menu",
