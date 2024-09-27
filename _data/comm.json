@@ -11034,6 +11034,8 @@
     "address-display-email",
     "address-display-name",
     "condensed-addresses-label",
+    "table-layout-legend",
+    "table-layout-horizontal-scroll-label",
     "forward-label",
     "inline-label",
     "as-attachment-label",
