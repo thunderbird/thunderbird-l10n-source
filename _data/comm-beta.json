@@ -31,6 +31,10 @@
     "list-calendar-context-reload-menuitem",
     "calendar-item-context-menu-modify-menuitem"
   ],
+  "calendar/calendar/calendar-creation.ftl": [
+    "select-all-calendars",
+    "select-none-calendars"
+  ],
   "calendar/calendar/calendar-delete-prompt.ftl": [
     "calendar-delete-event-prompt-title",
     "calendar-delete-event-prompt-message",
@@ -465,13 +469,12 @@
     "datetime-with-timezone",
     "single-long-calendar-week",
     "single-calendar-week",
+    "several-long-calendar-weeks",
     "several-calendar-weeks",
     "multiweek-view-week",
     "due-in-days",
     "due-in-hours",
     "due-in-less-than-one-hour",
-    "month-in-year",
-    "month-in-year-label",
     "month-in-year-month-format",
     "format-date-long",
     "day-header",
@@ -3904,7 +3907,6 @@
     "connectionSecurity.label",
     "connectionSecurity.accesskey",
     "connectionSecurityType-0.label",
-    "connectionSecurityType-1.label",
     "connectionSecurityType-2.label",
     "connectionSecurityType-3.label",
     "authMethod.label",
@@ -7850,7 +7852,6 @@
     "connectionSecurity.label",
     "connectionSecurity.accesskey",
     "connectionSecurityType-0.label",
-    "connectionSecurityType-1.label",
     "connectionSecurityType-2.label",
     "connectionSecurityType-3.label",
     "smtpEditTitle.label",
@@ -8489,6 +8490,8 @@
     "warning-desc-telemetry",
     "aboutDialog-version",
     "aboutDialog-version-nightly",
+    "aboutdialog-version-arch",
+    "aboutdialog-version-arch-nightly",
     "aboutdialog-update-checking-failed",
     "community-experimental",
     "community-desc",
@@ -8809,6 +8812,7 @@
     "account-hub-auth-no-authentication-option",
     "account-hub-auth-label",
     "account-hub-username-label",
+    "account-hub-name-label",
     "account-hub-adding-account-title",
     "account-hub-adding-account-subheader",
     "account-hub-lookup-email-configuration-title",
@@ -9403,7 +9407,7 @@
     "wizardpage-failed",
     "wizardpage-failed-message"
   ],
-  "mail/messenger/in-app-notifications.ftl": [
+  "mail/messenger/inAppNotifications.ftl": [
     "in-app-notification-close-image"
   ],
   "mail/messenger/mailWidgets.ftl": [
@@ -10192,7 +10196,6 @@
     "wkd-message-body-process",
     "converter-decrypt-body-failed",
     "filter-folder-required",
-    "filter-decrypt-move-warn-experimental",
     "filter-term-pgpencrypted-label",
     "filter-key-required",
     "filter-key-not-found",
@@ -11031,6 +11034,12 @@
     "address-display-email",
     "address-display-name",
     "condensed-addresses-label",
+    "table-layout-legend",
+    "table-layout-horizontal-scroll-label",
+    "conversation-view-legend",
+    "conversation-view-checkbox-label",
+    "conversation-view-checkbox-description",
+    "label-experiment",
     "forward-label",
     "inline-label",
     "as-attachment-label",
