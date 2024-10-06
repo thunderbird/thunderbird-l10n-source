@@ -190,7 +190,7 @@ appmenu-tools-export =
 
 appmenu-export-for-mobile =
   .label = Export for Mobile
-  .accesskey = P
+  .accesskey = p
 
 appmenu-tools-message-search =
   .label = Search Messages
