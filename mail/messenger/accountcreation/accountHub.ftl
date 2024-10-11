@@ -49,7 +49,6 @@ account-hub-sync-button = Sign in to Sync…
 
 ## Email page
 
-account-hub-email-title = Set up your email account
 
 account-hub-add-email-title = Add Your Account
 

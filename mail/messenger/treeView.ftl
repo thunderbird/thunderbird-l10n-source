@@ -21,8 +21,6 @@ tree-list-view-row-restore =
 tree-list-view-column-picker =
   .title = Select columns to display
 
-tree-list-view-column-picker-restore =
-  .label = Restore column order
 
 tree-list-view-column-picker-restore-default-columns =
   .label = Restore default columns
