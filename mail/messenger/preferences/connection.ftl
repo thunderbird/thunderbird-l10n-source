@@ -18,8 +18,6 @@ connection-dns-over-https-url-custom =
 
 connection-dns-over-https-custom-label = Custom
 
-connection-dialog-window2 =
-    .title = Connection Settings
 
 connection-dialog-title = Connection Settings
 

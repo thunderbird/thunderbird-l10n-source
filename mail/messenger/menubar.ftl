@@ -30,9 +30,6 @@ menu-help-get-help =
     .label = Get Help
     .accesskey = H
 
-menu-help-explore-features =
-    .label = Explore Features
-    .accesskey = F
 
 menu-help-get-release-help =
     .label = Get Help with { -brand-short-name }
