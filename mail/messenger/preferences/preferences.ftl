@@ -518,8 +518,6 @@ close-move-delete =
     .label = Close message window/tab on move or delete
     .accesskey = C
 
-display-name-label =
-    .value = Display name:
 
 address-display-legend = Message List
 
@@ -783,9 +781,6 @@ forms-master-pw-fips-desc = Password Change Failed
 
 junk-description = Set your default junk mail settings. Account-specific junk mail settings can be configured in Account Settings.
 
-junk-label =
-    .label = When I mark messages as junk:
-    .accesskey = W
 
 junk-marked-label =
     .label = When messages are marked as junk:
@@ -799,9 +794,6 @@ junk-delete-label =
     .label = Delete them
     .accesskey = D
 
-junk-read-label =
-    .label = Mark messages determined to be Junk as read
-    .accesskey = M
 
 junk-read-description = Mark messages as read
 
@@ -1099,6 +1091,8 @@ qr-export-select-all-accounts = Select all
 qr-export-security-legend = Security
 
 qr-export-include-passwords = Include all accounts passwords
+
+qr-export-oauth-warning = Some of your accounts use an authentication method that may require re-authentication on your mobile device. You may need to enter your passwords again during this process.
 
 qr-export-security-hint = By scanning the following QR codes, your account settings—including your email and password—will be transferred securely. We do not collect, store, or share any of this data during the process. The transfer occurs directly between your devices.
 

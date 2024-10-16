@@ -9,8 +9,6 @@
 search-bar-button =
   .alt = Search
 
-search-bar-item =
-  .label = Search:
 
 search-bar-item2 =
   .label = Search
@@ -79,8 +77,6 @@ customize-save = Save
 
 customize-unsaved-changes = Unsaved changes in other spaces
 
-customize-search-bar =
-  .label = Search toolbar buttons…
 
 customize-search-bar2 =
   .label = Search toolbar buttons

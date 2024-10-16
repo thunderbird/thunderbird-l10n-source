@@ -56,6 +56,7 @@
     "calendar-event-listing-interval-next-31-days",
     "calendar-event-listing-interval-next-6-months",
     "calendar-event-listing-interval-next-12-months",
+    "calendar-event-listing-interval-future",
     "calendar-event-listing-interval-all",
     "calendar-event-listing-interval-selected-day",
     "calendar-event-listing-interval-today"
@@ -3896,7 +3897,6 @@
     "connectionSecurity.label",
     "connectionSecurity.accesskey",
     "connectionSecurityType-0.label",
-    "connectionSecurityType-1.label",
     "connectionSecurityType-2.label",
     "connectionSecurityType-3.label",
     "authMethod.label",
@@ -7842,7 +7842,6 @@
     "connectionSecurity.label",
     "connectionSecurity.accesskey",
     "connectionSecurityType-0.label",
-    "connectionSecurityType-1.label",
     "connectionSecurityType-2.label",
     "connectionSecurityType-3.label",
     "smtpEditTitle.label",
