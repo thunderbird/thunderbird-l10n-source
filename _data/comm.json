@@ -11216,6 +11216,7 @@
     "qr-export-select-all-accounts",
     "qr-export-security-legend",
     "qr-export-include-passwords",
+    "qr-export-oauth-warning",
     "qr-export-security-hint",
     "qr-export-security-warning",
     "qr-export-start-export",
