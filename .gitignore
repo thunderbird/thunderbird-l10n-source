@@ -3,3 +3,5 @@ __pycache__
 .venv/
 .update_msg
 .prune_msg
+l10n/
+thunderbird/
