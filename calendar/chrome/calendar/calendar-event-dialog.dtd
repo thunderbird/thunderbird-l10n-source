@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "October" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "November" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "December" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Every">
 <!ENTITY event.recurrence.yearly.first.label                 "The First">
 <!ENTITY event.recurrence.yearly.second.label                "The Second">
