@@ -9250,7 +9250,9 @@
     "wizardpage-failed-message"
   ],
   "mail/messenger/inAppNotifications.ftl": [
-    "in-app-notification-close-image"
+    "in-app-notification-close-image",
+    "-in-app-notification-accesskey",
+    "in-app-notification-instructions"
   ],
   "mail/messenger/mailWidgets.ftl": [
     "apply-current-view-to-menu",
@@ -10886,6 +10888,9 @@
     "conversation-view-checkbox-label",
     "conversation-view-checkbox-description",
     "label-experiment",
+    "dark-reader-legend",
+    "dark-reader-checkbox-label",
+    "dark-reader-checkbox-description",
     "forward-label",
     "inline-label",
     "as-attachment-label",
