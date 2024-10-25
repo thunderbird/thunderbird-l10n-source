@@ -80,8 +80,7 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], source_dirs: set[
     cfg_path = join("_configs", f"{'-'.join(parts[:-2])}.toml")
     if cfg_path not in done:
         done.add(cfg_path)
-        with open(join(fx_root, fx_cfg_path), "rb") as file:
-            cfg = tomllib.load(file)
+        cfg = cfg_load_override(join(fx_root, fx_cfg_path))
         cfg["basepath"] = ".."
         for path in cfg["paths"]:
             ref_path = path["reference"]
