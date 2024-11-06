@@ -1,2 +1,0 @@
-compare-locales ~= 9.0.2
-tomli-w ~= 1.0.0

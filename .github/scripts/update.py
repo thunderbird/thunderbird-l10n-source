@@ -11,7 +11,6 @@ Writes a summary of the branch's localized files and message keys as
 """
 
 import json
-import tomli_w
 import tomllib
 from argparse import ArgumentParser
 from filecmp import cmp
@@ -20,10 +19,46 @@ from os.path import abspath, dirname, exists, join, relpath
 from re import sub
 from shutil import copy
 from sys import exit
-from compare_locales.merge import merge_channels
-from compare_locales.parser import Entity, getParser
-from compare_locales.paths import ProjectFiles, TOMLParser
 from typing import TypedDict
+
+import tomli_w
+from moz.l10n.paths import L10nConfigPaths
+from moz.l10n.resource import (
+    UnsupportedResource,
+    add_entries,
+    parse_resource,
+    serialize_resource,
+)
+from moz.l10n.resource.data import Entry
+
+
+def cfg_load_override(cfg_path):
+    """
+    Specialized load function for Thunderbird that removes any references
+    to config files from Gecko.
+    """
+    with open(cfg_path, mode="rb") as file:
+        toml = tomllib.load(file)
+
+    if "paths" in toml:
+        remove_paths = [
+            path
+            for path in toml["paths"]
+            if path["reference"].startswith("{mozilla}")
+        ]
+        for path in remove_paths:
+            toml["paths"].remove(path)
+
+    if "includes" in toml:
+        remove_includes = [
+            include
+            for include in toml["includes"]
+            if include["path"].startswith("{mozilla}")
+        ]
+        for include in remove_includes:
+            toml["includes"].remove(include)
+
+    return toml
 
 
 class AutomationConfig(TypedDict):
@@ -32,7 +67,7 @@ class AutomationConfig(TypedDict):
     paths: list[str]
 
 
-def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
+def add_config(fx_root: str, fx_cfg_path: str, done: set[str], source_dirs: set[str]):
     parts = fx_cfg_path.split("/")
     if (
         "{" in fx_cfg_path
@@ -45,25 +80,18 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
     cfg_path = join("_configs", f"{'-'.join(parts[:-2])}.toml")
     if cfg_path not in done:
         done.add(cfg_path)
-        with open(join(fx_root, fx_cfg_path), "rb") as file:
-            cfg = tomllib.load(file)
+        cfg = cfg_load_override(join(fx_root, fx_cfg_path))
         cfg["basepath"] = ".."
-        _tmp = [p for p in cfg["paths"] if not p["reference"].startswith("{mozilla}/")]
-        cfg["paths"] = _tmp
         for path in cfg["paths"]:
             ref_path = path["reference"]
-            if ref_path.startswith("{mozilla}"):
-                continue
             if "/en-US/" in ref_path:
-                paths.add(ref_path[: ref_path.find("/en-US/")])
+                source_dirs.add(ref_path[: ref_path.find("/en-US/")])
 
             # Remove placeholders like `{l}` from l10n paths
             path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
         if "includes" in cfg:
-            _tmp = [i for i in cfg["includes"] if not i["path"].startswith("{mozilla}/")]
-            cfg["includes"] = _tmp
             for incl in cfg["includes"]:
-                incl["path"] = add_config(fx_root, incl["path"], done, paths)
+                incl["path"] = add_config(fx_root, incl["path"], done, source_dirs)
 
         makedirs(dirname(cfg_path), exist_ok=True)
         with open(cfg_path, "wb") as file:
@@ -79,31 +107,34 @@ def update(
 ):
     if branch not in cfg_automation["branches"]:
         exit(f"Unknown branch: {branch}")
+    is_head = branch == cfg_automation["head"]
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
     print(f"source: {branch} at {fx_root}")
+    fx_root = abspath(fx_root)
 
-    configs = []
-    fixed_configs = set()
-    paths: set[str] = set()
+    fixed_config_paths: set[str] = set()
+    source_dirs: set[str] = set()
+    source_files: set[str] = set()
     for cfg_name in config_files:
         cfg_path = join(fx_root, cfg_name)
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
-        configs.append(TOMLParser().parse(cfg_path, ignore_missing_includes=True))
+        paths = L10nConfigPaths(cfg_path, cfg_load=cfg_load_override)
+        source_files.update(fx_path for fx_path, _ in paths.all())
         if branch == cfg_automation["head"]:
-            add_config(fx_root, cfg_name, fixed_configs, paths)
+            add_config(fx_root, cfg_name, fixed_config_paths, source_dirs)
 
-    messages = {}
+    messages: dict[str, list[str]] = {}
     new_files = 0
     updated_files = 0
-    for fx_path, *_ in ProjectFiles(None, configs):
-        rel_path = relpath(fx_path, abspath(fx_root)).replace("/locales/en-US", "")
+    for fx_path in source_files:
+        rel_path = relpath(fx_path, fx_root).replace("/locales/en-US", "")
         makedirs(dirname(rel_path), exist_ok=True)
 
         try:
-            fx_parser = getParser(fx_path)
-        except UserWarning:  # No parser found
+            fx_res = parse_resource(fx_path)
+        except UnsupportedResource:
             messages[rel_path] = []
             if not exists(rel_path):
                 print(f"create {rel_path}")
@@ -118,46 +149,42 @@ def update(
                 pass
             continue
 
-        fx_parser.readFile(fx_path)
-        fx_res = [entity for entity in fx_parser.walk()]
         messages[rel_path] = [
-            entity.key for entity in fx_res if isinstance(entity, Entity)
+            ".".join(section.id + entry.id)
+            for section in fx_res.sections
+            for entry in section.entries
+            if isinstance(entry, Entry)
         ]
 
         if not exists(rel_path):
             print(f"create {rel_path}")
-            copy(fx_path, rel_path)
+            with open(rel_path, "+wb") as file:
+                for line in serialize_resource(fx_res):
+                    file.write(line.encode("utf-8"))
             new_files += 1
         elif cmp(fx_path, rel_path):
             # print(f"equal {rel_path}")
             pass
         else:
             with open(rel_path, "+rb") as file:
-                l10n_data = file.read()
-                merge_data = merge_channels(
-                    rel_path,
-                    (
-                        [fx_res, l10n_data]
-                        if branch == cfg_automation["head"]
-                        else [l10n_data, fx_res]
-                    ),
-                )
-                if merge_data == l10n_data:
-                    # print(f"unchanged {rel_path}")
-                    pass
-                else:
+                res = parse_resource(rel_path, file.read())
+                if add_entries(res, fx_res, use_source_entries=is_head):
                     print(f"update {rel_path}")
                     file.seek(0)
-                    file.write(merge_data)
+                    for line in serialize_resource(res):
+                        file.write(line.encode("utf-8"))
                     file.truncate()
                     updated_files += 1
+                else:
+                    # print(f"unchanged {rel_path}")
+                    pass
 
     data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
         json.dump(messages, file, indent=2, sort_keys=True)
 
-    return new_files, updated_files, sorted(list(paths))
+    return new_files, updated_files, sorted(list(source_dirs))
 
 
 def write_commit_msg(args, new_files: int, updated_files: int):
@@ -176,11 +203,11 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 
 
 if __name__ == "__main__":
-    config_file = join("_configs", "config.json")
+    config_file = join(".github", "update-config.json")
     with open(config_file) as f:
         cfg_automation = json.load(f)
 
-    prog = "python -m _scripts.update"
+    prog = "python .github/scripts/update.py"
     parser = ArgumentParser(
         prog=prog,
         description=__doc__.format(HEAD=cfg_automation["head"]),
@@ -205,13 +232,13 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    new_files, updated_files, paths = update(
+    new_files, updated_files, source_dirs = update(
         cfg_automation, args.branch, args.firefox, args.configs
     )
 
-    if cfg_automation["paths"] != paths and args.branch == cfg_automation["head"]:
+    if cfg_automation["paths"] != source_dirs and args.branch == cfg_automation["head"]:
         # Write back updated configuration
-        cfg_automation["paths"] = paths
+        cfg_automation["paths"] = source_dirs
         with open(config_file, "w") as file:
             json.dump(cfg_automation, file, indent=2, sort_keys=True)
 
