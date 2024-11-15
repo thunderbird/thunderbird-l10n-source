@@ -9495,6 +9495,9 @@
     "compact-dialog-never-ask-checkbox.label",
     "compact-dialog-never-ask-checkbox.accesskey"
   ],
+  "mail/messenger/customizableshortcuts/customizableShortcuts.ftl": [
+    "shortcuts-close-button-title.title"
+  ],
   "mail/messenger/extensionPermissions.ftl": [
     "webext-perms-description-accountsFolders",
     "webext-perms-description-accountsIdentities",
