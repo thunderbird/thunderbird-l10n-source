@@ -26,6 +26,7 @@ account-setup-name-label = Your full name
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = John Doe
+    .title = Please fill out this field
 
 account-setup-name-info-icon =
     .title = Your name, as shown to others
