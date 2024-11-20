@@ -8845,7 +8845,8 @@
     "account-hub-config-success",
     "account-hub-password-info",
     "account-hub-sync-success",
-    "account-hub-email-added-success"
+    "account-hub-email-added-success",
+    "account-hub-config-test-scucess"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
