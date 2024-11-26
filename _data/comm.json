@@ -8845,7 +8845,8 @@
     "account-hub-config-success",
     "account-hub-password-info",
     "account-hub-sync-success",
-    "account-hub-email-added-success"
+    "account-hub-email-added-success",
+    "account-hub-config-test-success"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9494,6 +9495,9 @@
     "compact-dialog-message",
     "compact-dialog-never-ask-checkbox.label",
     "compact-dialog-never-ask-checkbox.accesskey"
+  ],
+  "mail/messenger/customizableshortcuts/customizableShortcuts.ftl": [
+    "shortcuts-close-button-title.title"
   ],
   "mail/messenger/extensionPermissions.ftl": [
     "webext-perms-description-accountsFolders",
