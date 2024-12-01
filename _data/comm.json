@@ -8846,6 +8846,7 @@
     "account-hub-password-info",
     "account-hub-sync-success",
     "account-hub-sync-failure",
+    "account-hub-unable-to-sync-accounts",
     "account-hub-email-added-success",
     "account-hub-config-test-success",
     "account-hub-select-all",
