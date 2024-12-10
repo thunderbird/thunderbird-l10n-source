@@ -8853,7 +8853,9 @@
     "account-hub-deselect-all",
     "account-hub-selected",
     "account-hub-no-address-books",
-    "account-hub-no-calendars"
+    "account-hub-no-calendars",
+    "account-hub-email-added-success-links-title",
+    "account-hub-signature-link"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",

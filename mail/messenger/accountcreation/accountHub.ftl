@@ -126,3 +126,5 @@ account-hub-deselect-all = Deselect all
 account-hub-selected = { $count } selected
 account-hub-no-address-books = No address books found
 account-hub-no-calendars = No calendars found
+account-hub-email-added-success-links-title = Explore options for security and personalization:
+account-hub-signature-link = Email signature
