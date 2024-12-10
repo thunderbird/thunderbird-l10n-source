@@ -8845,8 +8845,17 @@
     "account-hub-config-success",
     "account-hub-password-info",
     "account-hub-sync-success",
+    "account-hub-sync-failure",
+    "account-hub-unable-to-sync-accounts",
     "account-hub-email-added-success",
-    "account-hub-config-test-success"
+    "account-hub-config-test-success",
+    "account-hub-select-all",
+    "account-hub-deselect-all",
+    "account-hub-selected",
+    "account-hub-no-address-books",
+    "account-hub-no-calendars",
+    "account-hub-email-added-success-links-title",
+    "account-hub-signature-link"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
