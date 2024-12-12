@@ -123,6 +123,12 @@ account-hub-config-test-success = Configuration settings valid
 account-hub-select-all = Select all
 account-hub-deselect-all = Deselect all
 # $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } selected
+       *[other] { $count } selected
+    }
+# $count (Number) - The number of sync accounts selected.
 account-hub-selected = { $count } selected
 account-hub-no-address-books = No address books found
 account-hub-no-calendars = No calendars found
