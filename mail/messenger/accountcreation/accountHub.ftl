@@ -128,8 +128,6 @@ account-hub-sync-accounts-selected =
         [one] { $count } selected
        *[other] { $count } selected
     }
-# $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } selected
 account-hub-no-address-books = No address books found
 account-hub-no-calendars = No calendars found
 account-hub-email-added-success-links-title = Explore options for security and personalization:
