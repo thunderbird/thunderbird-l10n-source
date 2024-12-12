@@ -8851,7 +8851,7 @@
     "account-hub-config-test-success",
     "account-hub-select-all",
     "account-hub-deselect-all",
-    "account-hub-selected",
+    "account-hub-sync-accounts-selected",
     "account-hub-no-address-books",
     "account-hub-no-calendars",
     "account-hub-email-added-success-links-title",
