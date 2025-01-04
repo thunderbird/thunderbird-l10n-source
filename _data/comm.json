@@ -10678,7 +10678,6 @@
     "fail-key-import",
     "file-write-failed",
     "no-pgp-block",
-    "confirm-permissive-import",
     "imported-secret-with-unsupported-features",
     "help-button",
     "key-valid-unknown",
