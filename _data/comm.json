@@ -8852,7 +8852,15 @@
     "account-hub-no-address-books",
     "account-hub-no-calendars",
     "account-hub-email-added-success-links-title",
-    "account-hub-signature-link"
+    "account-hub-signature-link",
+    "account-hub-email-error-text",
+    "account-hub-name-error-text",
+    "account-hub-hostname-error-text",
+    "account-hub-hostname-error-text.title",
+    "account-hub-port-error-text",
+    "account-hub-port-error-text.title",
+    "account-hub-username-error-text",
+    "account-hub-username-error-text.title"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
