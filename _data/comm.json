@@ -8848,7 +8848,8 @@
     "account-hub-port-error-text",
     "account-hub-port-error-text.title",
     "account-hub-username-error-text",
-    "account-hub-username-error-text.title"
+    "account-hub-username-error-text.title",
+    "account-hub-oauth-pending"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
