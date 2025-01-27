@@ -8824,8 +8824,10 @@
     "account-hub-result-pop-description",
     "account-hub-result-ews-shortname",
     "account-hub-result-ews-description",
+    "account-hub-result-exchange-description",
     "account-hub-result-ews-text",
     "account-hub-result-recommended-label",
+    "account-hub-result-addon-label",
     "account-hub-edit-configuration",
     "account-hub-config-success",
     "account-hub-password-info",
@@ -8848,7 +8850,8 @@
     "account-hub-port-error-text",
     "account-hub-port-error-text.title",
     "account-hub-username-error-text",
-    "account-hub-username-error-text.title"
+    "account-hub-username-error-text.title",
+    "account-hub-addon-needed"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",

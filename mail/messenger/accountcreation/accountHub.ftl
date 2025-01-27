@@ -110,8 +110,10 @@ account-hub-result-imap-description = Keep your folders and emails synced on you
 account-hub-result-pop-description = Keep your folders and emails on your computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Use Microsoft Exchange Web Services to sync your folders and emails
+account-hub-result-exchange-description = Sync folders & emails with Exchange or Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Recommended
+account-hub-result-addon-label = Requires Add-on
 account-hub-edit-configuration = Edit configuration
 account-hub-config-success = Configuration found in Mozilla ISPDB
 account-hub-password-info = Your credentials will only be stored locally on your computer
@@ -140,3 +142,4 @@ account-hub-port-error-text = Port must be between 1 and 65535
     .title = Port must be between 1 and 65535
 account-hub-username-error-text = Username is required
     .title = Username is required
+account-hub-addon-needed = { -brand-full-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
