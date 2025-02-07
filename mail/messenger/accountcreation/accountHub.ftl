@@ -117,6 +117,7 @@ account-hub-result-addon-label = Requires Add-on
 account-hub-edit-configuration = Edit configuration
 account-hub-config-success = Configuration found in Mozilla ISPDB
 account-hub-password-info = Your credentials will only be stored locally on your computer
+account-hub-creating-account = Creating account…
 account-hub-sync-success = Thunderbird found some connected services
 account-hub-sync-failure = Thunderbird was unable to find connected services
 account-hub-unable-to-sync-accounts = Thunderbird was unable to connect the selected services
