@@ -2,9 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Extension permission description keys are derived from permission names.
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+
 
 ## Extension permission description keys are derived from permission names.
 ## Permissions for which the message has been changed and the key updated
@@ -30,3 +32,4 @@ webext-perms-description-messagesUpdate = Change properties and tags of your ema
 webext-perms-description-messagesTags = Create, modify and delete message tags
 webext-perms-description-messagesTagsList = List message tags
 webext-perms-description-sensitiveDataUpload = Transfer sensitive user data (if access has been granted) to a remote server for further processing
+webext-perms-description-messengerSettings = Read { -brand-short-name } settings
