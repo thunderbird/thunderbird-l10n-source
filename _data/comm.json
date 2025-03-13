@@ -9900,7 +9900,9 @@
     "quick-filter-bar-show.key",
     "openpgp-forget",
     "quota-panel-percent-used",
-    "quota-panel-percent-used.title"
+    "quota-panel-percent-used.title",
+    "mark-as-read-action",
+    "do-nothing-action"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
