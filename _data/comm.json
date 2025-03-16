@@ -11519,6 +11519,8 @@
     "automatic-updates-label.accesskey",
     "check-updates-label.label",
     "check-updates-label.accesskey",
+    "update-application-background-enabled.label",
+    "update-application-background-enabled.accesskey",
     "update-history-button.label",
     "update-history-button.accesskey",
     "use-service.label",
