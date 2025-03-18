@@ -9445,7 +9445,9 @@
     "calendar-dialog-close-button.aria-label",
     "calendar-dialog-close-button.title",
     "calendar-dialog-back-button.aria-label",
-    "calendar-dialog-back-button.title"
+    "calendar-dialog-back-button.title",
+    "calendar-dialog-date-row-icon.alt",
+    "calendar-dialog-date-row-recurring-icon.alt"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
@@ -11517,6 +11519,8 @@
     "automatic-updates-label.accesskey",
     "check-updates-label.label",
     "check-updates-label.accesskey",
+    "update-application-background-enabled.label",
+    "update-application-background-enabled.accesskey",
     "update-history-button.label",
     "update-history-button.accesskey",
     "use-service.label",
