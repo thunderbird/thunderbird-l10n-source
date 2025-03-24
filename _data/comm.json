@@ -8837,7 +8837,8 @@
     "account-hub-oauth-pending",
     "account-hub-addon-install-needed",
     "account-hub-addon-error",
-    "account-hub-security-warning"
+    "account-hub-security-warning",
+    "account-hub-account-authentication-error"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
