@@ -8809,7 +8809,7 @@
     "account-hub-lookup-email-configuration-title",
     "account-hub-lookup-email-configuration-subheader",
     "account-hub-email-account-added-title",
-    "account-hub-find-settings-failed",
+    "account-hub-find-account-settings-failed",
     "account-hub-notification-show-more",
     "account-hub-notification-show-less",
     "account-hub-email-setup-header",
@@ -8831,9 +8831,10 @@
     "account-hub-edit-configuration",
     "account-hub-config-success",
     "account-hub-password-info",
-    "account-hub-sync-success",
-    "account-hub-sync-failure",
-    "account-hub-unable-to-sync-accounts",
+    "account-hub-creating-account",
+    "account-hub-sync-accounts-found",
+    "account-hub-sync-accounts-not-found",
+    "account-hub-sync-accounts-failure",
     "account-hub-email-added-success",
     "account-hub-config-test-success",
     "account-hub-select-all",
@@ -8851,7 +8852,10 @@
     "account-hub-port-error-text.title",
     "account-hub-username-error-text",
     "account-hub-username-error-text.title",
-    "account-hub-addon-needed"
+    "account-hub-oauth-pending",
+    "account-hub-addon-install-needed",
+    "account-hub-addon-error",
+    "account-hub-security-warning"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9455,6 +9459,10 @@
     "appmenuitem-banner-update-unsupported.label",
     "appmenuitem-banner-update-restart.label"
   ],
+  "mail/messenger/calendarDialog.ftl": [
+    "calendar-dialog-close-button.aria-label",
+    "calendar-dialog-close-button.title"
+  ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
     "cert-error-expired",
@@ -9522,7 +9530,8 @@
     "webext-perms-description-messagesUpdate",
     "webext-perms-description-messagesTags",
     "webext-perms-description-messagesTagsList",
-    "webext-perms-description-sensitiveDataUpload"
+    "webext-perms-description-sensitiveDataUpload",
+    "webext-perms-description-messengerSettings"
   ],
   "mail/messenger/extensions/popup.ftl": [
     "close-shortcut.key",
@@ -9701,7 +9710,8 @@
     "message-header-field-show-more",
     "message-header-field-show-more.title",
     "message-ids-field-show-all",
-    "dark-message-mode-disable-toggle.title"
+    "dark-message-mode-toggle-enabled.title",
+    "dark-message-mode-toggle-disabled.title"
   ],
   "mail/messenger/messenger.ftl": [
     "messenger-window-minimize-button.tooltiptext",
@@ -9821,6 +9831,10 @@
     "other-action-redirect-msg.label",
     "message-header-msg-flagged.title",
     "message-header-msg-flagged.aria-label",
+    "message-header-delete.label",
+    "message-header-delete.tooltiptext",
+    "message-header-undelete.label",
+    "message-header-undelete.tooltiptext",
     "message-header-recipient-avatar.alt",
     "message-header-customize-panel-title",
     "message-header-customize-button-style.value",
@@ -10091,7 +10105,9 @@
     "multi-message-archive-button.label",
     "multi-message-archive-button.tooltiptext",
     "multi-message-delete-button.label",
-    "multi-message-delete-button.tooltiptext"
+    "multi-message-delete-button.tooltiptext",
+    "multi-message-undelete-button.label",
+    "multi-message-undelete-button.tooltiptext"
   ],
   "mail/messenger/openpgp/backupKeyPassword.ftl": [
     "set-password-window-title",
