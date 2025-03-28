@@ -9656,6 +9656,11 @@
     "wizardpage-failed.label",
     "wizardpage-failed-message"
   ],
+  "mail/messenger/inAppNotifications.ftl": [
+    "in-app-notification-close-image.alt",
+    "-in-app-notification-accesskey",
+    "in-app-notification-instructions"
+  ],
   "mail/messenger/mailWidgets.ftl": [
     "apply-current-view-to-menu.label",
     "threadpane-apply-changes-prompt-title",
