@@ -6269,12 +6269,9 @@
     "AlignRight.label"
   ],
   "mail/chrome/messenger/messengercompose/composeMsgs.properties": [
-    "unableToOpenFile",
-    "unableToOpenTmpFile",
     "unableToSaveTemplate",
     "unableToSaveDraft",
     "couldntOpenFccFolder",
-    "noSender",
     "noRecipients",
     "errorWritingFile",
     "errorSendingFromCommand",
@@ -6287,32 +6284,20 @@
     "smtpSecurityIssue",
     "smtpServerError",
     "unableToSendLater",
-    "communicationsError",
     "dontShowAlert",
-    "couldNotGetUsersMailAddress2",
-    "couldNotGetSendersIdentity",
-    "mimeMpartAttachmentError",
     "failedCopyOperation",
-    "nntpNoCrossPosting",
     "msgCancelling",
     "sendFailedButNntpOk",
-    "errorReadingFile",
     "followupToSenderMessage",
     "errorAttachingFile",
-    "incorrectSmtpGreeting",
     "errorSendingRcptCommand",
     "startTlsFailed",
-    "smtpPasswordUndefined",
-    "smtpSendNotAllowed",
     "smtpTooManyRecipients",
-    "smtpClientid",
-    "smtpClientidPermission",
     "smtpPermSizeExceeded2",
     "smtpSendFailedUnknownServer",
     "smtpSendRequestRefused",
     "smtpSendInterrupted",
     "smtpSendTimeout",
-    "smtpSendFailedUnknownReason",
     "smtpHintAuthEncryptToPlainNoSsl",
     "smtpHintAuthEncryptToPlainSsl",
     "smtpHintAuthPlainToEncrypt",
@@ -7764,9 +7749,6 @@
     "shutdownDialogTitle",
     "taskProgress"
   ],
-  "mail/chrome/messenger/smime.properties": [
-    "1000"
-  ],
   "mail/chrome/messenger/smtpEditOverlay.dtd": [
     "settings.caption",
     "security.caption",
@@ -8855,7 +8837,8 @@
     "account-hub-oauth-pending",
     "account-hub-addon-install-needed",
     "account-hub-addon-error",
-    "account-hub-security-warning"
+    "account-hub-security-warning",
+    "account-hub-account-authentication-error"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9461,7 +9444,11 @@
   ],
   "mail/messenger/calendarDialog.ftl": [
     "calendar-dialog-close-button.aria-label",
-    "calendar-dialog-close-button.title"
+    "calendar-dialog-close-button.title",
+    "calendar-dialog-back-button.aria-label",
+    "calendar-dialog-back-button.title",
+    "calendar-dialog-date-row-icon.alt",
+    "calendar-dialog-date-row-recurring-icon.alt"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
@@ -9916,7 +9903,9 @@
     "quick-filter-bar-show.key",
     "openpgp-forget",
     "quota-panel-percent-used",
-    "quota-panel-percent-used.title"
+    "quota-panel-percent-used.title",
+    "mark-as-read-action",
+    "do-nothing-action"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
@@ -11531,6 +11520,8 @@
     "automatic-updates-label.accesskey",
     "check-updates-label.label",
     "check-updates-label.accesskey",
+    "update-application-background-enabled.label",
+    "update-application-background-enabled.accesskey",
     "update-history-button.label",
     "update-history-button.accesskey",
     "use-service.label",
