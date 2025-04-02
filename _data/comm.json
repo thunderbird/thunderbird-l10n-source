@@ -9448,7 +9448,8 @@
     "calendar-dialog-back-button.aria-label",
     "calendar-dialog-back-button.title",
     "calendar-dialog-date-row-icon.alt",
-    "calendar-dialog-date-row-recurring-icon.alt"
+    "calendar-dialog-date-row-recurring-icon.alt",
+    "calendar-dialog-location-row-icon.alt"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
@@ -10952,6 +10953,7 @@
     "policy-ExtensionUpdate",
     "policy-Handlers",
     "policy-HardwareAcceleration",
+    "policy-InAppNotification",
     "policy-InstallAddonsPermission",
     "policy-LegacyProfiles",
     "policy-LegacySameSiteCookieBehaviorEnabled",
