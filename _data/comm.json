@@ -10717,7 +10717,6 @@
     "key-man-button-generate-key-continue",
     "failed-decrypt",
     "fix-broken-exchange-msg-failed",
-    "attachment-no-match-from-signature",
     "attachment-no-match-to-signature",
     "signature-verified-ok",
     "signature-verify-failed",
