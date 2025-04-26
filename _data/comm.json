@@ -5573,7 +5573,6 @@
     "operationFailedFolderBusy",
     "folderRenameFailed",
     "verboseFolderFormat",
-    "filterFolderTruncateFailed",
     "mailboxTooLarge",
     "outOfDiskSpace",
     "outOfDiskSpaceGeneric",
@@ -9450,7 +9449,9 @@
     "calendar-dialog-location-row-icon.alt",
     "calendar-dialog-description-row-icon.alt",
     "calendar-dialog-description-label",
-    "calendar-dialog-description-expand-icon.alt"
+    "calendar-dialog-description-expand-icon.alt",
+    "calendar-dialog-more-categories",
+    "calendar-dialog-more-categories.title"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
