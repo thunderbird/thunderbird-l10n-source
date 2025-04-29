@@ -9908,7 +9908,8 @@
     "quota-panel-percent-used",
     "quota-panel-percent-used.title",
     "mark-as-read-action",
-    "delete-action"
+    "delete-action",
+    "mark-as-starred-action"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
