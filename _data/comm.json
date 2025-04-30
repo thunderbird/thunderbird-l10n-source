@@ -7416,24 +7416,13 @@
   "mail/chrome/messenger/news.properties": [
     "downloadHeadersTitlePrefix",
     "downloadHeadersInfoText",
+    "okButtonText",
     "cancelConfirm",
-    "messageCancelled",
     "enterUserPassTitle",
     "enterUserPassServer",
     "enterUserPassGroup",
-    "okButtonText",
-    "noNewMessages",
-    "newNewsgroupHeaders",
-    "newNewsgroupFilteringHeaders",
-    "downloadingArticles",
-    "bytesReceived",
-    "downloadingArticlesForOffline",
     "autoUnsubscribeText",
-    "autoSubscribeText",
-    "-304",
-    "-305",
-    "-260",
-    "-206"
+    "autoSubscribeText"
   ],
   "mail/chrome/messenger/newsError.dtd": [
     "newsError.title",
@@ -10101,6 +10090,12 @@
     "multi-message-delete-button.tooltiptext",
     "multi-message-undelete-button.label",
     "multi-message-undelete-button.tooltiptext"
+  ],
+  "mail/messenger/news.ftl": [
+    "new-newsgroup-headers",
+    "no-new-messages",
+    "downloading-articles-for-offline",
+    "no-articles-to-download"
   ],
   "mail/messenger/openpgp/backupKeyPassword.ftl": [
     "set-password-window-title",
