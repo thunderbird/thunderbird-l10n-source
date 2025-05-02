@@ -5573,7 +5573,6 @@
     "operationFailedFolderBusy",
     "folderRenameFailed",
     "verboseFolderFormat",
-    "filterFolderTruncateFailed",
     "mailboxTooLarge",
     "outOfDiskSpace",
     "outOfDiskSpaceGeneric",
@@ -7417,24 +7416,13 @@
   "mail/chrome/messenger/news.properties": [
     "downloadHeadersTitlePrefix",
     "downloadHeadersInfoText",
+    "okButtonText",
     "cancelConfirm",
-    "messageCancelled",
     "enterUserPassTitle",
     "enterUserPassServer",
     "enterUserPassGroup",
-    "okButtonText",
-    "noNewMessages",
-    "newNewsgroupHeaders",
-    "newNewsgroupFilteringHeaders",
-    "downloadingArticles",
-    "bytesReceived",
-    "downloadingArticlesForOffline",
     "autoUnsubscribeText",
-    "autoSubscribeText",
-    "-304",
-    "-305",
-    "-260",
-    "-206"
+    "autoSubscribeText"
   ],
   "mail/chrome/messenger/newsError.dtd": [
     "newsError.title",
@@ -9450,7 +9438,9 @@
     "calendar-dialog-location-row-icon.alt",
     "calendar-dialog-description-row-icon.alt",
     "calendar-dialog-description-label",
-    "calendar-dialog-description-expand-icon.alt"
+    "calendar-dialog-description-expand-icon.alt",
+    "calendar-dialog-more-categories",
+    "calendar-dialog-more-categories.title"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
@@ -9907,7 +9897,8 @@
     "quota-panel-percent-used",
     "quota-panel-percent-used.title",
     "mark-as-read-action",
-    "delete-action"
+    "delete-action",
+    "mark-as-starred-action"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
@@ -10099,6 +10090,12 @@
     "multi-message-delete-button.tooltiptext",
     "multi-message-undelete-button.label",
     "multi-message-undelete-button.tooltiptext"
+  ],
+  "mail/messenger/news.ftl": [
+    "new-newsgroup-headers",
+    "no-new-messages",
+    "downloading-articles-for-offline",
+    "no-articles-to-download"
   ],
   "mail/messenger/openpgp/backupKeyPassword.ftl": [
     "set-password-window-title",
