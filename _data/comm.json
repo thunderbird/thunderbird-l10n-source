@@ -6268,9 +6268,7 @@
   "mail/chrome/messenger/messengercompose/composeMsgs.properties": [
     "unableToSaveTemplate",
     "unableToSaveDraft",
-    "couldntOpenFccFolder",
     "noRecipients",
-    "errorWritingFile",
     "errorSendingFromCommand",
     "errorSendingDataCommand",
     "errorSendingMessage",
