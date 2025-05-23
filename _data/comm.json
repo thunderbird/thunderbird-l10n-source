@@ -7417,7 +7417,6 @@
     "enterUserPassTitle",
     "enterUserPassServer",
     "enterUserPassGroup",
-    "autoUnsubscribeText",
     "autoSubscribeText"
   ],
   "mail/chrome/messenger/newsError.dtd": [
@@ -8820,7 +8819,19 @@
     "account-hub-addon-install-needed",
     "account-hub-addon-error",
     "account-hub-security-warning",
-    "account-hub-account-authentication-error"
+    "account-hub-account-authentication-error",
+    "account-hub-add-address-book",
+    "address-book-sync-existing-icon.alt",
+    "address-book-sync-existing",
+    "address-book-add-remote-icon.alt",
+    "address-book-add-remote",
+    "address-book-add-remote-description",
+    "address-book-add-local-icon.alt",
+    "address-book-add-local",
+    "address-book-add-local-description",
+    "address-book-add-ldap-icon.alt",
+    "address-book-add-ldap",
+    "address-book-add-ldap-description"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -10092,7 +10103,8 @@
     "new-newsgroup-headers",
     "no-new-messages",
     "downloading-articles-for-offline",
-    "no-articles-to-download"
+    "no-articles-to-download",
+    "no-such-newsgroup"
   ],
   "mail/messenger/openpgp/backupKeyPassword.ftl": [
     "set-password-window-title",
@@ -10583,7 +10595,6 @@
     "key-do-you-accept",
     "key-verification",
     "cannot-use-own-key-because",
-    "window-locked",
     "keyserver-error-aborted",
     "keyserver-error-unknown",
     "keyserver-error-server-error",
