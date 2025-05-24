@@ -165,3 +165,4 @@ address-book-add-ldap-icon =
     .alt = Connect to a remote LDAP address book
 address-book-add-ldap = New LDAP Address Book
 address-book-add-ldap-description = Connect to a remote LDAP address book
+account-hub-fetching-sync-accounts = Discovering address books and calendars…
