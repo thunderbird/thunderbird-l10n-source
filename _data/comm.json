@@ -10311,8 +10311,7 @@
     "openpgp-external-key-info",
     "openpgp-external-key-warning",
     "openpgp-save-external-button",
-    "openpgp-external-key-label",
-    "openpgp-external-key-input.placeholder"
+    "openpgp-external-key-label"
   ],
   "mail/messenger/openpgp/msgReadStatus.ftl": [
     "message-header-show-security-info-key",
