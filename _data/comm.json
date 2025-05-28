@@ -3547,8 +3547,6 @@
     "globalAddressingPrefs.accesskey"
   ],
   "mail/chrome/messenger/am-advanced.dtd": [
-    "smtpServer.label",
-    "smtpDescription.label",
     "smtpListAdd.label",
     "smtpListAdd.accesskey",
     "smtpListEdit.label",
@@ -3700,11 +3698,7 @@
     "attachVCard.accesskey",
     "manageIdentities.label",
     "manageIdentities.accesskey",
-    "smtpName.label",
-    "smtpName.accesskey",
-    "smtpDefaultServer.label",
-    "smtpServerEdit.label",
-    "smtpServerEdit.accesskey"
+    "smtpDefaultServer.label"
   ],
   "mail/chrome/messenger/am-mdn.dtd": [
     "pane.title",
@@ -5607,6 +5601,7 @@
     "serverType-imap",
     "serverType-none",
     "serverType-ews",
+    "serverType-smtp",
     "sizeColumnTooltip2",
     "sizeColumnHeader",
     "linesColumnTooltip2",
@@ -5826,7 +5821,6 @@
     "confirmMsgDelete.deleteFromTrash.desc",
     "confirmMsgDelete.dontAsk.label",
     "confirmMsgDelete.delete.label",
-    "mailServerLoginFailedTitle",
     "mailServerLoginFailedTitleWithAccount",
     "mailServerLoginFailed2",
     "mailServerLoginFailedRetryButton",
@@ -7570,7 +7564,6 @@
     "prefPanel-diskspace",
     "prefPanel-addressing",
     "prefPanel-junk",
-    "prefPanel-smtp",
     "identity-list-title",
     "identityDialogTitleAdd",
     "identityDialogTitleEdit",
@@ -8742,14 +8735,22 @@
     "edit-vcard-dialog-cancel-button",
     "edit-vcard-dialog-cancel-button.accesskey",
     "account-manager-server-default-icon.title",
-    "account-manager-server-default-icon.alt"
+    "account-manager-server-default-icon.alt",
+    "outgoing-server-section-name",
+    "outgoing-server-settings-title",
+    "outgoing-server-settings-description",
+    "outgoing-server-type"
   ],
   "mail/messenger/accountSettings.ftl": [
     "account-settings-color-label",
     "account-settings-color-label.accesskey",
     "account-settings-reset-color-button.title",
     "delete-account-button.label",
-    "default-account-button.label"
+    "default-account-button.label",
+    "outgoing-server-name",
+    "outgoing-server-name.accesskey",
+    "outgoing-server-edit.label",
+    "outgoing-server-edit.accesskey"
   ],
   "mail/messenger/accountcreation/accountHub.ftl": [
     "account-hub-brand",

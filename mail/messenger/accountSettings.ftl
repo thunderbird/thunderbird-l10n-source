@@ -3,13 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-settings-color-label = Color:
-  .accesskey = C
-
+    .accesskey = C
 account-settings-reset-color-button =
-  .title = Reset color
-
+    .title = Reset color
 delete-account-button =
-  .label = Delete
-
+    .label = Delete
 default-account-button =
-  .label = Set as Default
+    .label = Set as Default
+outgoing-server-name = Outgoing Server:
+    .accesskey = u
+outgoing-server-edit =
+    .label = Edit outgoing server…
+    .accesskey = o
