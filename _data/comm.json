@@ -7053,13 +7053,13 @@
     "smiley7Cmd.label",
     "smiley8Cmd.label",
     "smiley9Cmd.label",
-    "smiley10Cmd.label",
     "smiley11Cmd.label",
     "smiley12Cmd.label",
     "smiley13Cmd.label",
     "smiley14Cmd.label",
     "smiley15Cmd.label",
     "smiley16Cmd.label",
+    "smiley17Cmd.label",
     "spellCheckNoSuggestions.label",
     "spellCheckIgnoreWord.label",
     "spellCheckIgnoreWord.accesskey",
@@ -8873,7 +8873,9 @@
     "address-book-add-ldap-icon.alt",
     "address-book-add-ldap",
     "address-book-add-ldap-description",
-    "account-hub-fetching-sync-accounts"
+    "account-hub-fetching-sync-accounts",
+    "account-hub-address-book-sync-option-data",
+    "address-book-sync-existing-description"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
