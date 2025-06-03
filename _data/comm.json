@@ -8875,7 +8875,10 @@
     "address-book-add-ldap-description",
     "account-hub-fetching-sync-accounts",
     "account-hub-address-book-sync-option-data",
-    "address-book-sync-existing-description"
+    "address-book-sync-existing-description",
+    "account-hub-select-address-book-account",
+    "account-hub-account-address-book-count",
+    "account-hub-account-address-book-count.title"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -11859,6 +11862,7 @@
     "chat-variant-label.accesskey",
     "search-preferences-input2.style",
     "search-preferences-input2.placeholder",
+    "managed-notice",
     "search-results-header",
     "search-results-empty-message2",
     "search-results-help-link",
