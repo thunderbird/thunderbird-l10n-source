@@ -8878,7 +8878,10 @@
     "address-book-sync-existing-description",
     "account-hub-select-address-book-account",
     "account-hub-account-address-book-count",
-    "account-hub-account-address-book-count.title"
+    "account-hub-account-address-book-count.title",
+    "account-hub-add-local-address-book",
+    "account-hub-local-address-book-label",
+    "account-hub-local-error-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
