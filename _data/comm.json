@@ -8417,7 +8417,9 @@
   "mail/messenger/aboutAddonsExtra.ftl": [
     "add-on-options-button.title",
     "add-on-search-alternative-button-label",
-    "atn-addons-heading-search-input.placeholder"
+    "atn-addons-heading-search-input.placeholder",
+    "atn-addons-heading-search-button.title",
+    "atn-addons-heading-search-button.aria-label"
   ],
   "mail/messenger/aboutDialog.ftl": [
     "about-update-whats-new",
