@@ -4992,7 +4992,6 @@
     "findPrevCmd.key2",
     "searchMailCmd.label",
     "searchMailCmd.accesskey",
-    "searchMailCmd.key",
     "glodaSearchCmd.label",
     "glodaSearchCmd.accesskey",
     "searchAddressesCmd.label",
@@ -12064,8 +12063,9 @@
     "ctrl-shift-alt-shortcut-key2",
     "meta-ctrl-shift-alt-shortcut-key2",
     "button-shortcut-string.title",
-    "menuitem-shortcut-string.label",
-    "menuitem-shortcut-string.acceltext"
+    "menuitem-shortcut-attributes.label",
+    "menuitem-shortcut-attributes.accesskey",
+    "menuitem-shortcut-attributes.acceltext"
   ],
   "mail/messenger/syncAccounts.ftl": [
     "sync-verification-sent-title",
