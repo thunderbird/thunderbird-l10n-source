@@ -8882,7 +8882,8 @@
     "account-hub-account-address-book-count.title",
     "account-hub-add-local-address-book",
     "account-hub-local-address-book-label",
-    "account-hub-local-error-text"
+    "account-hub-local-error-text",
+    "account-hub-sync-address-books"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9957,7 +9958,8 @@
     "mark-as-read-action",
     "delete-action",
     "mark-as-starred-action",
-    "mark-as-spam-action"
+    "mark-as-spam-action",
+    "archive-action"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
