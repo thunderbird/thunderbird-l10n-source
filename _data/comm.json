@@ -10604,6 +10604,7 @@
     "openpgp-description-no-key",
     "openpgp-description-has-keys",
     "openpgp-selection-status-have-key",
+    "openpgp-selection-status-expiring-soon",
     "openpgp-selection-status-error",
     "openpgp-add-key-button.label",
     "openpgp-add-key-button.accesskey",
