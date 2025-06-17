@@ -3,7 +3,8 @@
     "comm",
     "comm-beta",
     "comm-release",
-    "comm-esr128"
+    "comm-esr128",
+    "comm-esr140"
   ],
   "head": "comm",
   "paths": [
