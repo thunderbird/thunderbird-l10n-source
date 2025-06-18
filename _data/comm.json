@@ -8883,7 +8883,15 @@
     "account-hub-add-local-address-book",
     "account-hub-local-address-book-label",
     "account-hub-local-error-text",
-    "account-hub-sync-address-books"
+    "account-hub-sync-address-books",
+    "account-hub-new-remote-address-book",
+    "account-hub-username-label",
+    "account-hub-username-warning-icon",
+    "account-hub-address-book-username-error-text",
+    "account-hub-server-label",
+    "account-hub-server-tip",
+    "account-hub-server-warning-icon",
+    "account-hub-server-error-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
