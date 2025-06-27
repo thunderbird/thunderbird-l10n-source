@@ -8891,7 +8891,8 @@
     "account-hub-server-label",
     "account-hub-server-tip",
     "account-hub-server-warning-icon",
-    "account-hub-server-error-text"
+    "account-hub-server-error-text",
+    "account-hub-address-book-enter-password"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",

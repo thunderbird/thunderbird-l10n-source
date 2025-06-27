@@ -92,6 +92,7 @@ account-hub-server-label = URL/Hostname
 account-hub-server-tip = Thunderbird will try to automatically detect your hostname
 account-hub-server-warning-icon = Invalid URL
 account-hub-server-error-text = Please enter a valid URL
+account-hub-address-book-enter-password = Enter your CardDav account password
 account-hub-result-username-label = Username
     .title = Username
 account-hub-name-label = Full name
