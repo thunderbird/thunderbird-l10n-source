@@ -8892,7 +8892,14 @@
     "account-hub-server-tip",
     "account-hub-server-warning-icon",
     "account-hub-server-error-text",
-    "account-hub-address-book-enter-password"
+    "account-hub-address-book-enter-password",
+    "account-hub-address-book-name-label",
+    "account-hub-address-book-name-error-text",
+    "account-hub-address-book-base-dn",
+    "account-hub-address-book-bind-dn",
+    "account-hub-ldap-form",
+    "account-hub-advanced-configuration-button",
+    "account-hub-ldap-ssl-toggle-label"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
