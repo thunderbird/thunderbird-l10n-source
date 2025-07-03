@@ -8411,7 +8411,9 @@
     "message-list-placeholder-no-messages",
     "message-list-placeholder-multiple-folders",
     "folder-pane-context-mark-folder-read.label",
-    "folder-pane-context-mark-folder-read.accesskey"
+    "folder-pane-context-mark-folder-read.accesskey",
+    "folder-pane-context-reset-sort.label",
+    "folder-pane-context-reset-sort.accesskey"
   ],
   "mail/messenger/aboutAddonsExtra.ftl": [
     "add-on-options-button.title",
