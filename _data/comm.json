@@ -8411,7 +8411,9 @@
     "message-list-placeholder-no-messages",
     "message-list-placeholder-multiple-folders",
     "folder-pane-context-mark-folder-read.label",
-    "folder-pane-context-mark-folder-read.accesskey"
+    "folder-pane-context-mark-folder-read.accesskey",
+    "folder-pane-context-reset-sort.label",
+    "folder-pane-context-reset-sort.accesskey"
   ],
   "mail/messenger/aboutAddonsExtra.ftl": [
     "add-on-options-button.title",
@@ -8883,7 +8885,23 @@
     "account-hub-add-local-address-book",
     "account-hub-local-address-book-label",
     "account-hub-local-error-text",
-    "account-hub-sync-address-books"
+    "account-hub-sync-address-books",
+    "account-hub-new-remote-address-book",
+    "account-hub-username-label",
+    "account-hub-username-warning-icon",
+    "account-hub-address-book-username-error-text",
+    "account-hub-server-label",
+    "account-hub-server-tip",
+    "account-hub-server-warning-icon",
+    "account-hub-server-error-text",
+    "account-hub-address-book-enter-password",
+    "account-hub-address-book-name-label",
+    "account-hub-address-book-name-error-text",
+    "account-hub-address-book-base-dn",
+    "account-hub-address-book-bind-dn",
+    "account-hub-ldap-form",
+    "account-hub-advanced-configuration-button",
+    "account-hub-ldap-ssl-toggle-label"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -8906,8 +8924,6 @@
     "account-setup-password-label",
     "account-setup-password-label.accesskey",
     "account-setup-password-label.title",
-    "account-setup-password-toggle-show.title",
-    "account-setup-password-toggle-hide.title",
     "account-setup-remember-password",
     "account-setup-remember-password.accesskey",
     "account-setup-exchange-label",
@@ -10604,6 +10620,7 @@
     "openpgp-description-no-key",
     "openpgp-description-has-keys",
     "openpgp-selection-status-have-key",
+    "openpgp-selection-status-expiring-soon",
     "openpgp-selection-status-error",
     "openpgp-add-key-button.label",
     "openpgp-add-key-button.accesskey",
@@ -12042,8 +12059,6 @@
     "check-on-startup-label.accesskey"
   ],
   "mail/messenger/searchbar.ftl": [
-    "search-bar-clear-button.alt",
-    "search-bar-clear-button.title",
     "search-bar-search-button.alt",
     "search-bar-search-button.title"
   ],
