@@ -12049,8 +12049,6 @@
     "check-on-startup-label.accesskey"
   ],
   "mail/messenger/searchbar.ftl": [
-    "search-bar-clear-button.alt",
-    "search-bar-clear-button.title",
     "search-bar-search-button.alt",
     "search-bar-search-button.title"
   ],
