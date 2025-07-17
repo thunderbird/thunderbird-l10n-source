@@ -8908,7 +8908,10 @@
     "account-hub-address-book-login-method-label",
     "account-hub-address-book-login-simple-label.label",
     "account-hub-address-book-search-label",
-    "account-hub-simple-configuration-button"
+    "account-hub-simple-configuration-button",
+    "address-book-finding-remote-address-books",
+    "address-book-carddav-known-incompatible",
+    "address-book-carddav-connection-error"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
