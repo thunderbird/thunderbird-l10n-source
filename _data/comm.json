@@ -9715,7 +9715,15 @@
     "file-new-email-account.label",
     "file-new-email-account.accesskey",
     "file-new-newsgroup-account.label",
-    "file-new-newsgroup-account.accesskey"
+    "file-new-newsgroup-account.accesskey",
+    "file-new-addressbook.label",
+    "file-new-addressbook.accesskey",
+    "file-new-local-addressbook.label",
+    "file-new-local-addressbook.accesskey",
+    "file-new-carddav-addressbook.label",
+    "file-new-carddav-addressbook.accesskey",
+    "file-new-ldap-addressbook.label",
+    "file-new-ldap-addressbook.accesskey"
   ],
   "mail/messenger/messageheader/headerFields.ftl": [
     "message-header-to-list-name",
