@@ -860,14 +860,14 @@ qr-export-start-export = Export
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
 qr-export-scan-progress =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $step } of { $count } QR code
        *[other] { $step } of { $count } QR codes
     }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
-    { NUMBER($count) ->
+    { $count ->
         [one] Scan QR code with { -brand-product-name } on your mobile device
        *[other] Scan QR codes with { -brand-product-name } on your mobile device
     }
@@ -885,14 +885,14 @@ qr-export-summary-title = Export summary:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } QR code generated
        *[other] { $count } QR codes generated
     }
 # Variables:
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } account exported:
        *[other] { $count } accounts exported:
     }

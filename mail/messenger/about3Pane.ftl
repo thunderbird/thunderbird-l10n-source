@@ -13,14 +13,14 @@ thread-pane-header-display-button =
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } Message
        *[other] { $count } Messages
     }
 # Variables:
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } Selected
     }
 thread-pane-header-context-table-view =
@@ -99,7 +99,7 @@ quick-filter-bar-no-results = No results
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } message
        *[other] { $count } messages
     }
@@ -201,14 +201,14 @@ folder-pane-mode-move-down =
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
-    { NUMBER($count) ->
+    { $count ->
         [one] 1 unread message
        *[other] { $count } unread messages
     }
 # Variables:
 # $count (Number) - Number of total messages.
 folder-pane-total-aria-label =
-    { NUMBER($count) ->
+    { $count ->
         [one] 1 total message
        *[other] { $count } total messages
     }
@@ -404,7 +404,7 @@ threadpane-cell-delete =
 # Variables:
 # $count (Number) - Number of replies in thread.
 threadpane-replies =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } reply
        *[other] { $count } replies
     }
@@ -463,14 +463,14 @@ apply-current-view-to-folder-with-children-message = Apply the current folder’
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-unread-count =
-    { NUMBER($unread) ->
+    { $unread ->
         [one]
-            { NUMBER($total) ->
+            { $total ->
                 [one] <span>1</span> unread of <span>1</span> message
                *[other] <span>1</span> unread of <span>{ $total }</span> messages
             }
        *[other]
-            { NUMBER($total) ->
+            { $total ->
                 [one] <span>{ $unread }</span> unread of <span>1</span> message
                *[other] <span>{ $unread }</span> unread of <span>{ $total }</span> messages
             }
@@ -478,7 +478,7 @@ threadpane-sort-header-unread-count =
 # Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
-    { NUMBER($total) ->
+    { $total ->
         [one] <span>1</span> message
        *[other] <span>{ $total }</span> messages
     }
@@ -493,7 +493,7 @@ message-list-placeholder-multiple-folders = Multiple folders selected
 # $count (Number) - Number of selected folders.
 folder-pane-context-mark-folder-read =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Mark Folder Read
            *[other] Mark Folders Read
         }

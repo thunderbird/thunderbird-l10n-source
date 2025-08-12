@@ -144,7 +144,7 @@ openpgp-key-send-key =
 # $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Copy Key ID To Clipboard
            *[other] Copy Key IDs To Clipboard
         }
@@ -153,7 +153,7 @@ openpgp-key-man-copy-key-ids =
 # $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Copy Fingerprint To Clipboard
            *[other] Copy Fingerprints To Clipboard
         }
@@ -162,7 +162,7 @@ openpgp-key-man-copy-fprs =
 # $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Copy Public Key To Clipboard
            *[other] Copy Public Keys To Clipboard
         }
@@ -174,7 +174,7 @@ openpgp-key-man-ctx-copy =
 # $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Fingerprint
            *[other] Fingerprints
         }
@@ -183,7 +183,7 @@ openpgp-key-man-ctx-copy-fprs =
 # $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Key ID
            *[other] Key IDs
         }
@@ -192,7 +192,7 @@ openpgp-key-man-ctx-copy-key-ids =
 # $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Public Key
            *[other] Public Keys
         }
@@ -339,7 +339,7 @@ openpgp-description-no-key = { -brand-short-name } doesn’t have a personal Ope
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
-    { NUMBER($count) ->
+    { $count ->
         [one] { -brand-short-name } found { $count } personal OpenPGP key associated with <b>{ $identity }</b>
        *[other] { -brand-short-name } found { $count } personal OpenPGP keys associated with <b>{ $identity }</b>
     }
@@ -665,7 +665,7 @@ file-write-failed = Failed to write to file { $output }
 no-pgp-block = Error - No valid armored OpenPGP data block found
 confirm-permissive-import = Import failed. The key you are trying to import might be corrupt or use unknown attributes. Would you like to attempt to import the parts that are correct? This might result in the import of incomplete and unusable keys.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

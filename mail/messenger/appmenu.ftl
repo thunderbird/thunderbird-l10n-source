@@ -2,269 +2,209 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Sync
 
 appmenu-sync-panel-title =
-  .title = Sync
-
+    .title = Sync
 appmenu-signin-panel =
-  .label = Sign in to Sync
-  .accesskey = i
-
+    .label = Sign in to Sync
+    .accesskey = i
 appmenu-sync-sync =
-  .value = Account Sync
-  .accesskey = A
-
+    .value = Account Sync
+    .accesskey = A
 appmenu-sync-manage =
-  .value = Manage Account
-  .accesskey = M
-
+    .value = Manage Account
+    .accesskey = M
 appmenu-sync-account =
-  .value = example@example.com
-
+    .value = example@example.com
 appmenu-sync-now =
-  .label = Sync Now
-  .accesskey = N
-
+    .label = Sync Now
+    .accesskey = N
 appmenu-sync-settings =
-  .label = Sync Settings
-  .accesskey = S
-
+    .label = Sync Settings
+    .accesskey = S
 appmenu-sync-sign-out =
-  .label = Sign Out…
-  .accesskey = O
+    .label = Sign Out…
+    .accesskey = O
 
 ## New Account
 
 appmenu-new-account-panel-title =
-  .title = New Account
-
+    .title = New Account
 appmenu-new-account-panel =
-  .label = New Account
-  .accesskey = N
-
-
-
+    .label = New Account
+    .accesskey = N
 appmenu-new-email-account =
-  .label = Email
-  .accesskey = E
-
+    .label = Email
+    .accesskey = E
 appmenu-new-calendar =
-  .label = Calendar
-  .accesskey = C
-
+    .label = Calendar
+    .accesskey = C
 appmenu-new-chat-account =
-  .label = Chat
-  .accesskey = h
-
+    .label = Chat
+    .accesskey = h
 appmenu-new-feed =
-  .label = Feed
-  .accesskey = F
-
+    .label = Feed
+    .accesskey = F
 appmenu-new-newsgroup =
-  .label = Newsgroup
-  .accesskey = N
+    .label = Newsgroup
+    .accesskey = N
 
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
-  .title = New Address Book
-
+    .title = New Address Book
 appmenu-newab-panel =
-  .label = New Address Book
-  .accesskey = A
-
+    .label = New Address Book
+    .accesskey = A
 appmenu-new-addressbook =
-  .label = Local Address Book
-  .accesskey = A
-
+    .label = Local Address Book
+    .accesskey = A
 appmenu-new-carddav =
-  .label = CardDav Address Book
-  .accesskey = C
-
+    .label = CardDav Address Book
+    .accesskey = C
 appmenu-new-ldap =
-  .label = LDAP Address Book
-  .accesskey = L
+    .label = LDAP Address Book
+    .accesskey = L
 
 ## Create
 
 appmenu-create-panel-title =
-  .title = Create
-
+    .title = Create
 appmenu-create-panel =
-  .label = Create
-  .accesskey = C
-
+    .label = Create
+    .accesskey = C
 appmenu-create-message =
-  .label = Message
-  .accesskey = M
-
+    .label = Message
+    .accesskey = M
 appmenu-create-event =
-  .label = Event
-  .accesskey = E
-
+    .label = Event
+    .accesskey = E
 appmenu-create-task =
-  .label = Task
-  .accesskey = T
-
+    .label = Task
+    .accesskey = T
 appmenu-create-contact =
-  .label = Contact
-  .accesskey = C
+    .label = Contact
+    .accesskey = C
 
 ## Open
 
 appmenu-open-file-panel =
-  .label = Open from File
-  .accesskey = O
-
+    .label = Open from File
+    .accesskey = O
 appmenu-open-file-panel-title =
-  .title = Open from File
-
+    .title = Open from File
 appmenu-open-message =
-  .label = Message…
-  .accesskey = M
-
+    .label = Message…
+    .accesskey = M
 appmenu-open-calendar =
-  .label = Calendar…
-  .accesskey = C
+    .label = Calendar…
+    .accesskey = C
 
 ## View / Layout
 
 appmenu-view-panel-title =
-  .title = View
-
+    .title = View
 appmenu-view-panel =
-  .label = View
-  .accesskey = V
-
+    .label = View
+    .accesskey = V
 appmenuitem-toggle-thread-pane-header =
-  .label = Message List Header
-
+    .label = Message List Header
 appmenu-font-size-value = Font Size
-
 appmenu-mail-uidensity-value = Density
-
 appmenu-uidensity-compact =
-  .tooltiptext = Compact
-
+    .tooltiptext = Compact
 appmenu-uidensity-default =
-  .tooltiptext = Default
-
+    .tooltiptext = Default
 appmenu-uidensity-relaxed =
-  .tooltiptext = Relaxed
-
+    .tooltiptext = Relaxed
 appmenuitem-font-size-enlarge =
-  .tooltiptext = Increase Font Size
-
+    .tooltiptext = Increase Font Size
 appmenuitem-font-size-reduce =
-  .tooltiptext = Reduce Font Size
-
+    .tooltiptext = Reduce Font Size
 # Variables:
 # $size (String) - The current font size.
 appmenuitem-font-size-reset =
-  .label = { $size }px
-  .tooltiptext = Reset Font Size
+    .label = { $size }px
+    .tooltiptext = Reset Font Size
 
 ## Tools
 
 appmenu-tools-panel-title =
-  .title = Tools
-
+    .title = Tools
 appmenu-tools-panel =
-  .label = Tools
-  .accesskey = T
-
+    .label = Tools
+    .accesskey = T
 appmenu-tools-import =
-  .label = Import
-  .accesskey = I
-
+    .label = Import
+    .accesskey = I
 appmenu-tools-export =
-  .label = Export
-  .accesskey = E
-
+    .label = Export
+    .accesskey = E
 appmenu-export-for-mobile =
-  .label = Export for Mobile
-  .accesskey = p
-
+    .label = Export for Mobile
+    .accesskey = p
 appmenu-tools-message-search =
-  .label = Search Messages
-  .accesskey = S
-
+    .label = Search Messages
+    .accesskey = S
 appmenu-tools-message-filters =
-  .label = Message Filters
-  .accesskey = F
-
+    .label = Message Filters
+    .accesskey = F
 appmenu-tools-download-manager =
-  .label = Download Manager
-  .accesskey = D
-
+    .label = Download Manager
+    .accesskey = D
 appmenu-tools-activity-manager =
-  .label = Activity Manager
-  .accesskey = A
-
+    .label = Activity Manager
+    .accesskey = A
 appmenu-tools-dev-tools =
-  .label = Developer Tools
-  .accesskey = T
+    .label = Developer Tools
+    .accesskey = T
 
 ## Help
 
 appmenu-help-panel-title =
-  .title = Help
-
+    .title = Help
 appmenu-help-get-help =
-  .label = Get Help
-  .accesskey = H
-
-
+    .label = Get Help
+    .accesskey = H
 appmenu-help-get-release-help =
     .label = Get Help with { -brand-short-name }
     .accesskey = R
-
 appmenu-help-shortcuts =
-  .label = Keyboard Shortcuts
-  .accesskey = K
-
+    .label = Keyboard Shortcuts
+    .accesskey = K
 appmenu-help-get-involved =
-  .label = Get Involved
-  .accesskey = G
-
+    .label = Get Involved
+    .accesskey = G
 appmenu-help-donation =
-  .label = Make a Donation
-  .accesskey = D
-
+    .label = Make a Donation
+    .accesskey = D
 appmenu-help-share-feedback =
-  .label = Share Ideas and Feedback
-  .accesskey = S
-
+    .label = Share Ideas and Feedback
+    .accesskey = S
 appmenu-help-enter-troubleshoot-mode2 =
-  .label = Troubleshoot Mode…
-  .accesskey = M
-
+    .label = Troubleshoot Mode…
+    .accesskey = M
 appmenu-help-exit-troubleshoot-mode2 =
-  .label = Turn Troubleshoot Mode Off
-  .accesskey = M
-
+    .label = Turn Troubleshoot Mode Off
+    .accesskey = M
 appmenu-help-troubleshooting-info =
-  .label = Troubleshooting Information
-  .accesskey = T
-
+    .label = Troubleshooting Information
+    .accesskey = T
 appmenu-help-about-product =
-  .label = About { -brand-short-name }
-  .accesskey = A
+    .label = About { -brand-short-name }
+    .accesskey = A
 
 ## Application Update
 
 appmenuitem-banner-update-downloading =
     .label = Downloading { -brand-shorter-name } update
-
 appmenuitem-banner-update-available =
     .label = Update available — download now
-
 appmenuitem-banner-update-manual =
     .label = Update available — download now
-
 appmenuitem-banner-update-unsupported =
     .label = Unable to update — system incompatible
-
 appmenuitem-banner-update-restart =
     .label = Update available — restart now
