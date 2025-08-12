@@ -158,7 +158,7 @@ account-hub-select-all = Select all
 account-hub-deselect-all = Deselect all
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } selected
        *[other] { $count } selected
     }
@@ -199,14 +199,14 @@ account-hub-fetching-sync-accounts = Discovering address books and calendars…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data =
-    { NUMBER($addressBooks) ->
+    { $addressBooks ->
         [one]
-            { NUMBER($accounts) ->
+            { $accounts ->
                 [one] 1 address book from 1 account available
                *[other] 1 address book from { $accounts } accounts available
             }
        *[other]
-            { NUMBER($accounts) ->
+            { $accounts ->
                 [one] { $addressBooks } address books from 1 account available
                *[other] { $addressBooks } address books from { $accounts } accounts available
             }

@@ -105,7 +105,7 @@ timezone-error = An unknown and undefined timezone was found while reading { $fi
 #    $count will be replaced with number of duplicate items
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } item(s) were ignored since they exist in both the destination calendar and { $filePath }.
        *[other] { $count } item(s) were ignored since they exist in both the destination calendar and { $filePath }.
     }
@@ -377,7 +377,7 @@ calendar-last2 = last
 # Alarm Dialog
 # $count reminder count
 alarm-window-title-label =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } Reminder
        *[other] { $count } Reminders
     }
@@ -406,7 +406,7 @@ alarm-default-description = Default Mozilla Description
 alarm-default-summary = Default Mozilla Summary
 # $count number of months
 alarm-snooze-limit-exceeded =
-    { NUMBER($count) ->
+    { $count ->
         [one] You cannot snooze an alarm for more than { $count } month.
        *[other] You cannot snooze an alarm for more than { $count } months.
     }
@@ -498,13 +498,13 @@ multiweek-view-week = W { $number }
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
 # $count count
 due-in-days =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } day
        *[other] { $count } days
     }
 # $count count
 due-in-hours =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } hour
        *[other] { $count } hours
     }
@@ -564,7 +564,7 @@ delete-event =
 # $count count
 calendar-properties-every-minute =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Every minute
            *[other] Every { $count } minutes
         }
@@ -580,7 +580,7 @@ extract-using-region = Using { $languageName } ({ $region })
 # Variables:
 # $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } minute
        *[other] { $count } minutes
     }
@@ -589,7 +589,7 @@ event-duration-menuitem-count-minutes =
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } hour
        *[other] { $count } hours
     }
@@ -598,7 +598,7 @@ event-duration-menuitem-count-hours =
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } day
        *[other] { $count } days
     }
@@ -607,7 +607,7 @@ event-duration-menuitem-count-days =
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } week
        *[other] { $count } weeks
     }
@@ -617,7 +617,7 @@ event-duration-menuitem-count-weeks =
 # $count (Number) - Number of minutes used to determine the correct plural form.
 event-duration-menuitem-minutes =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] minute
            *[other] minutes
         }
@@ -627,7 +627,7 @@ event-duration-label-minutes =
 # $count (Number) - Number of hours used to determine the correct plural form.
 event-duration-menuitem-hours =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] hour
            *[other] hours
         }
@@ -637,7 +637,7 @@ event-duration-label-hours =
 # $count (Number) - Number of days used to determine the correct plural form.
 event-duration-menuitem-days =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] day
            *[other] days
         }
@@ -647,7 +647,7 @@ event-duration-label-days =
 # $count (Number) - Number of weeks used to determine the correct plural form.
 event-duration-menuitem-weeks =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] week
            *[other] weeks
         }

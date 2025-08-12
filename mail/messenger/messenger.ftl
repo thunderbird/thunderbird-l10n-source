@@ -16,7 +16,7 @@ messenger-window-close-button =
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
-    { NUMBER($count) ->
+    { $count ->
         [one] 1 unread message
        *[other] { $count } unread messages
     }
@@ -147,7 +147,7 @@ menu-edit-unsubscribe-newsgroup =
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Delete Message
            *[other] Delete Selected Messages
         }
@@ -156,7 +156,7 @@ menu-edit-delete-messages =
 # $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Undelete Message
            *[other] Undelete Selected Messages
         }
@@ -225,7 +225,7 @@ mail-context-menu-forward-inline =
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] As Attachment
            *[other] As Attachments
         }
@@ -245,7 +245,7 @@ context-menu-cancel-msg =
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Delete Message
            *[other] Delete Selected Messages
         }
@@ -254,7 +254,7 @@ mail-context-messages-delete =
 # $count (Number) - Number of selected messages.
 mail-context-messages-undelete =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] Undelete Message
            *[other] Undelete Selected Messages
         }
@@ -359,7 +359,7 @@ no-reply-reply-anyway-button = Reply Anyway
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
-    { NUMBER($failures) ->
+    { $failures ->
         [one] { $failures } of { $total } messages could not be decrypted and was not copied.
        *[other] { $failures } of { $total } messages could not be decrypted and were not copied.
     }
@@ -425,7 +425,7 @@ spaces-pinned-button-menuitem-show =
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
     .title =
-        { NUMBER($count) ->
+        { $count ->
             [one] One unread message
            *[other] { $count } unread messages
         }
