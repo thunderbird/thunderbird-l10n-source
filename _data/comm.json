@@ -8912,7 +8912,9 @@
     "account-hub-simple-configuration-button",
     "address-book-finding-remote-address-books",
     "address-book-carddav-known-incompatible",
-    "address-book-carddav-connection-error"
+    "address-book-carddav-connection-error",
+    "address-book-ldap-duplicate-error",
+    "address-book-ldap-creation-error"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
