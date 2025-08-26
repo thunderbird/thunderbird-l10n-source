@@ -1475,6 +1475,7 @@
     "network.loading.description",
     "network.notfound.description",
     "network.authfail.description",
+    "network.certerror.description",
     "network.subscribe.single.description",
     "network.subscribe.multiple.description"
   ],
