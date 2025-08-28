@@ -9097,6 +9097,11 @@
     "account-setup-calendar-offline-support",
     "account-setup-calendar-offline-support.accesskey"
   ],
+  "mail/messenger/activityFeedback.ftl": [
+    "looking-for-messages-account",
+    "looking-for-messages-folder",
+    "deleting-messages"
+  ],
   "mail/messenger/addonNotifications.ftl": [
     "xpinstall-prompt",
     "xpinstall-prompt-header",
