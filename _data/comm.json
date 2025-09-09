@@ -9594,6 +9594,11 @@
     "compact-dialog-never-ask-checkbox.label",
     "compact-dialog-never-ask-checkbox.accesskey"
   ],
+  "mail/messenger/conversationview/conversationView.ftl": [
+    "total-message-count",
+    "new-message-count",
+    "unread-message-count"
+  ],
   "mail/messenger/customizableshortcuts/customizableShortcuts.ftl": [
     "shortcuts-close-button-title.title"
   ],
