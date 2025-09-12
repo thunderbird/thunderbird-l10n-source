@@ -8749,7 +8749,21 @@
     "outgoing-server-name",
     "outgoing-server-name.accesskey",
     "outgoing-server-edit.label",
-    "outgoing-server-edit.accesskey"
+    "outgoing-server-edit.accesskey",
+    "ews-url-label.value",
+    "ews-url-label.accesskey",
+    "ews-override-oauth-details.label",
+    "ews-override-oauth-details.accesskey",
+    "ews-applicationid-label.value",
+    "ews-applicationid-label.accesskey",
+    "ews-tenantid-label.value",
+    "ews-tenantid-label.accesskey",
+    "ews-redirecturi-label.value",
+    "ews-redirecturi-label.accesskey",
+    "ews-endpointhost-label.value",
+    "ews-endpointhost-label.accesskey",
+    "ews-oauthscopes-label.value",
+    "ews-oauthscopes-label.accesskey"
   ],
   "mail/messenger/accountcreation/accountHub.ftl": [
     "account-hub-brand",
@@ -8911,7 +8925,9 @@
     "address-book-carddav-known-incompatible",
     "address-book-carddav-connection-error",
     "address-book-ldap-duplicate-error",
-    "address-book-ldap-creation-error"
+    "address-book-ldap-creation-error",
+    "account-hub-email-setup-ews",
+    "account-hub-result-host-url-label"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -12127,6 +12143,14 @@
     "menuitem-shortcut-attributes.label",
     "menuitem-shortcut-attributes.accesskey",
     "menuitem-shortcut-attributes.acceltext"
+  ],
+  "mail/messenger/smime/smime.ftl": [
+    "smime-test-cert-button.label",
+    "configured-cert-not-found",
+    "configured-cert-ok-enc",
+    "configured-cert-ok-sig",
+    "configured-cert-failure-detail",
+    "configured-cert-failure"
   ],
   "mail/messenger/syncAccounts.ftl": [
     "sync-verification-sent-title",
