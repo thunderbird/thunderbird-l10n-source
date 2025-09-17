@@ -10398,8 +10398,10 @@
     "openpgp-external-key-description",
     "openpgp-external-key-info",
     "openpgp-external-key-warning",
-    "openpgp-save-external-button",
-    "openpgp-external-key-label"
+    "openpgp-external-key-label",
+    "openpgp-import-own-key-title",
+    "openpgp-import-own-key-description",
+    "openpgp-import-keyid-failed"
   ],
   "mail/messenger/openpgp/msgReadStatus.ftl": [
     "message-header-show-security-info-key",
