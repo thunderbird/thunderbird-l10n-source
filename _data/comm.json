@@ -5722,6 +5722,7 @@
     "netTimeoutError",
     "netResetError",
     "netInterruptError",
+    "errorResponseError",
     "recipientSearchCriteria",
     "fromSearchCriteria",
     "biffNotification_message",
