@@ -9609,6 +9609,10 @@
     "compact-dialog-never-ask-checkbox.label",
     "compact-dialog-never-ask-checkbox.accesskey"
   ],
+  "mail/messenger/contact-avatar.ftl": [
+    "avatar-picture-alt-text.title",
+    "avatar-picture-alt-text.alt"
+  ],
   "mail/messenger/conversationview/conversationView.ftl": [
     "total-message-count",
     "new-message-count",
