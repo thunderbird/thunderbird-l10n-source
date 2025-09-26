@@ -732,7 +732,17 @@
     "calendar-properties-unsubscribe.label",
     "calendar-properties-unsubscribe.accesskey",
     "calendar-properties-unsubscribe.buttonlabelextra1",
-    "calendar-properties-unsubscribe.buttonaccesskeyextra1"
+    "calendar-properties-unsubscribe.buttonaccesskeyextra1",
+    "calendar-alarm-dialog-title",
+    "calendar-alarm-details.value",
+    "calendar-alarm-dismiss.label",
+    "calendar-alarm-dismiss-all.label",
+    "calendar-alarm-snooze-for.label",
+    "calendar-alarm-snooze-all-for.label",
+    "calendar-alarm-snooze-preset-minutes.label",
+    "calendar-alarm-snooze-preset-hours.label",
+    "calendar-alarm-snooze-preset-days.label",
+    "calendar-alarm-snooze-cancel.aria-label"
   ],
   "calendar/calendar/categories.ftl": [
     "categories2"
@@ -1405,22 +1415,6 @@
     "calendar.orientation.accesskey",
     "calendar.search.options.searchfor",
     "calendar.list.header.label",
-    "calendar.alarm.location.label",
-    "calendar.alarm.details.label",
-    "calendar.alarm.snoozefor.label",
-    "calendar.alarm.snoozeallfor.label",
-    "calendar.alarm.title.label",
-    "calendar.alarm.dismiss.label",
-    "calendar.alarm.dismissall.label",
-    "calendar.alarm.snooze.5minutes.label",
-    "calendar.alarm.snooze.10minutes.label",
-    "calendar.alarm.snooze.15minutes.label",
-    "calendar.alarm.snooze.30minutes.label",
-    "calendar.alarm.snooze.45minutes.label",
-    "calendar.alarm.snooze.1hour.label",
-    "calendar.alarm.snooze.2hours.label",
-    "calendar.alarm.snooze.1day.label",
-    "calendar.alarm.snooze.cancel",
     "calendar.server.dialog.title.edit",
     "calendar.server.dialog.name.label",
     "calendar.publish.dialog.title",
@@ -10903,8 +10897,7 @@
     "enig-prompt",
     "enig-confirm",
     "dlg-button-retry",
-    "dlg-button-skip",
-    "enig-alert-title.title"
+    "dlg-button-skip"
   ],
   "mail/messenger/otr/add-finger.ftl": [
     "otr-add-finger-title",
