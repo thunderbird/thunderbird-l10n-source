@@ -9107,7 +9107,7 @@
   "mail/messenger/activityFeedback.ftl": [
     "looking-for-messages-account",
     "looking-for-messages-folder",
-    "deleting-messages"
+    "deleting-message"
   ],
   "mail/messenger/addonNotifications.ftl": [
     "xpinstall-prompt",
