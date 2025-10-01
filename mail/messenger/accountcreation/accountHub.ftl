@@ -60,6 +60,8 @@ account-hub-protocol-label = Protocol
 account-hub-hostname-label = Hostname
 account-hub-result-hostname-label = Hostname
     .title = Hostname
+account-hub-result-socket-type-label = Connection security
+account-hub-on-port-label = Port
 account-hub-result-authentication-label = Authentication
     .title = Authentication
 account-hub-port-label = Port
@@ -67,7 +69,7 @@ account-hub-port-label = Port
 account-hub-auto-description = { -brand-short-name } will attempt to auto-detect fields that are left blank.
 account-hub-ssl-label = Connection security
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Autodetect
@@ -78,7 +80,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Encrypted password
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = None
