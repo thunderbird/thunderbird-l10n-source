@@ -12292,6 +12292,8 @@
     "toolbar-next.title",
     "toolbar-spam-label",
     "toolbar-spam.title",
+    "toolbar-not-spam-label",
+    "toolbar-not-spam.title",
     "toolbar-delete-label",
     "toolbar-delete-title.title",
     "toolbar-undelete-label",
