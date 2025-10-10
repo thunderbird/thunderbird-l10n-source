@@ -8828,7 +8828,8 @@
     "account-hub-result-host-url-label",
     "account-hub-email-credentials-confirmation",
     "account-hub-result-unknown-hostname",
-    "account-hub-result-unknown-cert"
+    "account-hub-result-unknown-cert",
+    "account-hub-close-button.title"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
