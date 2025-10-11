@@ -127,6 +127,7 @@ account-hub-result-unknown-hostname = Unknown Hostname
 account-hub-result-unknown-cert = Unverified Certificate
 account-hub-close-button =
     .title = Close
+account-hub-email-manual-configuration = Manual configuration
 account-hub-result-username-label = Username
     .title = Username
 account-hub-name-label = Full name
