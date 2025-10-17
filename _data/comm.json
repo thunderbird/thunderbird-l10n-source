@@ -158,7 +158,8 @@
     "calendar-invitation-current-participation-status-icon-needs-action.alt",
     "allday-event",
     "recurrent-event.value",
-    "calendar-invitations-location.value",
+    "calendar-invitation-location.value",
+    "calendar-invitation-location.tooltiptext",
     "organizer.value",
     "calendar-invitations-attendee.value",
     "calendar-invitations-none"
