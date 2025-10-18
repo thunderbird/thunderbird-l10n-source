@@ -3,24 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-invitation-current-participation-status-icon-accepted =
-  .alt = Currently accepted
-
+    .alt = Currently accepted
 calendar-invitation-current-participation-status-icon-declined =
-  .alt = Currently declined
-
+    .alt = Currently declined
 calendar-invitation-current-participation-status-icon-needs-action =
-  .alt = Currently undecided
-
+    .alt = Currently undecided
 allday-event = All day event
 recurrent-event =
-  .value = Repeating event
+    .value = Repeating event
+# $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Location: { $locationProperty }
+    .tooltiptext = { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
-  .value = Location: { $locationProperty }
+    .value = Location: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
-  .value = Organizer: { $organizerProperty }
+    .value = Organizer: { $organizerProperty }
 # $attendeeProperty is the attendee of the event
 calendar-invitations-attendee =
-  .value = Attendee: { $attendeeProperty }
+    .value = Attendee: { $attendeeProperty }
 calendar-invitations-none = None
