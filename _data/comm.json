@@ -194,7 +194,12 @@
     "calendar-invitation-location.tooltiptext",
     "organizer.value",
     "calendar-invitations-attendee.value",
-    "calendar-invitations-none"
+    "calendar-invitations-none",
+    "calendar-invitations-title",
+    "calendar-invitations-status-updating",
+    "calendar-invitations-status-none",
+    "calendar-invitations-accept.label",
+    "calendar-invitations-decline.label"
   ],
   "calendar/calendar/calendar-itip-identity-dialog.ftl": [
     "calendar-itip-identity-dialog-box-title",
@@ -1446,13 +1451,6 @@
     "number.30",
     "number.31",
     "alphabet"
-  ],
-  "calendar/chrome/calendar/calendar-invitations-dialog.dtd": [
-    "calendar.invitations.dialog.invitations.text",
-    "calendar.invitations.dialog.statusmessage.updating.text",
-    "calendar.invitations.dialog.statusmessage.noinvitations.text",
-    "calendar.invitations.list.accept.button.label",
-    "calendar.invitations.list.decline.button.label"
   ],
   "calendar/chrome/calendar/calendar-occurrence-prompt.dtd": [
     "buttons.occurrence.accesskey",
