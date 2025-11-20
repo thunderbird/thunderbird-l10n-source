@@ -7189,9 +7189,7 @@
     "workOffline.accesskey",
     "selectButton.label",
     "selectButton.accesskey",
-    "MsgSelectDesc.label",
-    "MsgSelectInd.label",
-    "MsgSelectItems.label"
+    "MsgSelectDesc.label"
   ],
   "mail/chrome/messenger/msgViewPickerOverlay.dtd": [
     "viewPicker.label",
@@ -7743,9 +7741,7 @@
   ],
   "mail/chrome/messenger/virtualFolderListDialog.dtd": [
     "virtualFolderListTitle.title",
-    "virtualFolderDesc.label",
-    "folderName.label",
-    "folderSearch.label"
+    "virtualFolderDesc.label"
   ],
   "mail/chrome/messenger/virtualFolderProperties.dtd": [
     "virtualFolderProperties.title",
