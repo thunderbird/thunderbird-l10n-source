@@ -1483,18 +1483,6 @@
     "alarm.units.days"
   ],
   "calendar/chrome/calendar/global.dtd": [
-    "month.1.name",
-    "month.2.name",
-    "month.3.name",
-    "month.4.name",
-    "month.5.name",
-    "month.6.name",
-    "month.7.name",
-    "month.8.name",
-    "month.9.name",
-    "month.10.name",
-    "month.11.name",
-    "month.12.name",
     "showToday.tooltip",
     "onedayforward.tooltip",
     "onedaybackward.tooltip",
