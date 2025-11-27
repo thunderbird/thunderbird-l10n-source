@@ -9939,7 +9939,6 @@
     "message-group-not-starred",
     "message-group-starred",
     "and-others",
-    "menuitem-label-spam.label",
     "menuitem-label-spam-score-origin.label",
     "menuitem-label-spam-percentage.label",
     "menuitem-label-spam-status.label",
@@ -12124,6 +12123,19 @@
     "system-search-integration-label.accesskey",
     "check-on-startup-label.label",
     "check-on-startup-label.accesskey"
+  ],
+  "mail/messenger/searchWidgets.ftl": [
+    "search-val-priority-lowest.label",
+    "search-val-priority-low.label",
+    "search-val-priority-normal.label",
+    "search-val-priority-high.label",
+    "search-val-priority-highest.label",
+    "search-val-flag-replied.label",
+    "search-val-flag-read.label",
+    "search-val-flag-new.label",
+    "search-val-flag-forwarded.label",
+    "search-val-flag-starred.label",
+    "search-val-spam.label"
   ],
   "mail/messenger/searchbar.ftl": [
     "search-bar-search-button.alt",
