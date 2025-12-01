@@ -1483,18 +1483,6 @@
     "alarm.units.days"
   ],
   "calendar/chrome/calendar/global.dtd": [
-    "month.1.name",
-    "month.2.name",
-    "month.3.name",
-    "month.4.name",
-    "month.5.name",
-    "month.6.name",
-    "month.7.name",
-    "month.8.name",
-    "month.9.name",
-    "month.10.name",
-    "month.11.name",
-    "month.12.name",
     "showToday.tooltip",
     "onedayforward.tooltip",
     "onedaybackward.tooltip",
@@ -7189,9 +7177,7 @@
     "workOffline.accesskey",
     "selectButton.label",
     "selectButton.accesskey",
-    "MsgSelectDesc.label",
-    "MsgSelectInd.label",
-    "MsgSelectItems.label"
+    "MsgSelectDesc.label"
   ],
   "mail/chrome/messenger/msgViewPickerOverlay.dtd": [
     "viewPicker.label",
@@ -7743,9 +7729,7 @@
   ],
   "mail/chrome/messenger/virtualFolderListDialog.dtd": [
     "virtualFolderListTitle.title",
-    "virtualFolderDesc.label",
-    "folderName.label",
-    "folderSearch.label"
+    "virtualFolderDesc.label"
   ],
   "mail/chrome/messenger/virtualFolderProperties.dtd": [
     "virtualFolderProperties.title",
@@ -9955,7 +9939,6 @@
     "message-group-not-starred",
     "message-group-starred",
     "and-others",
-    "menuitem-label-spam.label",
     "menuitem-label-spam-score-origin.label",
     "menuitem-label-spam-percentage.label",
     "menuitem-label-spam-status.label",
@@ -12140,6 +12123,19 @@
     "system-search-integration-label.accesskey",
     "check-on-startup-label.label",
     "check-on-startup-label.accesskey"
+  ],
+  "mail/messenger/searchWidgets.ftl": [
+    "search-val-priority-lowest.label",
+    "search-val-priority-low.label",
+    "search-val-priority-normal.label",
+    "search-val-priority-high.label",
+    "search-val-priority-highest.label",
+    "search-val-flag-replied.label",
+    "search-val-flag-read.label",
+    "search-val-flag-new.label",
+    "search-val-flag-forwarded.label",
+    "search-val-flag-starred.label",
+    "search-val-spam.label"
   ],
   "mail/messenger/searchbar.ftl": [
     "search-bar-search-button.alt",
