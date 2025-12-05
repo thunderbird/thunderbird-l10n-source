@@ -6935,8 +6935,6 @@
     "convertRegularAttachment.accesskey",
     "attachPage.label",
     "attachPage.accesskey",
-    "initiallyShowAttachmentPane.label",
-    "initiallyShowAttachmentPane.accesskey",
     "spellAddDictionaries.label",
     "spellAddDictionaries.accesskey",
     "addressesSidebarTitle.label",
@@ -8755,6 +8753,8 @@
     "account-hub-result-unknown-hostname",
     "account-hub-result-unknown-cert",
     "account-hub-close-button.title",
+    "account-hub-minimize-button.title",
+    "account-hub-maximize-button.title",
     "account-hub-email-manual-configuration",
     "account-hub-notification-unknown-host",
     "account-hub-ssl-noencryption"
