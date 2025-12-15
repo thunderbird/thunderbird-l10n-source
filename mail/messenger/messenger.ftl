@@ -140,6 +140,20 @@ folder-name-all-mail = All Mail
 menu-file-save-as-file =
     .label = File…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Compact Folder
+           *[other] Compact Folders
+        }
+    .accesskey = F
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Compact All Folders
+    .accesskey = F
 
 ## Edit Menu
 
@@ -517,7 +531,7 @@ menu-delete-spam =
 
 folder-context-empty-spam =
     .label = Empty Spam
-    .accesskey = S
+    .accesskey = E
 
 ## Thread pane.
 
@@ -541,7 +555,6 @@ archive-action = Archive
 
 ## Message list.
 
-message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
 menuitem-label-spam-score-origin =
