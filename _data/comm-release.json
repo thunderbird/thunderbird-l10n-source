@@ -194,7 +194,12 @@
     "calendar-invitation-location.tooltiptext",
     "organizer.value",
     "calendar-invitations-attendee.value",
-    "calendar-invitations-none"
+    "calendar-invitations-none",
+    "calendar-invitations-title",
+    "calendar-invitations-status-updating",
+    "calendar-invitations-status-none",
+    "calendar-invitations-accept.label",
+    "calendar-invitations-decline.label"
   ],
   "calendar/calendar/calendar-itip-identity-dialog.ftl": [
     "calendar-itip-identity-dialog-box-title",
@@ -1447,13 +1452,6 @@
     "number.31",
     "alphabet"
   ],
-  "calendar/chrome/calendar/calendar-invitations-dialog.dtd": [
-    "calendar.invitations.dialog.invitations.text",
-    "calendar.invitations.dialog.statusmessage.updating.text",
-    "calendar.invitations.dialog.statusmessage.noinvitations.text",
-    "calendar.invitations.list.accept.button.label",
-    "calendar.invitations.list.decline.button.label"
-  ],
   "calendar/chrome/calendar/calendar-occurrence-prompt.dtd": [
     "buttons.occurrence.accesskey",
     "buttons.allfollowing.accesskey",
@@ -1485,18 +1483,6 @@
     "alarm.units.days"
   ],
   "calendar/chrome/calendar/global.dtd": [
-    "month.1.name",
-    "month.2.name",
-    "month.3.name",
-    "month.4.name",
-    "month.5.name",
-    "month.6.name",
-    "month.7.name",
-    "month.8.name",
-    "month.9.name",
-    "month.10.name",
-    "month.11.name",
-    "month.12.name",
     "showToday.tooltip",
     "onedayforward.tooltip",
     "onedaybackward.tooltip",
@@ -4735,8 +4721,6 @@
     "renameFolder.label",
     "renameFolder.accesskey",
     "renameFolder.key",
-    "compactFolders.label",
-    "compactFolders.accesskey",
     "emptyTrashCmd.label",
     "emptyTrashCmd.accesskey",
     "offlineMenu.label",
@@ -5214,8 +5198,6 @@
     "folderContextRename.accesskey",
     "folderContextRemove.label",
     "folderContextRemove.accesskey",
-    "folderContextCompact.label",
-    "folderContextCompact.accesskey",
     "folderContextEmptyTrash.label",
     "folderContextEmptyTrash.accesskey",
     "folderContextSendUnsentMessages.label",
@@ -6953,8 +6935,6 @@
     "convertRegularAttachment.accesskey",
     "attachPage.label",
     "attachPage.accesskey",
-    "initiallyShowAttachmentPane.label",
-    "initiallyShowAttachmentPane.accesskey",
     "spellAddDictionaries.label",
     "spellAddDictionaries.accesskey",
     "addressesSidebarTitle.label",
@@ -7191,9 +7171,7 @@
     "workOffline.accesskey",
     "selectButton.label",
     "selectButton.accesskey",
-    "MsgSelectDesc.label",
-    "MsgSelectInd.label",
-    "MsgSelectItems.label"
+    "MsgSelectDesc.label"
   ],
   "mail/chrome/messenger/msgViewPickerOverlay.dtd": [
     "viewPicker.label",
@@ -7745,9 +7723,7 @@
   ],
   "mail/chrome/messenger/virtualFolderListDialog.dtd": [
     "virtualFolderListTitle.title",
-    "virtualFolderDesc.label",
-    "folderName.label",
-    "folderSearch.label"
+    "virtualFolderDesc.label"
   ],
   "mail/chrome/messenger/virtualFolderProperties.dtd": [
     "virtualFolderProperties.title",
@@ -8099,6 +8075,7 @@
     "folder-pane-header-context-hide.label",
     "folder-pane-show-total-toggle.label",
     "folder-pane-header-toggle-folder-size.label",
+    "folder-pane-header-toggle-full-path.label",
     "folder-pane-header-hide-local-folders.label",
     "folder-pane-mode-context-button.title",
     "folder-pane-mode-context-toggle-compact-mode.label",
@@ -8244,7 +8221,11 @@
     "folder-pane-context-mark-folder-read.label",
     "folder-pane-context-mark-folder-read.accesskey",
     "folder-pane-context-reset-sort.label",
-    "folder-pane-context-reset-sort.accesskey"
+    "folder-pane-context-reset-sort.accesskey",
+    "folder-pane-context-compact.label",
+    "folder-pane-context-compact.accesskey",
+    "folder-pane-context-compact-all.label",
+    "folder-pane-context-compact-all.accesskey"
   ],
   "mail/messenger/aboutAddonsExtra.ftl": [
     "add-on-options-button.title",
@@ -8772,6 +8753,8 @@
     "account-hub-result-unknown-hostname",
     "account-hub-result-unknown-cert",
     "account-hub-close-button.title",
+    "account-hub-minimize-button.title",
+    "account-hub-maximize-button.title",
     "account-hub-email-manual-configuration",
     "account-hub-notification-unknown-host",
     "account-hub-ssl-noencryption"
@@ -9756,9 +9739,14 @@
     "show-tags-folders-label.accesskey",
     "folder-toolbar-toggle-folder-compact-view.label",
     "folder-toolbar-toggle-folder-compact-view.accesskey",
+    "folder-name-all-mail",
     "folder-name-spam",
     "menu-file-save-as-file.label",
     "menu-file-save-as-file.accesskey",
+    "menu-file-compact.label",
+    "menu-file-compact.accesskey",
+    "menu-file-compact-all.label",
+    "menu-file-compact-all.accesskey",
     "menu-edit-delete-folder.label",
     "menu-edit-delete-folder.accesskey",
     "menu-edit-unsubscribe-newsgroup.label",
@@ -9955,7 +9943,6 @@
     "message-group-not-starred",
     "message-group-starred",
     "and-others",
-    "menuitem-label-spam.label",
     "menuitem-label-spam-score-origin.label",
     "menuitem-label-spam-percentage.label",
     "menuitem-label-spam-status.label",
@@ -12140,6 +12127,19 @@
     "system-search-integration-label.accesskey",
     "check-on-startup-label.label",
     "check-on-startup-label.accesskey"
+  ],
+  "mail/messenger/searchWidgets.ftl": [
+    "search-val-priority-lowest.label",
+    "search-val-priority-low.label",
+    "search-val-priority-normal.label",
+    "search-val-priority-high.label",
+    "search-val-priority-highest.label",
+    "search-val-flag-replied.label",
+    "search-val-flag-read.label",
+    "search-val-flag-new.label",
+    "search-val-flag-forwarded.label",
+    "search-val-flag-starred.label",
+    "search-val-spam.label"
   ],
   "mail/messenger/searchbar.ftl": [
     "search-bar-search-button.alt",
