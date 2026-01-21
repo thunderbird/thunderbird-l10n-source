@@ -7668,7 +7668,7 @@
     "redirectLoop",
     "confirmRepostPrompt",
     "resendButton.label",
-    "unknownSocketType",
+    "clientSocketMisconfiguration",
     "netReset",
     "notCached",
     "netOffline",
