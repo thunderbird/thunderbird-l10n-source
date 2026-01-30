@@ -387,6 +387,9 @@
     "high-priority",
     "normal-priority",
     "low-priority",
+    "status-priority-img-high-priority.alt",
+    "status-priority-img-normal-priority.alt",
+    "status-priority-img-low-priority.alt",
     "import-prompt",
     "export-prompt",
     "paste-prompt",
@@ -5524,7 +5527,6 @@
     "tagExists",
     "editTagTitle",
     "editVirtualFolderPropertiesTitle",
-    "virtualFolderSourcesChosen",
     "alertNoSearchFoldersSelected",
     "byteAbbreviation2",
     "kiloByteAbbreviation2",
@@ -12224,8 +12226,8 @@
   "mail/messenger/unifiedToolbar.ftl": [
     "search-bar-button.alt",
     "search-bar-item2.label",
-    "search-bar-placeholder",
-    "search-bar-placeholder-with-key2",
+    "search-bar-placeholder-search-shortcut",
+    "search-bar-placeholder-with-key",
     "customize-menu-customize.label",
     "toolbar-get-all-messages-menuitem.label",
     "toolbar-get-all-messages-menuitem.accesskey",
@@ -12390,6 +12392,9 @@
     "text-action-find.accesskey",
     "text-action-find-again.label",
     "text-action-find-again.accesskey"
+  ],
+  "mail/messenger/virtualFolderProperties.ftl": [
+    "virtual-folder-sources-chosen"
   ],
   "mail/updater/updater.ini": [
     "Strings.TitleText",
