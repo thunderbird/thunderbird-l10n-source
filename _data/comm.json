@@ -4100,10 +4100,7 @@
     "mustHaveFilterTypeMessage",
     "deleteFilterConfirmation",
     "matchAllFilterName",
-    "filterListBackUpMsg",
     "customHeaderOverflow",
-    "invalidCustomHeader",
-    "continueFilterExecution",
     "promptTitle",
     "promptMsg",
     "stopButtonLabel",
@@ -7812,6 +7809,10 @@
     "langpack-creator",
     "langpack-contributors"
   ],
+  "mail/messenger/EdReplace.ftl": [
+    "not-found-alert-title",
+    "not-found-alert-message"
+  ],
   "mail/messenger/about3Pane.ftl": [
     "quick-filter-button.title",
     "quick-filter-button-label",
@@ -9352,7 +9353,10 @@
     "filter-action-log-unread",
     "filter-editor-must-select-target-folder",
     "filter-editor-enter-valid-email-forward",
-    "filter-editor-pick-template-reply"
+    "filter-editor-pick-template-reply",
+    "filter-continue-execution",
+    "filter-list-backup-message",
+    "filter-invalid-custom-header"
   ],
   "mail/messenger/flatpak.ftl": [
     "flatpak-desktop-name",
