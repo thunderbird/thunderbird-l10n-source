@@ -9213,7 +9213,13 @@
     "calendar-dialog-more-categories",
     "calendar-dialog-more-categories.title",
     "calendar-dialog-delete-reminder-button.alt",
-    "calendar-dialog-reminder-count"
+    "calendar-dialog-reminder-count",
+    "calendar-dialog-accept",
+    "calendar-dialog-accept.title",
+    "calendar-dialog-accept-tentative",
+    "calendar-dialog-accept-tentative.title",
+    "calendar-dialog-decline",
+    "calendar-dialog-decline.title"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
