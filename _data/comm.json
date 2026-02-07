@@ -2957,15 +2957,6 @@
     "clickFinish.label",
     "clickFinish.labelMac"
   ],
-  "mail/chrome/messenger/CustomHeaders.dtd": [
-    "window.title",
-    "addButton.label",
-    "addButton.accesskey",
-    "removeButton.label",
-    "removeButton.accesskey",
-    "newMsgHeader.label",
-    "newMsgHeader.accesskey"
-  ],
   "mail/chrome/messenger/FilterEditor.dtd": [
     "window.title",
     "filterName.label",
@@ -4023,9 +4014,6 @@
     "converterDialog.messageForDeferredAccount",
     "converterDialog.percentDone"
   ],
-  "mail/chrome/messenger/custom.properties": [
-    "colonInHeaderName"
-  ],
   "mail/chrome/messenger/customizeToolbar.dtd": [
     "dialog.title",
     "dialog.dimensions",
@@ -4098,7 +4086,6 @@
     "mustHaveFilterTypeMessage",
     "deleteFilterConfirmation",
     "matchAllFilterName",
-    "customHeaderOverflow",
     "promptTitle",
     "promptMsg",
     "stopButtonLabel",
@@ -4114,8 +4101,6 @@
     "filterActionItem",
     "filterCountVisibleOfTotal",
     "filterCountItems",
-    "filterLogLine",
-    "filterMessage",
     "filterAutoNameStr"
   ],
   "mail/chrome/messenger/folderProps.dtd": [
@@ -4174,13 +4159,6 @@
     "numberUnknown.label",
     "sizeOnDisk.label",
     "sizeUnknown.label"
-  ],
-  "mail/chrome/messenger/folderWidgets.properties": [
-    "globalInbox",
-    "verboseFolderFormat",
-    "chooseFolder",
-    "chooseAccount",
-    "noFolders"
   ],
   "mail/chrome/messenger/folderpane.dtd": [
     "nameColumn.label",
@@ -9288,6 +9266,17 @@
     "new-message-count",
     "unread-message-count"
   ],
+  "mail/messenger/customHeaders.ftl": [
+    "custom-headers-window",
+    "custom-headers-new-msg-header.value",
+    "custom-headers-new-msg-header.accesskey",
+    "custom-headers-add-button.label",
+    "custom-headers-add-button.accesskey",
+    "custom-headers-remove-button.label",
+    "custom-headers-remove-button.accesskey",
+    "custom-headers-overflow",
+    "custom-headers-colon-in-header"
+  ],
   "mail/messenger/customizableshortcuts/customizableShortcuts.ftl": [
     "shortcuts-close-button-title.title"
   ],
@@ -9355,6 +9344,8 @@
     "filter-action-log-tagged",
     "filter-action-log-ignore-subthread",
     "filter-action-log-unread",
+    "filter-log-line",
+    "filter-log-message",
     "filter-editor-must-select-target-folder",
     "filter-editor-enter-valid-email-forward",
     "filter-editor-pick-template-reply",
@@ -9370,6 +9361,13 @@
     "flatpak-desktop-action-addressbook",
     "flatpak-desktop-action-calendar",
     "flatpak-desktop-action-keymanager"
+  ],
+  "mail/messenger/folderWidgets.ftl": [
+    "folder-widgets-global-inbox",
+    "folder-widgets-verbose-folder-format",
+    "folder-widgets-choose-folder",
+    "folder-widgets-choose-account",
+    "folder-widgets-no-folders"
   ],
   "mail/messenger/folderprops.ftl": [
     "quota-percent-used"
