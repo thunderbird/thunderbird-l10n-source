@@ -2819,10 +2819,6 @@
     "subscribe-OPMLExportFileDialogTitle",
     "subscribe-OPMLExportDefaultFileName",
     "subscribe-OPMLImportInvalidFile",
-    "subscribe-OPMLImportFeedCount",
-    "subscribe-OPMLImportUniqueFeeds",
-    "subscribe-OPMLImportFoundFeeds",
-    "subscribe-OPMLImportStatus",
     "subscribe-OPMLExportOPMLFilesFilterText",
     "subscribe-OPMLExportDone",
     "subscribe-confirmFeedDeletionTitle",
@@ -2975,7 +2971,6 @@
     "contextOutgoing.accesskey",
     "contextArchive.label",
     "contextArchive.accesskey",
-    "contextPeriodic.accesskey",
     "filterActionDesc.label",
     "filterActionDesc.accesskey",
     "filterActionOrderWarning.label",
@@ -3992,8 +3987,7 @@
     "log.yesterday",
     "log.currentWeek",
     "log.previousWeek",
-    "messagePreview",
-    "bundledMessagePreview"
+    "messagePreview"
   ],
   "mail/chrome/messenger/configEditorOverlay.dtd": [
     "closeCmd.key"
@@ -4093,7 +4087,6 @@
     "cannotEnableIncompatFilter",
     "dontWarnAboutDeleteCheckbox",
     "copyToNewFilterName",
-    "contextPeriodic.label",
     "searchTermsInvalidTitle",
     "searchTermsInvalidRule",
     "filterActionOrderExplanation",
@@ -5437,7 +5430,6 @@
     "newMailNotification_message",
     "newMailNotification_messages",
     "newMailNotification_messagetitle",
-    "newMailAlert_message",
     "confirmViewDeleteTitle",
     "confirmViewDeleteMessage",
     "confirmSavedSearchTitle",
@@ -7057,19 +7049,6 @@
     "MdnDeniedReceipt",
     "MdnFailedReceipt"
   ],
-  "mail/chrome/messenger/multimessageview.properties": [
-    "numConversations",
-    "atLeastNumConversations",
-    "numMessages",
-    "numUnread",
-    "numIgnored",
-    "atLeastNumIgnored",
-    "noSubject",
-    "messagesTotalSize",
-    "messagesTotalSizeMoreThan",
-    "maxCountExceeded",
-    "maxThreadCountExceeded"
-  ],
   "mail/chrome/messenger/newFolderDialog.dtd": [
     "newFolderDialog.title",
     "name.label",
@@ -7176,7 +7155,6 @@
     "noCookieSelected",
     "cookiesAll",
     "cookiesFiltered",
-    "removeSelectedCookies",
     "defaultUserContextLabel",
     "actualDiskCacheSize",
     "actualDiskCacheSizeCalculated",
@@ -7362,9 +7340,6 @@
     "telemetryYesButtonAccessKey",
     "telemetryNoButtonLabel",
     "telemetryNoButtonAccessKey"
-  ],
-  "mail/chrome/messenger/templateUtils.properties": [
-    "yesterday"
   ],
   "mail/chrome/messenger/textImportMsgs.properties": [
     "2000",
@@ -9243,7 +9218,8 @@
     "chat-conv-invite-accept.label",
     "chat-conv-invite-accept.accesskey",
     "chat-conv-invite-deny.label",
-    "chat-conv-invite-deny.accesskey"
+    "chat-conv-invite-deny.accesskey",
+    "bundled-message-preview"
   ],
   "mail/messenger/compactFoldersDialog.ftl": [
     "compact-folders-dialog-title",
@@ -9311,11 +9287,18 @@
     "webext-perms-learn-more",
     "addon-post-install-message"
   ],
+  "mail/messenger/feeds.ftl": [
+    "subscribe-opml-import-unique-feeds",
+    "subscribe-opml-import-found-feeds",
+    "subscribe-opml-import-feed-count"
+  ],
   "mail/messenger/filterEditor.ftl": [
     "rule-menuitem-spam.label",
     "rule-menuitem-not-spam.label",
     "run-filter-before-spam.label",
     "run-filter-after-spam.label",
+    "run-periodically.label",
+    "run-periodically.accesskey",
     "rule-action-set-spam-status.label",
     "spam-message-detection-log",
     "filter-failure-warning-prefix",
@@ -10024,7 +10007,21 @@
     "multi-message-delete-button.label",
     "multi-message-delete-button.tooltiptext",
     "multi-message-undelete-button.label",
-    "multi-message-undelete-button.tooltiptext"
+    "multi-message-undelete-button.tooltiptext",
+    "num-conversations",
+    "at-least-num-conversations",
+    "num-messages",
+    "num-unread",
+    "num-ignored",
+    "at-least-num-ignored",
+    "no-subject",
+    "messages-total-size",
+    "messages-total-size-more-than",
+    "max-count-exceeded",
+    "max-thread-count-exceeded"
+  ],
+  "mail/messenger/newmailalert.ftl": [
+    "new-mail-alert-message"
   ],
   "mail/messenger/news.ftl": [
     "new-newsgroup-headers",
@@ -11089,7 +11086,8 @@
     "remove-all-cookies-button.label",
     "remove-all-cookies-button.accesskey",
     "cookie-close-button.label",
-    "cookie-close-button.accesskey"
+    "cookie-close-button.accesskey",
+    "remove-selected-cookies.label"
   ],
   "mail/messenger/preferences/dock-options.ftl": [
     "dock-options-dialog-title",
