@@ -4310,7 +4310,6 @@
     "accountsManager.notification.safeMode.label",
     "accountsManager.notification.startOffline.label",
     "accountsManager.notification.crash.label",
-    "accountsManager.notification.singleCrash.label",
     "accountsManager.notification.other.label"
   ],
   "mail/chrome/messenger/imapMsgs.properties": [
@@ -5436,10 +5435,6 @@
     "confirmSavedSearchDeleteMessage",
     "passwordPrompt",
     "passwordTitle",
-    "openWindowWarningTitle",
-    "openWindowWarningConfirmation",
-    "openTabWarningTitle",
-    "openTabWarningConfirmation",
     "tagExists",
     "editTagTitle",
     "editVirtualFolderPropertiesTitle",
@@ -5533,10 +5528,6 @@
     "undoIgnoreThreadAccessKey",
     "undoIgnoreSubthread",
     "undoIgnoreSubthreadAccessKey",
-    "ignoredThreadFeedback",
-    "ignoredSubthreadFeedback",
-    "ignoredThreadsFeedback",
-    "ignoredSubthreadsFeedback",
     "saveAsType",
     "openSearch.label",
     "openSearch.label.truncated",
@@ -9355,6 +9346,9 @@
   "mail/messenger/folderprops.ftl": [
     "quota-percent-used"
   ],
+  "mail/messenger/imAccounts.ftl": [
+    "notification-single-crash-label"
+  ],
   "mail/messenger/importDialog.ftl": [
     "thunderbird-import-name",
     "thunderbird-import-description",
@@ -9540,6 +9534,10 @@
     "messenger-window-close-button.tooltiptext",
     "unread-messages-os-tooltip",
     "about-rights-notification-text",
+    "open-windows-warning-confirmation-title",
+    "open-windows-warning-confirmation",
+    "open-tabs-warning-confirmation-title",
+    "open-tabs-warning-confirmation",
     "content-tab-page-loading-icon.alt",
     "content-tab-security-high-icon.alt",
     "content-tab-security-broken-icon.alt",
@@ -9816,7 +9814,9 @@
     "prompt-empty-folder-message",
     "prompt-dont-ask-again",
     "spam-analysis-percentage",
-    "spam-processing-message"
+    "spam-processing-message",
+    "ignored-theads-feedback",
+    "ignored-subtheads-feedback"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
