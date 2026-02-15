@@ -4234,7 +4234,6 @@
     "glodaFacetView.constraints.query.initial",
     "glodaFacetView.constraints.query.involves.label",
     "glodaFacetView.constraints.query.tagged.label",
-    "glodaFacetView.facets.mode.top.listAllLabel",
     "glodaFacetView.facets.included.fallbackLabel",
     "glodaFacetView.facets.excluded.fallbackLabel",
     "glodaFacetView.facets.remainder.fallbackLabel",
@@ -4249,14 +4248,9 @@
     "glodaFacetView.result.message.fromLabel",
     "glodaFacetView.result.message.toLabel",
     "glodaFacetView.result.message.noSubject",
-    "glodaFacetView.results.header.countLabel.NMessages",
-    "glodaFacetView.results.header.countLabel.ofN",
-    "glodaFacetView.results.header.countLabel.grouping",
     "glodaFacetView.results.message.timeline.label",
     "glodaFacetView.results.message.sort.relevance2",
-    "glodaFacetView.results.message.sort.date2",
-    "glodaFacetView.results.message.recipientSeparator",
-    "glodaFacetView.results.message.andOthers"
+    "glodaFacetView.results.message.sort.date2"
   ],
   "mail/chrome/messenger/imAccountWizard.dtd": [
     "windowTitle.label",
@@ -9345,6 +9339,11 @@
   ],
   "mail/messenger/folderprops.ftl": [
     "quota-percent-used"
+  ],
+  "mail/messenger/glodaFacetView.ftl": [
+    "items-m-of-n",
+    "facets-mode-to-list-all-label",
+    "facet-view-and-others"
   ],
   "mail/messenger/imAccounts.ftl": [
     "notification-single-crash-label"
