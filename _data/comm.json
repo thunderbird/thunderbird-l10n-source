@@ -2819,10 +2819,6 @@
     "subscribe-OPMLExportFileDialogTitle",
     "subscribe-OPMLExportDefaultFileName",
     "subscribe-OPMLImportInvalidFile",
-    "subscribe-OPMLImportFeedCount",
-    "subscribe-OPMLImportUniqueFeeds",
-    "subscribe-OPMLImportFoundFeeds",
-    "subscribe-OPMLImportStatus",
     "subscribe-OPMLExportOPMLFilesFilterText",
     "subscribe-OPMLExportDone",
     "subscribe-confirmFeedDeletionTitle",
@@ -2975,7 +2971,6 @@
     "contextOutgoing.accesskey",
     "contextArchive.label",
     "contextArchive.accesskey",
-    "contextPeriodic.accesskey",
     "filterActionDesc.label",
     "filterActionDesc.accesskey",
     "filterActionOrderWarning.label",
@@ -3992,8 +3987,7 @@
     "log.yesterday",
     "log.currentWeek",
     "log.previousWeek",
-    "messagePreview",
-    "bundledMessagePreview"
+    "messagePreview"
   ],
   "mail/chrome/messenger/configEditorOverlay.dtd": [
     "closeCmd.key"
@@ -4093,7 +4087,6 @@
     "cannotEnableIncompatFilter",
     "dontWarnAboutDeleteCheckbox",
     "copyToNewFilterName",
-    "contextPeriodic.label",
     "searchTermsInvalidTitle",
     "searchTermsInvalidRule",
     "filterActionOrderExplanation",
@@ -4241,7 +4234,6 @@
     "glodaFacetView.constraints.query.initial",
     "glodaFacetView.constraints.query.involves.label",
     "glodaFacetView.constraints.query.tagged.label",
-    "glodaFacetView.facets.mode.top.listAllLabel",
     "glodaFacetView.facets.included.fallbackLabel",
     "glodaFacetView.facets.excluded.fallbackLabel",
     "glodaFacetView.facets.remainder.fallbackLabel",
@@ -4256,14 +4248,9 @@
     "glodaFacetView.result.message.fromLabel",
     "glodaFacetView.result.message.toLabel",
     "glodaFacetView.result.message.noSubject",
-    "glodaFacetView.results.header.countLabel.NMessages",
-    "glodaFacetView.results.header.countLabel.ofN",
-    "glodaFacetView.results.header.countLabel.grouping",
     "glodaFacetView.results.message.timeline.label",
     "glodaFacetView.results.message.sort.relevance2",
-    "glodaFacetView.results.message.sort.date2",
-    "glodaFacetView.results.message.recipientSeparator",
-    "glodaFacetView.results.message.andOthers"
+    "glodaFacetView.results.message.sort.date2"
   ],
   "mail/chrome/messenger/imAccountWizard.dtd": [
     "windowTitle.label",
@@ -4317,7 +4304,6 @@
     "accountsManager.notification.safeMode.label",
     "accountsManager.notification.startOffline.label",
     "accountsManager.notification.crash.label",
-    "accountsManager.notification.singleCrash.label",
     "accountsManager.notification.other.label"
   ],
   "mail/chrome/messenger/imapMsgs.properties": [
@@ -5437,17 +5423,12 @@
     "newMailNotification_message",
     "newMailNotification_messages",
     "newMailNotification_messagetitle",
-    "newMailAlert_message",
     "confirmViewDeleteTitle",
     "confirmViewDeleteMessage",
     "confirmSavedSearchTitle",
     "confirmSavedSearchDeleteMessage",
     "passwordPrompt",
     "passwordTitle",
-    "openWindowWarningTitle",
-    "openWindowWarningConfirmation",
-    "openTabWarningTitle",
-    "openTabWarningConfirmation",
     "tagExists",
     "editTagTitle",
     "editVirtualFolderPropertiesTitle",
@@ -5541,10 +5522,6 @@
     "undoIgnoreThreadAccessKey",
     "undoIgnoreSubthread",
     "undoIgnoreSubthreadAccessKey",
-    "ignoredThreadFeedback",
-    "ignoredSubthreadFeedback",
-    "ignoredThreadsFeedback",
-    "ignoredSubthreadsFeedback",
     "saveAsType",
     "openSearch.label",
     "openSearch.label.truncated",
@@ -7057,19 +7034,6 @@
     "MdnDeniedReceipt",
     "MdnFailedReceipt"
   ],
-  "mail/chrome/messenger/multimessageview.properties": [
-    "numConversations",
-    "atLeastNumConversations",
-    "numMessages",
-    "numUnread",
-    "numIgnored",
-    "atLeastNumIgnored",
-    "noSubject",
-    "messagesTotalSize",
-    "messagesTotalSizeMoreThan",
-    "maxCountExceeded",
-    "maxThreadCountExceeded"
-  ],
   "mail/chrome/messenger/newFolderDialog.dtd": [
     "newFolderDialog.title",
     "name.label",
@@ -7176,7 +7140,6 @@
     "noCookieSelected",
     "cookiesAll",
     "cookiesFiltered",
-    "removeSelectedCookies",
     "defaultUserContextLabel",
     "actualDiskCacheSize",
     "actualDiskCacheSizeCalculated",
@@ -7362,9 +7325,6 @@
     "telemetryYesButtonAccessKey",
     "telemetryNoButtonLabel",
     "telemetryNoButtonAccessKey"
-  ],
-  "mail/chrome/messenger/templateUtils.properties": [
-    "yesterday"
   ],
   "mail/chrome/messenger/textImportMsgs.properties": [
     "2000",
@@ -9243,7 +9203,8 @@
     "chat-conv-invite-accept.label",
     "chat-conv-invite-accept.accesskey",
     "chat-conv-invite-deny.label",
-    "chat-conv-invite-deny.accesskey"
+    "chat-conv-invite-deny.accesskey",
+    "bundled-message-preview"
   ],
   "mail/messenger/compactFoldersDialog.ftl": [
     "compact-folders-dialog-title",
@@ -9311,11 +9272,18 @@
     "webext-perms-learn-more",
     "addon-post-install-message"
   ],
+  "mail/messenger/feeds.ftl": [
+    "subscribe-opml-import-unique-feeds",
+    "subscribe-opml-import-found-feeds",
+    "subscribe-opml-import-feed-count"
+  ],
   "mail/messenger/filterEditor.ftl": [
     "rule-menuitem-spam.label",
     "rule-menuitem-not-spam.label",
     "run-filter-before-spam.label",
     "run-filter-after-spam.label",
+    "run-periodically.label",
+    "run-periodically.accesskey",
     "rule-action-set-spam-status.label",
     "spam-message-detection-log",
     "filter-failure-warning-prefix",
@@ -9371,6 +9339,14 @@
   ],
   "mail/messenger/folderprops.ftl": [
     "quota-percent-used"
+  ],
+  "mail/messenger/glodaFacetView.ftl": [
+    "items-m-of-n",
+    "facets-mode-to-list-all-label",
+    "facet-view-and-others"
+  ],
+  "mail/messenger/imAccounts.ftl": [
+    "notification-single-crash-label"
   ],
   "mail/messenger/importDialog.ftl": [
     "thunderbird-import-name",
@@ -9557,6 +9533,10 @@
     "messenger-window-close-button.tooltiptext",
     "unread-messages-os-tooltip",
     "about-rights-notification-text",
+    "open-windows-warning-confirmation-title",
+    "open-windows-warning-confirmation",
+    "open-tabs-warning-confirmation-title",
+    "open-tabs-warning-confirmation",
     "content-tab-page-loading-icon.alt",
     "content-tab-security-high-icon.alt",
     "content-tab-security-broken-icon.alt",
@@ -9833,7 +9813,9 @@
     "prompt-empty-folder-message",
     "prompt-dont-ask-again",
     "spam-analysis-percentage",
-    "spam-processing-message"
+    "spam-processing-message",
+    "ignored-theads-feedback",
+    "ignored-subtheads-feedback"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
@@ -10024,7 +10006,21 @@
     "multi-message-delete-button.label",
     "multi-message-delete-button.tooltiptext",
     "multi-message-undelete-button.label",
-    "multi-message-undelete-button.tooltiptext"
+    "multi-message-undelete-button.tooltiptext",
+    "num-conversations",
+    "at-least-num-conversations",
+    "num-messages",
+    "num-unread",
+    "num-ignored",
+    "at-least-num-ignored",
+    "no-subject",
+    "messages-total-size",
+    "messages-total-size-more-than",
+    "max-count-exceeded",
+    "max-thread-count-exceeded"
+  ],
+  "mail/messenger/newmailalert.ftl": [
+    "new-mail-alert-message"
   ],
   "mail/messenger/news.ftl": [
     "new-newsgroup-headers",
@@ -11089,7 +11085,8 @@
     "remove-all-cookies-button.label",
     "remove-all-cookies-button.accesskey",
     "cookie-close-button.label",
-    "cookie-close-button.accesskey"
+    "cookie-close-button.accesskey",
+    "remove-selected-cookies.label"
   ],
   "mail/messenger/preferences/dock-options.ftl": [
     "dock-options-dialog-title",

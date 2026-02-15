@@ -3,30 +3,22 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 chat-joining-chat-icon2 =
-  .alt = Joining chat
-
+    .alt = Joining chat
 chat-left-chat-icon2 =
-  .alt = Left chat
-
+    .alt = Left chat
 chat-participant-owner-role-icon2 =
-  .alt = Owner
-
+    .alt = Owner
 chat-participant-administrator-role-icon2 =
-  .alt = Administrator
-
+    .alt = Administrator
 chat-participant-moderator-role-icon2 =
-  .alt = Moderator
-
+    .alt = Moderator
 chat-participant-voiced-role-icon2 =
-  .alt = Participant can post messages
-
+    .alt = Participant can post messages
 chat-verify-identity =
-  .label = Verify Identity
-  .accesskey = I
-
+    .label = Verify Identity
+    .accesskey = I
 chat-identity-verified =
-  .label = Identity already verified
-
+    .label = Identity already verified
 chat-buddy-identity-status = Encryption Trust
 chat-buddy-identity-status-verified = Verified
 chat-buddy-identity-status-unverified = Unverified
@@ -40,8 +32,18 @@ chat-buddy-identity-status-unverified = Unverified
 #   $conversation (String) - Name of the conversation the user is invited to.
 chat-conv-invite-label = You have been invited to chat in { $conversation }
 chat-conv-invite-accept =
-  .label = Accept
-  .accesskey = A
+    .label = Accept
+    .accesskey = A
 chat-conv-invite-deny =
-  .label = Reject
-  .accesskey = R
+    .label = Reject
+    .accesskey = R
+# Used when multiple incoming messages from the same sender are bundled
+# into a single notification.
+# Variables:
+#   $count - the number of incoming messages the user is being notified about
+#   $preview - the message preview to be shown in the notification, i.e. the first incoming message.
+bundled-message-preview =
+    { $count ->
+        [one] { $preview }… (and { $count } more message)
+       *[other] { $preview }… (and { $count } more messages)
+    }
