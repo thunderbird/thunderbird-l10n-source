@@ -9108,7 +9108,9 @@
     "calendar-dialog-accept-tentative",
     "calendar-dialog-accept-tentative.title",
     "calendar-dialog-decline",
-    "calendar-dialog-decline.title"
+    "calendar-dialog-decline.title",
+    "calendar-dialog-join-meeting-button",
+    "calendar-dialog-join-meeting-row-icon.alt"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
@@ -11555,6 +11557,9 @@
     "account-hub-checkbox-label.label",
     "account-hub-checkbox-label.accesskey",
     "account-hub-checkbox-description",
+    "new-calendar-legend",
+    "new-calendar-checkbox-label.label",
+    "new-calendar-checkbox-description",
     "forward-label.value",
     "forward-label.accesskey",
     "inline-label.label",
