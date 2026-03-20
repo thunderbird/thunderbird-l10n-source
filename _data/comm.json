@@ -9795,7 +9795,9 @@
     "ignored-subtheads-feedback",
     "attachment-view-attachment-count",
     "allow-remote-content-resource.label",
-    "remote-content-option-allow-all.label"
+    "remote-content-option-allow-all.label",
+    "oauth2-loopback-success",
+    "oauth2-loopback-failure"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
