@@ -136,6 +136,7 @@ account-hub-notification-unknown-host = Setup information found on 3rd party dom
 account-hub-ssl-noencryption = None
 account-hub-email-skip-button = Skip
 account-hub-finding-sync-accounts = Account created. Discovering address books and calendars…
+account-hub-privacy-policy = Privacy Policy
 account-hub-result-username-label = Username
     .title = Username
 account-hub-name-label = Full name

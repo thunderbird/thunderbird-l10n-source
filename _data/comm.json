@@ -8377,7 +8377,8 @@
     "account-hub-notification-unknown-host",
     "account-hub-ssl-noencryption",
     "account-hub-email-skip-button",
-    "account-hub-finding-sync-accounts"
+    "account-hub-finding-sync-accounts",
+    "account-hub-privacy-policy"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -9034,7 +9035,10 @@
     "calendar-dialog-reminders-row-icon.alt",
     "calendar-dialog-attendees-row-icon.alt",
     "calendar-dialog-attendee-count",
-    "calendar-dialog-attendee-summary",
+    "calendar-dialog-attendee-summary-going",
+    "calendar-dialog-attendee-summary-maybe",
+    "calendar-dialog-attendee-summary-declined",
+    "calendar-dialog-attendee-summary-pending",
     "calendar-dialog-attendee-organizer",
     "calendar-dialog-attendee-optional",
     "calendar-dialog-icon-attending.alt",
