@@ -8377,7 +8377,10 @@
     "account-hub-ssl-noencryption",
     "account-hub-email-skip-button",
     "account-hub-finding-sync-accounts",
-    "account-hub-privacy-policy"
+    "account-hub-privacy-policy",
+    "account-hub-welcome",
+    "account-hub-welcome-brand",
+    "account-hub-welcome-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
