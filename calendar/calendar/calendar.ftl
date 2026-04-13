@@ -24,6 +24,10 @@ ask-save-title-event = Save Event
 ask-save-title-task = Save Task
 ask-save-message-event = Event has not been saved. Do you want to save the event?
 ask-save-message-task = Task has not been saved. Do you want to save the task?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = All day
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = The end date you entered occurs before the start date
 warning-until-date-before-start = The until date occurs before the start date
@@ -858,7 +862,6 @@ calendar-context-convert-to-task =
     .label = Task…
     .accesskey = T
 calendar-task-filter-title2 = Filter Tasks
-calendar-task-filter-title = Show
 calendar-task-filter-all =
     .label = All
     .accesskey = A
@@ -1047,7 +1050,6 @@ calendar-publish-dialog-title =
 calendar-publish-url-label = Publishing URL
 calendar-publish-publish-dialog-button =
     .buttonlabelaccept = Publish
-calendar-publish-publish-button = Publish
 calendar-publish-close-button = Close
 calendar-select-dialog-title = Select Calendar
 calendar-error-detail =
