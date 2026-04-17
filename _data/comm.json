@@ -10984,10 +10984,10 @@
     "recreate-inbox.label",
     "recreate-inbox.accesskey",
     "archive-example-label",
-    "archive-folder-name.label",
-    "inbox-folder-name.label",
-    "child-folder-name.label",
-    "sibling-folder-name.label"
+    "archive-folder-name-label",
+    "inbox-folder-name-label",
+    "child-folder-name-label",
+    "sibling-folder-name-label"
   ],
   "mail/messenger/preferences/am-copies.ftl": [
     "account-prefs-show-address-row-description"
