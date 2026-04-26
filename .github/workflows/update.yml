@@ -9,20 +9,24 @@ on:
     - cron: "07 12 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pull-requests: write
+permissions: {}
 
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
       branches: ${{ steps.config.outputs.branches }}
       paths: ${{ steps.config.outputs.paths }}
     steps:
       - name: Checkout l10n:main
-        uses: actions/checkout@v4
-        with: {ref: main, fetch-depth: 0}
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with: {ref: main, fetch-depth: 0, persist-credentials: false}
+      - name: Configure git credentials
+        run: git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
       - name: Get list of branches and paths
@@ -46,19 +50,27 @@ jobs:
       matrix:
         ref: ${{ fromJSON(needs.prepare.outputs.branches) }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout l10n:update
-        uses: actions/checkout@v4
-        with: {ref: update, path: l10n}
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with: {ref: update, path: l10n, persist-credentials: false}
+      - name: Configure git credentials for l10n
+        run: git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        working-directory: l10n
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout thunderbird:${{ matrix.ref }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           repository: thunderbird/comm-unified-l10n
           ref: ${{ matrix.ref }}
           path: thunderbird
+          persist-credentials: false
           sparse-checkout: |
             ${{ needs.prepare.outputs.paths }}
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
           cache: pip
@@ -66,10 +78,12 @@ jobs:
       - run: pip install -r l10n/.github/scripts/requirements.txt
       - run: >
           python .github/scripts/update.py
-          --branch ${{ matrix.ref }}
+          --branch "$BRANCH"
           --commit $(cd ../thunderbird && git rev-parse --short HEAD)
           --firefox ../thunderbird
           --configs mail/locales/l10n.toml calendar/locales/l10n.toml
+        env:
+          BRANCH: ${{ matrix.ref }}
         working-directory: l10n
       - name: git config
         run: |
@@ -84,11 +98,18 @@ jobs:
   cleanup:
     needs: update
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout l10n:update
-        uses: actions/checkout@v4
-        with: {ref: update}
-      - uses: actions/setup-python@v5
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with: {ref: update, persist-credentials: false}
+      - name: Configure git credentials
+        run: git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
           cache: pip
