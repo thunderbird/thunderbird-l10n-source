@@ -9336,7 +9336,7 @@
     "quota-percent-used"
   ],
   "mail/messenger/glodaFacetView.ftl": [
-    "items-m-of-n",
+    "item-count-m-of-n",
     "facets-mode-to-list-all-label",
     "facet-view-and-others"
   ],
@@ -12036,6 +12036,8 @@
     "checkbox-feeds-label.tooltiptext",
     "checkbox-calendar-label.label",
     "checkbox-calendar-label.tooltiptext",
+    "checkbox-net-thunderbird-url-label.label",
+    "checkbox-net-thunderbird-url-label.tooltiptext",
     "system-search-engine-name",
     "system-search-integration-label.label",
     "system-search-integration-label.accesskey",
