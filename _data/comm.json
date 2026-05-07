@@ -9788,9 +9788,7 @@
     "ignored-subtheads-feedback",
     "attachment-view-attachment-count",
     "allow-remote-content-resource.label",
-    "remote-content-option-allow-all.label",
-    "oauth2-loopback-success",
-    "oauth2-loopback-failure"
+    "remote-content-option-allow-all.label"
   ],
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-send-format-menu.label",
@@ -10034,6 +10032,16 @@
     "article-may-have-expired",
     "try-searching-prefix",
     "remove-expired-articles-label"
+  ],
+  "mail/messenger/oauthResultPage.ftl": [
+    "oauth-result-wordmark-alt",
+    "oauth-result-footer-text",
+    "oauth-success-title",
+    "oauth-success-subtitle",
+    "oauth-success-body",
+    "oauth-error-title",
+    "oauth-error-subtitle",
+    "oauth-error-body"
   ],
   "mail/messenger/openpgp/backupKeyPassword.ftl": [
     "set-password-window-title",
