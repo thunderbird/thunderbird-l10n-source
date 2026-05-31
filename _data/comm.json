@@ -7804,7 +7804,7 @@
     "atn-addons-heading-search-input.placeholder",
     "atn-addons-heading-search-button.title",
     "atn-addons-heading-search-button.aria-label",
-    "details-notification-suppressed-esr.message"
+    "details-notification-suppressed-esr-2.message"
   ],
   "mail/messenger/aboutDialog.ftl": [
     "about-update-whats-new",
@@ -9170,8 +9170,8 @@
   "mail/messenger/extensionsUI.ftl": [
     "webext-experiment-warning",
     "webext-perms-learn-more",
-    "webext-install-suppressed-message",
-    "webext-install-suppressed-details",
+    "webext-install-suppressed-message-2",
+    "webext-install-suppressed-details-2",
     "addon-post-install-message"
   ],
   "mail/messenger/feeds.ftl": [
