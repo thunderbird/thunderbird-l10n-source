@@ -8544,7 +8544,11 @@
     "gloda-indexing-status-exact",
     "gloda-indexing-folder-status-exact",
     "gloda-indexed-folder",
-    "gloda-indexed-folder-status"
+    "gloda-indexed-folder-status",
+    "extension-send-activity-live",
+    "extension-send-activity-progress",
+    "extension-send-activity-event",
+    "extension-send-activity-event-status"
   ],
   "mail/messenger/activityFeedback.ftl": [
     "looking-for-messages-account",
@@ -9150,6 +9154,8 @@
     "webext-perms-description-messagesDelete",
     "webext-perms-description-messagesRead2",
     "webext-perms-description-messagesUpdate",
+    "webext-perms-description-messages-send",
+    "webext-perms-description-messages-save",
     "webext-perms-description-messagesTags",
     "webext-perms-description-messagesTagsList",
     "webext-perms-description-sensitiveDataUpload",
