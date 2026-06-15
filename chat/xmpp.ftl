@@ -14,7 +14,6 @@ connection-authenticating = Authenticating
 connection-getting-resource = Getting resource
 connection-downloading-roster = Downloading contact list
 connection-srv-lookup = Looking up the SRV record
-
 # LOCALIZATION NOTE (connection-error-*)
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
@@ -37,7 +36,6 @@ connection-error-failed-to-get-a-resource = Failed to get a resource
 connection-error-failed-max-resource-limit = This account is connected from too many places at the same time.
 connection-error-failed-resource-not-valid = Resource is not valid.
 connection-error-xmpp-not-supported = This server does not support XMPP
-
 # LOCALIZATION NOTE (conversation-error-not-delivered):
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
@@ -73,7 +71,6 @@ conversation-error-remote-server-not-found = Could not reach the recipient’s s
 conversation-error-unknown-send-error = An unknown error occurred on sending this message.
 #   $nick is the name of the message recipient.
 conversation-error-send-service-unavailable = It is not possible to send messages to { $nick } at this time.
-
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } is not in the room.
 conversation-error-ban-command-anonymous-room = You can’t ban participants from anonymous rooms. Try /kick instead.
@@ -91,11 +88,9 @@ conversation-error-invalid-jid = { $jabberIdentifier } is an invalid jid (Jabber
 conversation-error-command-failed-not-in-room = You have to rejoin the room to be able to use this command.
 #   $recipient (String) is the name of the recipient.
 conversation-error-resource-not-available = You must talk first as { $recipient } could be connected with more than one client.
-
 # LOCALIZATION NOTE (conversation-error-version-*):
 #   $recipient is the name of the recipient.
 conversation-error-version-unknown = { $recipient }’s client does not support querying for its software version.
-
 # LOCALIZATION NOTE (tooltip-*):
 #   These are the titles of lines of information that will appear in
 #   the tooltip showing details about a contact or conversation.
@@ -114,7 +109,6 @@ tooltip-organization = Organization
 tooltip-locality = Locality
 tooltip-country = Country
 tooltip-telephone = Telephone number
-
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for XMPP accounts.
@@ -125,7 +119,6 @@ chat-room-field-room = _Room
 chat-room-field-server = _Server
 chat-room-field-nick = _Nick
 chat-room-field-password = _Password
-
 # LOCALIZATION NOTE (conversation-muc-*):
 #   These are displayed as a system message when a chatroom invitation is
 #   received.
@@ -134,8 +127,6 @@ chat-room-field-password = _Password
 #   $reason is the reason which is a message provided by the person sending the
 #   invitation.
 conversation-muc-invitation-with-reason2 = { $inviter } has invited you to join { $room }: { $reason }
-
-
 #   $inviter is the inviter.
 #   $room is the room.
 #   $password is the password of the room.
@@ -149,17 +140,14 @@ conversation-muc-invitation-without-reason = { $inviter } has invited you to joi
 #   $room is the room.
 #   $password is the password of the room.
 conversation-muc-invitation-without-reason-password = { $inviter } has invited you to join { $room } with password { $password }
-
 # LOCALIZATION NOTE (conversation-message-join):
 #   This is displayed as a system message when a participant joins room.
 #   $participant is the nick of the participant.
 conversation-message-join = { $participant } entered the room.
-
 # LOCALIZATION NOTE (conversation-message-rejoined):
 #   This is displayed as a system message when a participant rejoins room after
 #   parting it.
 conversation-message-rejoined = You have rejoined the room.
-
 # LOCALIZATION NOTE (conversation-message-parted-*):
 #   These are displayed as a system message when a participant parts a room.
 #   $message is the part message supplied by the user.
@@ -171,14 +159,12 @@ conversation-message-parted = { $participant } has left the room.
 #   $participant is the participant that is leaving.
 #   $message is the part message supplied by the participant.
 conversation-message-parted-reason = { $participant } has left the room: { $message }
-
 # LOCALIZATION NOTE (conversation-message-invitation-declined*):
 #   $invitee (String) is the invitee that declined the invitation.
 conversation-message-invitation-declined = { $invitee } has declined your invitation.
 #   $invitee (String) is the invitee that declined the invitation.
 #   $declineMessage (String) is the decline message supplied by the invitee.
 conversation-message-invitation-declined-reason = { $invitee } has declined your invitation: { $declineMessage }
-
 # LOCALIZATION NOTE (conversation-message-banned-*):
 #   These are displayed as a system message when a participant is banned from
 #   a room.
@@ -202,7 +188,6 @@ conversation-message-banned-you-actor = { $actorNick } has banned you from the r
 #   $actorNick (String) is the person who is banning.
 #   $reason (String) is the reason.
 conversation-message-banned-you-actor-reason = { $actorNick } has banned you from the room: { $reason }
-
 # LOCALIZATION NOTE (conversation-message-kicked-*):
 #   These are displayed as a system message when a participant is kicked from
 #   a room.
@@ -226,7 +211,6 @@ conversation-message-kicked-you-actor = { $actorNick } has kicked you from the r
 #   $actorNick (String) is the person who is kicking.
 #   $reason (String) is the reason.
 conversation-message-kicked-you-actor-reason = { $actorNick } has kicked you from the room: { $reason }
-
 # LOCALIZATION NOTE (conversation-message-removed-non-member-*):
 #   These are displayed as a system message when a participant is removed from
 #   a room because the room has been changed to members-only.
@@ -238,12 +222,10 @@ conversation-message-removed-non-member-actor = { $affectedNick } has been remov
 conversation-message-removed-non-member-you = You have been removed from the room because its configuration has been changed to members-only.
 #   $actorNick (String) is the person who changed the room configuration.
 conversation-message-removed-non-member-you-actor = You have been removed from the room because { $actorNick } has changed it to members-only.
-
 # LOCALIZATION NOTE (conversation.message-muc-shutdown):
 #   These are displayed as a system message when a participant is removed from
 #   a room because of a system shutdown.
 conversation-message-muc-shutdown = You have been removed from the room because of a system shutdown.
-
 # LOCALIZATION NOTE (conversation-message-version*):
 #   $user (String): is the name of the user whose version was requested.
 #   $clientName (String): is the client name response from the client.
@@ -254,7 +236,6 @@ conversation-message-version = { $user } is using “{ $clientName } { $clientVe
 #   $clientVersion (String): is the client version response from the client.
 #   $systemResponse (String): is the operating system(OS) response from the client.
 conversation-message-version-with-os = { $user } is using “{ $clientName } { $clientVersion }” on { $systemResponse }.
-
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
@@ -267,23 +248,23 @@ options-connection-security-allow-unencrypted-auth = Allow sending the password 
 options-connect-server = Server
 options-connect-port = Port
 options-domain = Domain
-
 # LOCALIZATION NOTE (*-protocol-name)
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
-
 # LOCALIZATION NOTE (gtalk-disabled):
 #  Google Talk was disabled on June 16, 2022. The message below is a localized
 #  error message to be displayed to users with Google Talk accounts.
 gtalk-disabled = Google Talk is no longer supported due to Google disabling their XMPP gateway.
-
+# LOCALIZATION NOTE (odnoklassniki-disabled):
+#  Odnoklassniki disabled their XMPP gateway. The message below is a localized
+#  error message to be displayed to users with Odnoklassniki accounts.
+odnoklassniki-disabled = Odnoklassniki is no longer supported due to Odnoklassniki disabling their XMPP gateway.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
 #  configuring a Odnoklassniki account.
 odnoklassniki-username-hint = Profile ID
-
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
