@@ -12,11 +12,6 @@ key = "re:."
 action = "warning"
 
 [[filters]]
-path = "{l}calendar/chrome/calendar/calendar-event-dialog.properties"
-key = "re:.*Nounclass[1-9].*"
-action = "ignore"
-
-[[filters]]
 path = "{l}calendar/chrome/calendar/calendar-extract.properties"
 key = "re:.*from\\.today.*"
 action = "warning"
