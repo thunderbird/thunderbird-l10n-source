@@ -8216,7 +8216,11 @@
     "account-hub-thundermail-button",
     "account-hub-thundermail-divider-text",
     "account-hub-manual-config-incoming-legend",
-    "account-hub-manual-config-outgoing-legend"
+    "account-hub-manual-config-outgoing-legend",
+    "account-hub-same-username-checkbox",
+    "account-hub-protocol-imap",
+    "account-hub-protocol-microsoft",
+    "account-hub-protocol-pop3"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
