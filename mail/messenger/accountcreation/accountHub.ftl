@@ -49,6 +49,7 @@ account-hub-email-retest-button = Retest
 account-hub-email-finish-button = Finish
 account-hub-email-manually-configure-button = Configure Manually
 account-hub-email-continue-button = Continue
+account-hub-email-set-up-account-button = Set up account
 account-hub-email-confirm-button = Confirm
 account-hub-email-find-settings-button = Find settings
 account-hub-result-incoming-legend = Incoming
@@ -117,7 +118,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Encrypted password
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-ssl-noencryption-option =
     .label = None
@@ -253,6 +254,7 @@ account-hub-email-setup-incoming = Incoming server settings
 account-hub-email-setup-outgoing = Outgoing server settings
 account-hub-email-exchange-settings = Exchange settings
 account-hub-email-connect-settings = Connect your email settings
+account-hub-email-protocol-select-notification = Additional information is required to set up this account
 account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
 account-hub-email-sync-accounts = Sync your calendars and address books
@@ -361,3 +363,22 @@ account-hub-local-address-book-label = Address Book Name
 account-hub-local-error-text = Please enter an address book name
 account-hub-sync-address-books = Sync existing address books
 account-hub-new-remote-address-book = New remote Address Book
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Account type
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph is a modern connection method for Microsoft 365.
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Legacy
+account-hub-card-ews-description = Exchange Web Services (EWS) connects to Microsoft Exchange to sync your mail.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = It’s recommended because it matches your Service URL.
+account-hub-exchange-type-username = Username
+account-hub-exchange-type-username-hint = Typically your email address or Active Directory UPN.
+account-hub-exchange-type-authentication = Authentication Method
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Use default Microsoft 365 Copilot authentication settings
+account-hub-exchange-type-oauth-tenant = Tenant ID
+account-hub-exchange-type-oauth-app = App ID
+account-hub-exchange-type-advanced-config = Advanced Configuration
