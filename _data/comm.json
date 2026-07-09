@@ -11396,6 +11396,8 @@
     "mail-browse-sound-button.accesskey",
     "enable-gloda-search-label.label",
     "enable-gloda-search-label.accesskey",
+    "gloda-show-results-as-list-label.label",
+    "gloda-show-results-as-list-label.accesskey",
     "datetime-formatting-legend",
     "language-selector-legend",
     "allow-hw-accel.label",
