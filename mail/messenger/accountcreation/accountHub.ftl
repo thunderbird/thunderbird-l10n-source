@@ -382,3 +382,4 @@ account-hub-exchange-type-default-oauth = Use default Microsoft 365 Copilot auth
 account-hub-exchange-type-oauth-tenant = Tenant ID
 account-hub-exchange-type-oauth-app = App ID
 account-hub-exchange-type-advanced-config = Advanced Configuration
+account-hub-exchange-type-title = Choose an account type
