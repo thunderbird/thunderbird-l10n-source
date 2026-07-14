@@ -254,6 +254,7 @@ account-hub-email-setup-incoming = Incoming server settings
 account-hub-email-setup-outgoing = Outgoing server settings
 account-hub-email-exchange-settings = Exchange settings
 account-hub-email-connect-settings = Connect your email settings
+account-hub-email-protocol-select-header = Choose an email account type
 account-hub-email-protocol-select-notification = Additional information is required to set up this account
 account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
