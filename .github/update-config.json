@@ -4,7 +4,8 @@
     "comm-beta",
     "comm-release",
     "comm-esr128",
-    "comm-esr140"
+    "comm-esr140",
+    "comm-esr153"
   ],
   "head": "comm",
   "paths": [
@@ -15,3 +16,4 @@
     "mail/locales"
   ]
 }
+
