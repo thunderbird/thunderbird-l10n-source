@@ -862,9 +862,9 @@
     "calendar-todaypane-button.label",
     "calendar-todaypane-button.tooltiptext",
     "calendar-search-options-searchfor.value",
-    "calendar-server-dialog-title-edit.title",
+    "calendar-properties-dialog-title",
     "calendar-server-dialog-name-label.value",
-    "calendar-publish-dialog-title.title",
+    "calendar-publish-dialog-window-title",
     "calendar-publish-url-label",
     "calendar-publish-publish-dialog-button.buttonlabelaccept",
     "calendar-publish-close-button",
@@ -872,7 +872,7 @@
     "calendar-error-detail.label",
     "calendar-error-code.value",
     "calendar-error-description.value",
-    "calendar-error-title.title",
+    "calendar-error-prompt-title",
     "calendar-extract-event-button.label",
     "calendar-extract-event-button.tooltiptext",
     "calendar-extract-task-button.label",
@@ -8243,7 +8243,9 @@
     "account-hub-same-username-checkbox",
     "account-hub-protocol-imap",
     "account-hub-protocol-microsoft",
-    "account-hub-protocol-pop3"
+    "account-hub-protocol-pop3",
+    "account-hub-oauth-unsupported-title",
+    "account-hub-oauth-unsupported-description"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
