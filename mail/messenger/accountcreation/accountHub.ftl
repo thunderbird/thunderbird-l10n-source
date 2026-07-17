@@ -240,6 +240,7 @@ account-hub-thundermail-button = Sign in with Thundermail
 account-hub-thundermail-divider-text = or
 account-hub-manual-config-imap-title = IMAP Settings
 account-hub-manual-config-pop3-title = POP3 Settings
+account-hub-manual-config-review-settings-title = Review updated settings
 account-hub-manual-config-incoming-legend = Incoming server
 account-hub-manual-config-outgoing-legend = Outgoing server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -294,7 +295,7 @@ account-hub-sync-accounts-found = { -brand-short-name } found some connected ser
 account-hub-sync-accounts-not-found = { -brand-short-name } was unable to find connected services
 account-hub-sync-accounts-failure = { -brand-short-name } was unable to connect the selected services
 account-hub-email-added-success = Email account connected successfully
-account-hub-config-test-success = Configuration settings valid
+account-hub-config-test-success = { -brand-short-name } found the correct settings and updated them.
 account-hub-select-all = Select all
 account-hub-deselect-all = Deselect all
 # $count (Number) - The number of sync accounts selected.
@@ -315,6 +316,7 @@ account-hub-port-error-text = Port must be between 1 and 65535
     .title = Port must be between 1 and 65535
 account-hub-username-error-text = Username is required
     .title = Username is required
+account-hub-manual-config-error-summary = Please resolve the following errors:
 account-hub-oauth-pending = Waiting for authorization in login popup…
 account-hub-addon-install-button = Install
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
