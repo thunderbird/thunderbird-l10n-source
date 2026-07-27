@@ -158,6 +158,10 @@ week-title-label =
     .aria-label = Week { $title }
 calendar-none =
     .label = None
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Your calendar data is not compatible with this version of { -brand-short-name }. The calendar data in your profile was updated by a newer version of { -brand-short-name }. A backup of the data file has been created, named “{ $fileName }”. Continuing with a newly created data file.
+imip-bar-unsupported-text = This message contains an event that this version of { -brand-short-name } cannot process.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1045,12 @@ calendar-todaypane-button =
     .tooltiptext = Show Today Pane
 calendar-search-options-searchfor =
     .value = contain
+calendar-properties-dialog-title = Edit Calendar
 calendar-server-dialog-title-edit =
     .title = Edit Calendar
 calendar-server-dialog-name-label =
     .value = Calendar Name:
+calendar-publish-dialog-window-title = Publish Calendar
 calendar-publish-dialog-title =
     .title = Publish Calendar
 calendar-publish-url-label = Publishing URL
@@ -1058,6 +1064,7 @@ calendar-error-code =
     .value = Error code:
 calendar-error-description =
     .value = Description:
+calendar-error-prompt-title = An error has occurred
 calendar-error-title =
     .title = An error has occurred
 calendar-extract-event-button =
@@ -1116,3 +1123,14 @@ event-recurrence-forever =
 attendees-tab-label = Attendees ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Attachments ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Enter password for { $username } on { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } is requesting your username and password.

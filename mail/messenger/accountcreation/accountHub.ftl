@@ -240,6 +240,7 @@ account-hub-thundermail-button = Sign in with Thundermail
 account-hub-thundermail-divider-text = or
 account-hub-manual-config-imap-title = IMAP Settings
 account-hub-manual-config-pop3-title = POP3 Settings
+account-hub-manual-config-review-settings-title = Review updated settings
 account-hub-manual-config-incoming-legend = Incoming server
 account-hub-manual-config-outgoing-legend = Outgoing server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -247,6 +248,10 @@ account-hub-same-username-checkbox = Same username as incoming server
 account-hub-protocol-imap = Sync across devices
 account-hub-protocol-microsoft = Exchange or Microsoft 365
 account-hub-protocol-pop3 = Download to device
+account-hub-oauth-unsupported-title = Additional configuration is required
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced Configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
@@ -284,18 +289,13 @@ account-hub-config-success-description-disk = Configuration found in { -brand-sh
 account-hub-config-success-description-isp = Configuration found at email provider.
 account-hub-config-success-description-read-more = You can <a data-l10n-name="automated-setup-link">read about how automated email setup works.</a>
 account-hub-config-success = Configuration found in Mozilla ISPDB
-account-hub-config-success-exchange = Configuration found for a Microsoft Exchange server
-account-hub-config-success-guess = Configuration found by trying common server names
-account-hub-config-success-disk = Configuration found in { -brand-short-name } installation
-account-hub-config-success-isp = Configuration found at email provider
-account-hub-config-success-unknown = Configuration found
 account-hub-password-info = Your credentials will only be stored locally on your computer
 account-hub-creating-account = Creating account…
 account-hub-sync-accounts-found = { -brand-short-name } found some connected services
 account-hub-sync-accounts-not-found = { -brand-short-name } was unable to find connected services
 account-hub-sync-accounts-failure = { -brand-short-name } was unable to connect the selected services
 account-hub-email-added-success = Email account connected successfully
-account-hub-config-test-success = Configuration settings valid
+account-hub-config-test-success = { -brand-short-name } found the correct settings and updated them.
 account-hub-select-all = Select all
 account-hub-deselect-all = Deselect all
 # $count (Number) - The number of sync accounts selected.
@@ -316,6 +316,7 @@ account-hub-port-error-text = Port must be between 1 and 65535
     .title = Port must be between 1 and 65535
 account-hub-username-error-text = Username is required
     .title = Username is required
+account-hub-manual-config-error-summary = Please resolve the following errors:
 account-hub-oauth-pending = Waiting for authorization in login popup…
 account-hub-addon-install-button = Install
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
