@@ -52,6 +52,7 @@ account-hub-email-continue-button = Continue
 account-hub-email-set-up-account-button = Set up account
 account-hub-email-confirm-button = Confirm
 account-hub-email-find-settings-button = Find settings
+account-hub-email-connect-button = Connect
 account-hub-result-incoming-legend = Incoming
 account-hub-result-outgoing-legend = Outgoing
 account-hub-all-servers-legend = All servers
@@ -138,7 +139,7 @@ account-hub-address-book-name-error-text = Please enter a name
 account-hub-address-book-base-dn = Base DN
 account-hub-address-book-bind-dn = Bind DN
 account-hub-ldap-form = Connect to an LDAP directory
-account-hub-advanced-configuration-button = Advanced Configuration
+account-hub-advanced-configuration-button = Advanced configuration
 account-hub-ldap-ssl-toggle-label = Use secure connection (SSL)
 account-hub-max-results-label = Max results
 account-hub-max-results-error-text = Please enter a number greater than 0
@@ -249,9 +250,9 @@ account-hub-protocol-imap = Sync across devices
 account-hub-protocol-microsoft = Exchange or Microsoft 365
 account-hub-protocol-pop3 = Download to device
 account-hub-oauth-unsupported-title = Additional configuration is required
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
-account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced Configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
+account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
@@ -260,6 +261,7 @@ account-hub-email-setup-outgoing = Outgoing server settings
 account-hub-email-exchange-settings = Exchange settings
 account-hub-email-connect-settings = Connect your email settings
 account-hub-email-protocol-select-header = Choose an email account type
+account-hub-email-protocol-select-additional-info = Additional information is required to set up this account.
 account-hub-email-protocol-select-notification = Additional information is required to set up this account
 account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
