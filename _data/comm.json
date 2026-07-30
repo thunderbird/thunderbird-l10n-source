@@ -6905,29 +6905,6 @@
     "confirmSyncChanges",
     "confirmSyncChangesDiscard"
   ],
-  "mail/chrome/messenger/removeAccount.dtd": [
-    "dialogTitle",
-    "removeButton.label",
-    "removeButton.accesskey",
-    "removeAccount.label",
-    "removeAccount.accesskey",
-    "removeAccount.desc",
-    "removeData.label",
-    "removeData.accesskey",
-    "removeDataChat.label",
-    "removeDataChat.accesskey",
-    "removeDataLocalAccount.desc",
-    "removeDataServerAccount.desc",
-    "removeDataChatAccount.desc",
-    "showData.label",
-    "showData.accesskey",
-    "progressPending",
-    "progressSuccess",
-    "progressFailure"
-  ],
-  "mail/chrome/messenger/removeAccount.properties": [
-    "removeQuestion"
-  ],
   "mail/chrome/messenger/renameFolderDialog.dtd": [
     "renameFolderDialog.title",
     "rename.label",
@@ -8265,6 +8242,9 @@
     "account-hub-manual-config-incoming-legend",
     "account-hub-manual-config-outgoing-legend",
     "account-hub-same-username-checkbox",
+    "account-hub-manual-config-security-changed",
+    "account-hub-manual-config-port-changed",
+    "account-hub-manual-config-value-changed",
     "account-hub-protocol-imap",
     "account-hub-protocol-microsoft",
     "account-hub-protocol-pop3",
@@ -8462,7 +8442,7 @@
     "extension-send-activity-live",
     "extension-send-activity-progress",
     "extension-send-activity-event",
-    "extension-send-activity-event-status"
+    "extension-sent-activity-event-status"
   ],
   "mail/messenger/activityFeedback.ftl": [
     "looking-for-messages-account",
@@ -12040,6 +12020,31 @@
     "system-search-integration-label.accesskey",
     "check-on-startup-label.label",
     "check-on-startup-label.accesskey"
+  ],
+  "mail/messenger/removeAccount.ftl": [
+    "remove-account-dialog-title",
+    "remove-account-dialog-accept.label",
+    "remove-account-dialog-accept.accesskey",
+    "remove-account-question",
+    "remove-account-checkbox.label",
+    "remove-account-checkbox.accesskey",
+    "remove-account-description",
+    "remove-data-checkbox.label",
+    "remove-data-checkbox.accesskey",
+    "remove-chat-data-checkbox.label",
+    "remove-chat-data-checkbox.accesskey",
+    "remove-data-local-account-description",
+    "remove-data-server-account-description",
+    "remove-data-chat-account-description",
+    "show-data-button.label",
+    "show-data-button.accesskey",
+    "remove-outgoing-servers-checkbox.label",
+    "remove-address-books-checkbox.label",
+    "remove-calendars-checkbox.label",
+    "remove-passwords-checkbox.label",
+    "remove-oauth-tokens-checkbox.label",
+    "remove-account-progress-success",
+    "remove-account-progress-failure"
   ],
   "mail/messenger/retention.ftl": [
     "retention-tab.label",
