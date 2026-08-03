@@ -1,13 +1,13 @@
 {
   "branches": [
-    "comm",
-    "comm-beta",
-    "comm-release",
-    "comm-esr128",
-    "comm-esr140",
-    "comm-esr153"
+    "main",
+    "beta",
+    "release",
+    "esr128",
+    "esr140",
+    "esr153"
   ],
-  "head": "comm",
+  "head": "main",
   "paths": [
     "calendar/locales",
     "chat/locales",

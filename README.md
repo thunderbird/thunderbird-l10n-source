@@ -15,4 +15,4 @@ files in this repository have been processed from their Source Code Form,
 and therefore following our [license](./LICENSE) (MPL-2.0)
 do not necessarily carry a Source Code Form License Notice.
 The Source Code Form for each such file is available from
-[thunderbird/comm-unified-l10n](https://github.com/thunderbird/comm-unified-l10n).
+[thunderbird/thunderbird-desktop](https://github.com/thunderbird/thunderbird-desktop).
