@@ -7488,6 +7488,7 @@
     "threadpane-column-header-unread-button.title",
     "threadpane-column-label-unread-button.label",
     "threadpane-cell-read-status.aria-label",
+    "threadpane-new-cell-label",
     "threadpane-read-cell-label",
     "threadpane-unread-cell-label",
     "threadpane-column-header-a11y-sender.aria-label",
@@ -7959,7 +7960,8 @@
     "ews-endpointhost-label.value",
     "ews-endpointhost-label.accesskey",
     "ews-oauthscopes-label.value",
-    "ews-oauthscopes-label.accesskey"
+    "ews-oauthscopes-label.accesskey",
+    "oauth-provider-extension-info"
   ],
   "mail/messenger/accountcreation/accountCreation.ftl": [
     "hostname-syntax-error",
@@ -8051,6 +8053,7 @@
     "account-hub-ssl-noencryption-option.label",
     "account-hub-auth-no-authentication-option.label",
     "account-hub-auth-label",
+    "account-hub-select-option.label",
     "account-hub-exchange-type-title",
     "account-hub-exchange-type-account-type",
     "account-hub-card-graph-title",
@@ -8255,7 +8258,8 @@
     "account-hub-protocol-microsoft",
     "account-hub-protocol-pop3",
     "account-hub-oauth-unsupported-title",
-    "account-hub-oauth-unsupported-description"
+    "account-hub-oauth-unsupported-description",
+    "account-hub-username-help-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -12321,10 +12325,12 @@
     "tree-list-view-row-spam.title",
     "tree-list-view-row-not-spam.alt",
     "tree-list-view-row-not-spam.title",
-    "tree-list-view-row-read.alt",
-    "tree-list-view-row-read.title",
-    "tree-list-view-row-not-read.alt",
-    "tree-list-view-row-not-read.title"
+    "tree-list-view-row-read-status.alt",
+    "tree-list-view-row-read-status.title",
+    "tree-list-view-row-not-read-status.alt",
+    "tree-list-view-row-not-read-status.title",
+    "tree-list-view-row-new-status.alt",
+    "tree-list-view-row-new-status.title"
   ],
   "mail/messenger/troubleshootMode.ftl": [
     "troubleshoot-mode-dialog-title",
