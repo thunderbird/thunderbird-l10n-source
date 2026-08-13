@@ -10890,6 +10890,7 @@
     "policy-DisableMasterPasswordCreation",
     "policy-DisablePasswordReveal",
     "policy-DisableProfileImport",
+    "policy-DisableExperimentalFeatures",
     "policy-DisableQRExport",
     "policy-DisableSafeMode",
     "policy-DisableSecurityBypass",
@@ -12308,6 +12309,10 @@
     "sync-disconnect-dialog-title",
     "sync-disconnect-dialog-body",
     "sync-disconnect-dialog-button"
+  ],
+  "mail/messenger/tb-banner.ftl": [
+    "tb-banner-show-more",
+    "tb-banner-show-less"
   ],
   "mail/messenger/treeView.ftl": [
     "tree-list-view-row-select.alt",
