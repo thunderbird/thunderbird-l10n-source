@@ -552,6 +552,11 @@ format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -912,6 +917,11 @@ calendar-task-change-priority =
     .label = Priority
     .accesskey = r
     .tooltiptext = Change the priority
+calendar-task-input-filter-field =
+    .aria-label = Filter tasks
+    .emptytextbase = Filter tasks #1
+    .keylabelnonmac = <Ctrl+Shift+K>
+    .keylabelmac = <⇧⌘K>
 calendar-task-text-filter-field =
     .emptytextbase = Filter tasks #1
     .keylabelnonmac = <Ctrl+Shift+K>
@@ -1046,13 +1056,9 @@ calendar-todaypane-button =
 calendar-search-options-searchfor =
     .value = contain
 calendar-properties-dialog-title = Edit Calendar
-calendar-server-dialog-title-edit =
-    .title = Edit Calendar
 calendar-server-dialog-name-label =
     .value = Calendar Name:
 calendar-publish-dialog-window-title = Publish Calendar
-calendar-publish-dialog-title =
-    .title = Publish Calendar
 calendar-publish-url-label = Publishing URL
 calendar-publish-publish-dialog-button =
     .buttonlabelaccept = Publish
@@ -1065,8 +1071,6 @@ calendar-error-code =
 calendar-error-description =
     .value = Description:
 calendar-error-prompt-title = An error has occurred
-calendar-error-title =
-    .title = An error has occurred
 calendar-extract-event-button =
     .label = Add as event
     .tooltiptext = Extract calendaring information from the message and add it to your calendar as an event
