@@ -10882,6 +10882,7 @@
     "policy-DisabledCiphers",
     "policy-DefaultDownloadDirectory",
     "policy-DisableAppUpdate",
+    "policy-DisableDataCollectionSettings",
     "policy-DisableDefaultClientAgent",
     "policy-DisableDeveloperTools",
     "policy-DisableFeedbackCommands",
