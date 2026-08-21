@@ -42,6 +42,7 @@ policy-DisableSafeMode = Disable the feature to restart in Safe Mode. Note: the 
 policy-DisableSecurityBypass = Prevent the user from bypassing certain security warnings.
 policy-DisableSystemAddonUpdate = Prevent { -brand-short-name } from installing and updating system add-ons.
 policy-DisableTelemetry = Turn off Telemetry.
+policy-DisableUpdateSettings = Prevent the user from changing application update settings.
 policy-DisplayMenuBar = Display the Menu Bar by default.
 policy-DNSOverHTTPS = Configure DNS over HTTPS.
 policy-DontCheckDefaultClient = Disable check for default client on startup.

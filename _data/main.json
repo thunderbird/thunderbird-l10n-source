@@ -8922,6 +8922,7 @@
   "mail/messenger/calendarDialog.ftl": [
     "calendar-dialog-close-button.aria-label",
     "calendar-dialog-close-button.title",
+    "calendar-event-create-edit-dialog.aria-label",
     "calendar-dialog-menu-button.aria-label",
     "calendar-dialog-menu-button.title",
     "calendar-dialog-back-button.aria-label",
@@ -10895,6 +10896,7 @@
     "policy-DisableSecurityBypass",
     "policy-DisableSystemAddonUpdate",
     "policy-DisableTelemetry",
+    "policy-DisableUpdateSettings",
     "policy-DisplayMenuBar",
     "policy-DNSOverHTTPS",
     "policy-DontCheckDefaultClient",
