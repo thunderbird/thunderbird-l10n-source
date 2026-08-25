@@ -324,6 +324,8 @@ about-addressbook-entry-name-custom3 = Custom 3
 about-addressbook-entry-name-custom4 = Custom 4
 about-addressbook-unsaved-changes-prompt-title = Unsaved Changes
 about-addressbook-unsaved-changes-prompt = Do you want to save your changes before leaving the edit view?
+about-addressbook-photo-dialog-title =
+    .aria-label = Manage the photo for this contact.
 
 # Photo dialog
 
