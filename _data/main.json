@@ -8268,7 +8268,8 @@
     "account-hub-protocol-pop3",
     "account-hub-oauth-unsupported-title",
     "account-hub-oauth-unsupported-description",
-    "account-hub-username-help-text"
+    "account-hub-username-help-text",
+    "account-hub-port-help-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
