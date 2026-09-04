@@ -8268,7 +8268,8 @@
     "account-hub-protocol-pop3",
     "account-hub-oauth-unsupported-title",
     "account-hub-oauth-unsupported-description",
-    "account-hub-username-help-text"
+    "account-hub-username-help-text",
+    "account-hub-port-help-text"
   ],
   "mail/messenger/accountcreation/accountSetup.ftl": [
     "account-setup-tab-title",
@@ -8953,7 +8954,6 @@
     "calendar-dialog-icon-declined.alt",
     "calendar-dialog-icon-maybe.alt",
     "calendar-dialog-attendees-expand-icon.alt",
-    "calendar-dialog-attendees-too-many-guests",
     "calendar-dialog-description-label",
     "calendar-dialog-description-expand-icon.alt",
     "calendar-dialog-menu-duplicate.label",
@@ -10717,8 +10717,7 @@
     "key-in-message-body",
     "sig-mismatch",
     "invalid-email",
-    "attachment-pgp-key",
-    "dlg-button-view",
+    "attachment-pgp-key-import",
     "not-required",
     "no-photo-available",
     "error-photo-path-not-readable",
@@ -10726,6 +10725,8 @@
     "dlg-button-ok",
     "dlg-button-close",
     "dlg-button-cancel",
+    "dlg-button-open",
+    "dlg-button-save",
     "dlg-no-prompt",
     "enig-prompt",
     "enig-confirm",
