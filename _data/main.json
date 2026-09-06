@@ -10879,7 +10879,8 @@
     "inactive-message",
     "policy-name",
     "policy-value",
-    "policy-errors"
+    "policy-errors",
+    "policy-not-fully-applied"
   ],
   "mail/messenger/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
@@ -10899,6 +10900,7 @@
     "policy-DisabledCiphers",
     "policy-DefaultDownloadDirectory",
     "policy-DisableAppUpdate",
+    "policy-DisableChat",
     "policy-DisableDataCollectionSettings",
     "policy-DisableDefaultClientAgent",
     "policy-DisableDeveloperTools",
