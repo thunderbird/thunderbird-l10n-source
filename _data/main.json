@@ -10900,6 +10900,7 @@
     "policy-DisabledCiphers",
     "policy-DefaultDownloadDirectory",
     "policy-DisableAppUpdate",
+    "policy-DisableChat",
     "policy-DisableDataCollectionSettings",
     "policy-DisableDefaultClientAgent",
     "policy-DisableDeveloperTools",
