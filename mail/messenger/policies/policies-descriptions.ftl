@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Prevent the user from changing data colle
 policy-DisableDefaultClientAgent = Prevent the default client agent from taking any actions. Only applicable to Windows; other platforms don’t have the agent.
 policy-DisableDeveloperTools = Block access to the developer tools.
 policy-DisableFeedbackCommands = Disable commands to send feedback from the Help menu (Submit Feedback and Report Deceptive Site).
+policy-DisableFileLink = Disable the Filelink feature.
 policy-DisableForgetButton = Prevent access to the Forget button.
 policy-DisableFormHistory = Don’t remember search and form history.
 policy-DisableMasterPasswordCreation = If true, a master password can’t be created.

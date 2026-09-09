@@ -36,6 +36,7 @@ general-language-and-appearance-header = Language & Appearance
 general-incoming-mail-header = Incoming Mails
 general-files-and-attachment-header = Files & Attachments
 general-tags-header = Tags
+general-reading-and-viewing-header = Reading & viewing
 general-reading-and-display-header = Reading & Display
 general-updates-header = Updates
 general-network-and-diskspace-header = Network & Disk Space
@@ -306,6 +307,9 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Clear cache on shutdown
     .accesskey = s
+underline-text-links-label =
+    .label = Underline text links in messages
+    .accesskey = k
 always-underline-links =
     .label = Always underline links
     .accesskey = k
@@ -323,11 +327,12 @@ font-options-button =
 color-options-button =
     .label = Colors…
     .accesskey = C
-display-width-legend = Plain Text Messages
+display-width-legend = Plain text messages
 # Note : convert-emoticons-label 'Emoticons' are also known as 'Smileys', e.g. :-)
 convert-emoticons-label =
     .label = Display emoticons as graphics
     .accesskey = e
+display-text-formatting-label = Quoted text formatting
 display-text-label = When displaying quoted plain text messages:
 style-label =
     .value = Style:
@@ -339,7 +344,7 @@ bold-style-item =
 italic-style-item =
     .label = Italic
 bold-italic-style-item =
-    .label = Bold Italic
+    .label = Bold italic
 size-label =
     .value = Size:
     .accesskey = z
@@ -386,6 +391,12 @@ delete-tag-button =
 auto-mark-as-read =
     .label = Automatically mark messages as read
     .accesskey = A
+mark-read-when-opened =
+    .label = Immediately when opened
+    .accesskey = o
+show-attachments-inline-label =
+    .label = Show attachments inside the message body
+    .accesskey = m
 mark-read-no-delay =
     .label = Immediately on display
     .accesskey = o
@@ -393,13 +404,20 @@ view-attachments-inline =
     .label = View attachments inline
     .accesskey = V
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = After displaying for
     .accesskey = d
 seconds-label = seconds
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+mark-read-after-viewing =
+    .label = After viewing for
+    .accesskey = v
 
 ##
 
@@ -417,7 +435,7 @@ open-msg-ex-window =
 close-move-delete =
     .label = Close message window/tab on move or delete
     .accesskey = C
-address-display-legend = Message List
+address-display-legend = Message list
 address-display-description = Preferred address display format:
 address-display-full =
     .label = Full name and email address
@@ -428,6 +446,9 @@ address-display-email =
 address-display-name =
     .label = Name only
     .accesskey = N
+display-name-only-label =
+    .label = Only show display name for contacts saved in the address book
+    .accesskey = S
 condensed-addresses-label =
     .label = Show only display name for people in my address book
     .accesskey = S
@@ -436,11 +457,20 @@ table-layout-horizontal-scroll-label =
     .label = Allow horizontal scroll
     .accesskey = h
 conversation-view-legend = Conversation view
+show-conversation-view-label =
+    .label = Show conversation view
+    .accesskey = c
+conversation-view-preview-description = This is an early preview feature. It groups related messages together, but it might not always work as expected.
 conversation-view-checkbox-label =
     .label = Enable conversation view
     .accesskey = c
 conversation-view-checkbox-description = Experimental feature based on Gloda, use it at your own risk
 label-experiment = Experimental
+dark-mode-message-appearance = Message appearance
+dark-mode-checkbox-label =
+    .label = Use dark mode for message text
+    .accesskey = d
+dark-mode-message-text-description = Applies a dark background to all incoming messages, even if the sender formatted them in light colors.
 dark-message-mode-legend = Message reader style
 dark-message-mode-checkbox-label =
     .label = Enable dark message mode
@@ -449,6 +479,10 @@ dark-message-mode-description = Force the message body to follow dark themes
 dark-message-mode-toggle-label =
     .label = Show dark message mode toggle
     .accesskey = t
+dark-mode-toggle-description = Lets you quickly switch an email back to light mode while reading, without changing your main settings.
+general-folder-settings-header = Folder settings
+recent-folders-legend = Recent folders
+recent-folders-description = Controls how recently used folders appear when moving messages.
 dark-message-mode-toggle-description = Show a toggle in the message header to quickly disable the dark message mode
 general-folder-options-header = Folder Management Options
 recent-destinations-legend = Recent Destinations
