@@ -6,31 +6,28 @@ calendar-title = Calendar
 calendar-title-reminder = Reminders
 calendar-title-notification = Notifications
 calendar-title-category = Categories
-
 dateformat-label =
     .value = Date Text Format:
     .accesskey = D
-
 #   $date (String) - the formatted example date
 dateformat-long =
     .label = Long: { $date }
-
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Short: { $date }
-
+auto-detect-timezone-radio-button =
+    .label = Automatically detect timezone
+manually-set-timezone-radio-button =
+    .label = Manually set timezone
 use-system-timezone-radio-button =
     .label = Use system timezone
 set-timezone-manually-radio-button =
     .label = Set timezone manually
-
 timezone-label =
     .value = Timezone:
-
 weekstart-label =
     .value = Start the week on:
     .accesskey = r
-
 day-1-name =
     .label = Sunday
 day-2-name =
@@ -45,14 +42,11 @@ day-6-name =
     .label = Friday
 day-7-name =
     .label = Saturday
-
 show-weeknumber-label =
     .label = Show week number in views and minimonth
     .accesskey = n
-
 workdays-label =
     .value = Workweek days:
-
 day-1-checkbox =
     .label = Sun
     .accesskey = S
@@ -74,39 +68,29 @@ day-6-checkbox =
 day-7-checkbox =
     .label = Sat
     .accesskey = a
-
 dayweek-legend = Day and Week Views
-
 visible-hours-label =
     .value = Show:
     .accesskey = o
-
 visible-hours-end-label =
     .value = hours at a time
-
 day-start-label =
     .value = Day starts at:
     .accesskey = D
-
 day-end-label =
     .value = Day ends at:
     .accesskey = y
-
 midnight-label =
     .label = Midnight
 noon-label =
     .label = Noon
-
 location-checkbox =
     .label = Show location
     .accesskey = L
-
 multiweek-legend = Multiweek View
-
 number-of-weeks-label =
     .value = Number of weeks to show (including previous weeks):
     .accesskey = e
-
 week-0-label =
     .label = none
 week-1-label =
@@ -121,26 +105,19 @@ week-5-label =
     .label = 5 weeks
 week-6-label =
     .label = 6 weeks
-
 previous-weeks-label =
     .value = Previous weeks to show:
     .accesskey = P
-
 todaypane-legend = Today Pane
-
 agenda-days =
     .value = The agenda shows:
     .accesskey = g
-
 event-task-legend = Events and Tasks
-
 default-length-label =
     .value = Default Event and Task Length:
     .accesskey = E
-
 task-start-label =
     .value = Start Date:
-
 task-start-1-label =
     .label = None
 task-start-2-label =
@@ -157,81 +134,62 @@ task-start-7-label =
     .label = Relative to Start
 task-start-8-label =
     .label = Relative to Next Hour
-
 task-due-label =
     .value = Due Date:
-
 edit-intab-label =
     .label = Edit events and tasks in a tab instead of in a dialog window.
     .accesskey = t
-
 prompt-delete-label =
     .label = Prompt before deleting events and tasks.
     .accesskey = V
-
-reminder-legend = When a Reminder is Due:
-
+reminder-legend = When a reminder is due:
+reminder-play-sound-checkbox =
+    .label = Play
+    .accesskey = l
 reminder-play-checkbox =
     .label = Play a sound
     .accesskey = s
-
 reminder-play-alarm-button =
     .label = Play
     .accesskey = P
-
 reminder-default-sound-label =
     .label = Use default sound
     .accesskey = d
-
 reminder-custom-sound-label =
     .label = Use the following sound file
     .accesskey = U
-
 reminder-browse-sound-label =
     .label = Browse…
     .accesskey = B
-
 reminder-dialog-label =
     .label = Show the reminder dialog
     .accesskey = x
-
 missed-reminder-label =
     .label = Show missed reminders for writable calendars
     .accesskey = m
-
 reminder-default-legend = Reminder Defaults
-
 default-snooze-label =
     .value = Default Snooze Length:
     .accesskey = S
-
 event-alarm-label =
     .value = Default reminder setting for events:
     .accesskey = e
-
 alarm-on-label =
     .label = On
 alarm-off-label =
     .label = Off
-
 task-alarm-label =
     .value = Default reminder setting for tasks:
     .accesskey = a
-
 event-alarm-time-label =
     .value = Default time a reminder is set before an event:
     .accesskey = u
-
 task-alarm-time-label =
     .value = Default time a reminder is set before a task:
     .accesskey = o
-
 calendar-notifications-customize-label = Notifications can be customized for each calendar in the calendar’s properties window.
-
 category-new-label = New Category
-
 category-edit-label = Edit Category
-
 category-overwrite-title = Warning: Duplicate name
 category-overwrite = A category already exists with that name. Do you want to overwrite it?
 category-blank-warning = You must enter a category name.
