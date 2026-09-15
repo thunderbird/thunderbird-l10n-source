@@ -1015,8 +1015,7 @@
     "attachments-tab-label",
     "calendar-window-title",
     "calendar-window-title-base",
-    "calendar-auth-enter-password-for",
-    "calendar-auth-enter-user-password-for"
+    "calendar-auth-enter-user-password-for-calendar"
   ],
   "calendar/calendar/categories.ftl": [
     "categories2"
