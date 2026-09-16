@@ -6050,12 +6050,7 @@
     "saveAsDraftCmd.accesskey",
     "saveAsTemplateCmd.label",
     "saveAsTemplateCmd.accesskey",
-    "sendNowCmd.label",
-    "sendCmd.keycode",
-    "sendNowCmd.accesskey",
-    "sendLaterCmd.label",
     "sendLaterCmd.keycode",
-    "sendLaterCmd.accesskey",
     "printCmd.label",
     "printCmd.key",
     "printCmd.accesskey",
@@ -6172,14 +6167,11 @@
     "bringAllToFront.label",
     "zoomWindow.label",
     "windowMenu.label",
-    "sendButton.label",
     "quoteButton.label",
     "addressButton.label",
     "spellingButton.label",
     "saveButton.label",
     "printButton.label",
-    "sendButton.tooltip",
-    "sendlaterButton.tooltip",
     "quoteButton.tooltip",
     "addressButton.tooltip",
     "spellingButton.tooltip",
@@ -9901,7 +9893,17 @@
     "link-preview-yes-replace",
     "spell-add-dictionaries.label",
     "spell-add-dictionaries.accesskey",
-    "subject-encription-icon.title"
+    "subject-encription-icon.title",
+    "compose-button-send.label",
+    "compose-button-send.tooltiptext",
+    "compose-button-send-later.label",
+    "compose-button-send-later.tooltiptext",
+    "compose-menu-item-send.label",
+    "compose-menu-item-send.tooltiptext",
+    "compose-menu-item-send.accesskey",
+    "compose-menu-item-send-later.label",
+    "compose-menu-item-send-later.tooltiptext",
+    "compose-menu-item-send-later.accesskey"
   ],
   "mail/messenger/migration.ftl": [
     "migration-progress-header"
@@ -12192,6 +12194,7 @@
     "search-bar-search-button.title"
   ],
   "mail/messenger/shortcuts.ftl": [
+    "shortcut-key-enter",
     "shortcut-key",
     "meta-shortcut-key",
     "ctrl-shortcut-key",
@@ -12211,7 +12214,11 @@
     "button-shortcut-string.title",
     "menuitem-shortcut-attributes.label",
     "menuitem-shortcut-attributes.accesskey",
-    "menuitem-shortcut-attributes.acceltext"
+    "menuitem-shortcut-attributes.acceltext",
+    "toolbar-button-shortcut-string.label",
+    "toolbar-button-shortcut-string.shortcut",
+    "toolbar-button-shortcut-string.aria-keyshortcuts",
+    "toolbar-button-shortcut-string.tooltiptext"
   ],
   "mail/messenger/smime/smime.ftl": [
     "smime-test-cert-button.label",
