@@ -8754,7 +8754,13 @@
     "calendar-dialog-attachments-label",
     "calendar-dialog-attachment-link-icon.alt",
     "calendar-dialog-attachments-expand-icon.alt",
-    "calendar-dialog-attachments-summary-label"
+    "calendar-dialog-attachments-summary-label",
+    "calendar-event-prompt-delete-title",
+    "calendar-event-prompt-delete-header",
+    "calendar-single-event-prompt-delete-header",
+    "calendar-prompt-this-event.label",
+    "calendar-prompt-all-events.label",
+    "calendar-prompt-delete-button"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
