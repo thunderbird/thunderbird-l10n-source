@@ -3880,7 +3880,6 @@
     "imapDownloadingMessage",
     "imapGettingACLForFolder",
     "imapGettingServerInfo",
-    "imapGettingMailboxInfo",
     "imapEmptyMimePart",
     "imapReceivingMessageHeaders3",
     "imapReceivingMessageFlags3",
