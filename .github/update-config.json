@@ -3,8 +3,6 @@
     "main",
     "beta",
     "release",
-    "esr128",
-    "esr140",
     "esr153"
   ],
   "head": "main",
