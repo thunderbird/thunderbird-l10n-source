@@ -8507,6 +8507,8 @@
     "folder-props-check-for-new-messages.label",
     "folder-props-check-for-new-messages.accesskey",
     "folder-props-rebuild-summary-explanation",
+    "folder-props-rebuild-summary-confirm-title",
+    "folder-props-rebuild-summary-confirm-message",
     "folder-props-synchronization-tab.label",
     "folder-props-select-for-offline.label",
     "folder-props-select-for-offline.accesskey",
