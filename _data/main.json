@@ -8315,7 +8315,8 @@
     "custom-headers-colon-in-header"
   ],
   "mail/messenger/customizableshortcuts/customizableShortcuts.ftl": [
-    "shortcuts-close-button-title.title"
+    "shortcuts-close-button.title",
+    "shortcuts-close-button.aria-label"
   ],
   "mail/messenger/extensionPermissions.ftl": [
     "webext-perms-description-accountsFolders",
