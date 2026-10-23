@@ -10050,6 +10050,7 @@
     "mark-headers-read.accesskey",
     "cancel-confirm",
     "auto-subscribe-text",
+    "unknown-news-server-text",
     "enter-news-credentials-title",
     "enter-news-server-credentials",
     "enter-news-group-credentials",
