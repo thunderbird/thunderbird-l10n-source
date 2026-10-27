@@ -11,7 +11,7 @@ retention-use-default =
     .label = Use my account settings
     .accesskey = U
 
-## Account Settings
+## Folder Properties
 
 retention-button =
     .label = Retention Policy
