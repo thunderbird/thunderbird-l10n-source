@@ -7,7 +7,6 @@
 #  string defined in imAccounts.properties when the user is
 #  configuring a Matrix account.
 matrix-username-hint = Matrix ID
-
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
@@ -15,7 +14,6 @@ options-save-token = Store access token
 options-device-display-name = Device display name
 options-homeserver = Server
 options-backup-passphrase = Key Backup Passphrase
-
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
 #   storage, shown in the account manager. $status (String) is one of the statuses and the
@@ -34,7 +32,6 @@ options-encryption-set-up-secret-storage = To set up secret storage, please use 
 options-encryption-set-up-backup-and-cross-signing = To activate encryption key backups and cross signing, enter your backup key passphrase in the “General” tab or verify the identity of one of the sessions below.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
-
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -43,7 +40,6 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #    periods at the end of these messages.)
 connection-request-auth = Waiting for your authorization
 connection-request-access = Finalizing authentication
-
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
@@ -51,7 +47,6 @@ connection-error-no-supported-flow = Server offers no compatible login flow.
 connection-error-auth-cancelled = You cancelled the authorization process.
 connection-error-session-ended = Session was logged out.
 connection-error-server-not-found = Could not identify the Matrix server for the given Matrix account.
-
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -59,7 +54,6 @@ connection-error-server-not-found = Could not identify the Matrix server for the
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Room
-
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from the "User" object.
@@ -68,7 +62,6 @@ tooltip-display-name = Display name
 # $timespan (String) is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } ago
 tooltip-last-active = Last activity
-
 # LOCALIZATION NOTE (power-level-*):
 #    These are the string representations of different standard power levels and strings.
 #    $powerLevelName (String) are one of the power levels, Default/Moderator/Admin/Restricted/Custom.
@@ -114,7 +107,6 @@ power-level-state-default = Change setting: { $powerLevelName }
 power-level-encryption = Enable Room encryption: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-topic = Set room topic: { $powerLevelName }
-
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
@@ -136,7 +128,6 @@ detail-alias = Alias: { $value }
 detail-guest = Guest Access: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Power Levels:
-
 # LOCALIZATION NOTE (command-*):
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
@@ -178,7 +169,6 @@ command-me = { $commandName } &lt;action&gt;: Perform an action.
 command-msg = { $commandName } &lt;userId&gt; &lt;message&gt;: Send a direct message to the given user.
 # $commandName is the command name
 command-join = { $commandName } &lt;roomId&gt;: Join the given room.
-
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -277,6 +267,7 @@ message-verification-request2 = { $user } wants to verify { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } cancelled the verification with the reason: { $reason }
 message-verification-done = Verification completed.
+message-decryption-error2 = Could not decrypt the contents of this message. Encryption keys will automatically be re-requested.
 message-decryption-error = Could not decrypt the contents of this message. To request encryption keys from your other devices, right click this message.
 message-decrypting = Decrypting…
 message-redacted = Message was redacted.
@@ -284,14 +275,13 @@ message-redacted = Message was redacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } reacted to { $userThatSentMessage } with { $reaction }.
-
 #    Label in the message context menu
 message-action-request-key = Re-request Keys
+#    Label in the message context menu
 message-action-redact = Redact
 message-action-report = Report Message
 message-action-retry = Retry Sending
 message-action-cancel = Cancel Message
-
 # LOCALIZATION NOTE (error-*)
 #    These are strings shown as system messages when an action the user took fails.
 #    $message is the message.
