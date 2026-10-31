@@ -8225,7 +8225,8 @@
     "calendar-single-event-prompt-delete-header",
     "calendar-prompt-this-event.label",
     "calendar-prompt-all-events.label",
-    "calendar-prompt-delete-button"
+    "calendar-prompt-delete-button",
+    "calendar-dialog-edit-button"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",

@@ -134,6 +134,7 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = All events
 calendar-prompt-delete-button = Delete
+calendar-dialog-edit-button = Edit
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
