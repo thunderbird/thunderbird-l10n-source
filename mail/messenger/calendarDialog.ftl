@@ -25,6 +25,7 @@ calendar-dialog-menu-button =
 calendar-dialog-back-button =
     .aria-label = Back
     .title = Back
+calendar-event-create-edit-dialog-back-button = Back
 calendar-dialog-date-row-icon =
     .alt = Date and time
 calendar-dialog-date-row-recurring-icon =
