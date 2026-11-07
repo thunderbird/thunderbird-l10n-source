@@ -9116,6 +9116,10 @@
   "mail/messenger/messengercompose/messengercompose.ftl": [
     "compose-message-cancelling",
     "compose-message-attachment-name",
+    "menuitem-resize-header-area.label",
+    "menuitem-resize-header-area.accesskey",
+    "compose-header-area-splitter.aria-label",
+    "compose-header-area-splitter.aria-description",
     "compose-initialization-error-title",
     "compose-initialization-error",
     "compose-default-subject",
