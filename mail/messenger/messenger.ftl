@@ -302,6 +302,8 @@ appmenu-save-as-file =
     .label = File…
 appmenu-settings =
     .label = Settings
+appmenu-accounts =
+    .label = Accounts
 appmenu-addons-and-themes =
     .label = Add-ons and Themes
 
@@ -521,6 +523,8 @@ spaces-context-switch-tab-item =
     .label = Switch to { $tabName }
 settings-context-open-settings-item2 =
     .label = Settings
+settings-context-open-accounts-item =
+    .label = Accounts
 settings-context-open-account-settings-item2 =
     .label = Account Settings
 settings-context-open-addons-item2 =

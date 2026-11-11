@@ -145,6 +145,15 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Delete
 calendar-dialog-edit-button = Edit
 calendar-event-create-edit-save-button = Save
+calendar-event-calendar-selector =
+    .aria-label = Calendar
+calendar-event-save = Save
+calendar-event-saving = Saving…
+calendar-event-save-failed = The event could not be saved. Try again.
+calendar-event-calendar-unavailable = This calendar does not accept new events. Select another calendar and try again.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
