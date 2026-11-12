@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Close
 calendar-event-create-edit-dialog =
     .aria-label = Event
+calendar-event-title-input-new =
+    .aria-label = Event title
+    .placeholder = New event
+calendar-event-title-input-untitled =
+    .aria-label = Event title
+    .placeholder = Untitled event
+calendar-event-title-required = Required
+calendar-event-title-too-long = Title must not exceed 180 characters
 calendar-dialog-menu-button =
     .aria-label = Open menu
     .title = Open Menu
 calendar-dialog-back-button =
     .aria-label = Back
     .title = Back
+calendar-event-create-edit-dialog-back-button = Back
 calendar-dialog-date-row-icon =
     .alt = Date and time
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +145,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Delete
 calendar-dialog-edit-button = Edit
 calendar-event-create-edit-save-button = Save
+calendar-event-calendar-selector =
+    .aria-label = Calendar
+calendar-event-save = Save
+calendar-event-saving = Saving…
+calendar-event-save-failed = The event could not be saved. Try again.
+calendar-event-calendar-unavailable = This calendar does not accept new events. Select another calendar and try again.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Availability
+calendar-event-availability-default = Default
+calendar-event-availability-busy = Busy
+calendar-event-availability-free = Free
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
