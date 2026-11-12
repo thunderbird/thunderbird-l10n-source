@@ -154,6 +154,11 @@ calendar-event-calendar-unavailable = This calendar does not accept new events. 
 # The status element announces Save progress and errors to screen readers.
 # Keep this message empty to clear the previous status text when Save is idle.
 calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Availability
+calendar-event-availability-default = Default
+calendar-event-availability-busy = Busy
+calendar-event-availability-free = Free
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

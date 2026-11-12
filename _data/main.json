@@ -8229,7 +8229,11 @@
     "calendar-event-saving",
     "calendar-event-save-failed",
     "calendar-event-calendar-unavailable",
-    "calendar-event-save-idle"
+    "calendar-event-save-idle",
+    "calendar-event-availability-selector.aria-label",
+    "calendar-event-availability-default",
+    "calendar-event-availability-busy",
+    "calendar-event-availability-free"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",
