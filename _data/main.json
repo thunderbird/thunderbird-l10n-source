@@ -8233,7 +8233,10 @@
     "calendar-event-availability-selector.aria-label",
     "calendar-event-availability-default",
     "calendar-event-availability-busy",
-    "calendar-event-availability-free"
+    "calendar-event-availability-free",
+    "calendar-event-prompt-edit-header",
+    "calendar-prompt-edit-confirm-button",
+    "calendar-event-prompt-edit-title"
   ],
   "mail/messenger/certError.ftl": [
     "cert-error-domain-mismatch",

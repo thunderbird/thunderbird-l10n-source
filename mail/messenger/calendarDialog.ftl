@@ -159,6 +159,9 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Default
 calendar-event-availability-busy = Busy
 calendar-event-availability-free = Free
+calendar-event-prompt-edit-header = Edit this event or all occurrences of this event?
+calendar-prompt-edit-confirm-button = Confirm
+calendar-event-prompt-edit-title = Edit event
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
