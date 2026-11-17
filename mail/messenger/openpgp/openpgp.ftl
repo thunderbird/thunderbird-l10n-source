@@ -27,7 +27,7 @@ e2e-csr-select-strength = Choose your desired cryptographic strength (faster wit
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = A new { $type } { $strength } secret key will be generated in { -brand-short-name }'s settings. This process may take some time and cause temporary unresponsiveness; please remain patient during this step. The Certificate Signing Request (CSR) file, saved as { $file }, will be created in the meantime.
+e2e-csr-summary = A new { $type } { $strength } secret key will be generated in { -brand-short-name }’s settings. This process may take some time and cause temporary unresponsiveness; please remain patient during this step. The Certificate Signing Request (CSR) file, saved as { $file }, will be created in the meantime.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Include email address ({ $email }) in CSR (recommended)
@@ -152,10 +152,10 @@ openpgp-key-man-discover-prompt = To discover OpenPGP keys online, on keyservers
 openpgp-key-man-discover-progress = Searching…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-ok = Public key sent to "{ $keyserver }".
+openpgp-key-publish-ok = Public key sent to “{ $keyserver }”.
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-fail = Failed to send your public key to "{ $keyserver }".
+openpgp-key-publish-fail = Failed to send your public key to “{ $keyserver }”.
 openpgp-key-copy-key =
     .label = Copy Public Key
     .accesskey = C

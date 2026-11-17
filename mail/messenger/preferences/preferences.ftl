@@ -864,7 +864,7 @@ filelink-account-not-configured =
     .title = This account has not been configured yet
 # Variables:
 #   $accountName (String) - The user-defined name of a Filelink account.
-filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
+filelink-remove-account-confirm = Are you sure you want to remove the account “{ $accountName }”?
 
 ## Privacy Tab
 
