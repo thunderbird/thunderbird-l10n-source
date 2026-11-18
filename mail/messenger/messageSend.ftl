@@ -121,7 +121,7 @@ smtp-permanent-size-exceeded = The size of the message you are trying to send ex
 smtp-error-sending-recipient-command =
     An error occurred while sending mail. The mail server responded:
     { $serverResponse }.
-    Please check the message recipient "{ $recipient }" and try again.
+    Please check the message recipient “{ $recipient }” and try again.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = An Outgoing server (SMTP) error occurred while sending mail. The server responded:  { $serverResponse }.

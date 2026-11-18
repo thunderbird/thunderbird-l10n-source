@@ -63,7 +63,7 @@ profiles-pane-title-outlook = Import Data from { app-name-outlook }.
 profiles-pane-title-apple-mail = Import Messages from { app-name-apple-mail }.
 profile-source = Import from profile
 # $profileName (string) - name of the profile
-profile-source-named = Import from profile <strong>"{ $profileName }"</strong>
+profile-source-named = Import from profile <strong>“{ $profileName }”</strong>
 profile-file-picker-directory = Choose a profile folder
 profile-file-picker-archive = Choose a <strong>ZIP</strong> file
 profile-file-picker-archive-description = The ZIP file must be smaller than 2GB.
@@ -92,11 +92,11 @@ addr-book-csv-field-map-desc = Select address book fields corresponding to the s
 addr-book-directories-title = Select where to import the chosen data
 addr-book-directories-pane-source = Source file:
 # $addressBookName (string) - name of the new address book that would be created.
-addr-book-import-into-new-directory2 = Create a new directory called <strong>"{ $addressBookName }"</strong>
+addr-book-import-into-new-directory2 = Create a new directory called <strong>“{ $addressBookName }”</strong>
 # $addressBookName (string) - name of the address book to import into
-addr-book-summary-title = Import the chosen data into the "{ $addressBookName }" directory
+addr-book-summary-title = Import the chosen data into the “{ $addressBookName }” directory
 # $addressBookName (string) - name of the address book that will be created.
-addr-book-summary-description = A new address book called "{ $addressBookName }" will be created.
+addr-book-summary-description = A new address book called “{ $addressBookName }” will be created.
 
 ## Import from calendar file steps
 
@@ -135,16 +135,16 @@ calendar-select-all-items = Select all
 calendar-deselect-all-items = Deselect all
 calendar-target-title = Select where to import the chosen items.
 # $targetCalendar (string) - name of the new calendar that would be created
-calendar-import-into-new-calendar2 = Create a new calendar called <strong>"{ $targetCalendar }"</strong>
+calendar-import-into-new-calendar2 = Create a new calendar called <strong>“{ $targetCalendar }”</strong>
 # $itemCount (number) - count of selected items (tasks, events) that will be imported
 # $targetCalendar (string) - name of the calendar the items will be imported into
 calendar-summary-title =
     { $itemCount ->
-        [one] Import one item into the "{ $targetCalendar }" calendar
-       *[other] Import { $itemCount } items into the "{ $targetCalendar }" calendar
+        [one] Import one item into the “{ $targetCalendar }” calendar
+       *[other] Import { $itemCount } items into the “{ $targetCalendar }” calendar
     }
 # $targetCalendar (string) - name of the calendar that will be created
-calendar-summary-description = A new calendar called "{ $targetCalendar }" will be created.
+calendar-summary-description = A new calendar called “{ $targetCalendar }” will be created.
 
 ## Import dialog
 
