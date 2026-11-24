@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Edit event
 
 calendar-event-categories = Categories
 calendar-event-add-category = Add category
+calendar-event-category-name =
+    .aria-label = Add a new category
+    .placeholder = Add a new category
 calendar-event-category-choices =
     .aria-label = Available categories
 calendar-event-selected-categories =
@@ -196,6 +199,63 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Clear video URL
     .title = Clear video URL
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Add description
+calendar-description-formatting =
+    .aria-label = Text formatting
+calendar-description-bold =
+    .title = Bold
+    .aria-label = Bold
+calendar-description-italic =
+    .title = Italic
+    .aria-label = Italic
+calendar-description-bulleted-list =
+    .title = Bulleted list
+    .aria-label = Bulleted list
+calendar-description-numbered-list =
+    .title = Numbered list
+    .aria-label = Numbered list
+calendar-description-indent =
+    .title = Indent
+    .aria-label = Indent
+calendar-description-outdent =
+    .title = Outdent
+    .aria-label = Outdent
+calendar-description-link =
+    .title = Link
+    .aria-label = Link
+calendar-description-link-popup = Link
+calendar-description-link-address =
+    .aria-label = Link address
+calendar-description-invalid-link = Enter a valid link address.
+calendar-description-apply-link = Apply link
+calendar-description-remove-link = Remove link
+calendar-description-cancel-link = Cancel
+calendar-description-input =
+    .aria-label = Description
+calendar-description-frame =
+    .title = Description editor
+calendar-description-strikethrough =
+    .title = Strikethrough
+    .aria-label = Strikethrough
+calendar-description-undo =
+    .title = Undo
+    .aria-label = Undo
+calendar-description-redo =
+    .title = Redo
+    .aria-label = Redo
+calendar-event-add-guests = Add guests
+calendar-event-add-guests-expand-icon =
+    .alt = Add guests
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } guest invited
+       *[other] { $count } guests invited
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
