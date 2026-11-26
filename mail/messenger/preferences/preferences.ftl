@@ -1051,6 +1051,7 @@ email-e2ee-turn-off =
     .label = Automatically turn off encryption when recipients change and encryption is no longer possible
 email-e2ee-turn-off-notify =
     .label = Show a notification whenever encryption is turned off automatically
+email-e2ee-automatism-note2 = Note: You can also manually turn encryption on or off while writing a message. Replying to an encrypted message always turns on encryption.
 email-e2ee-automatism-note = Note: You can also manually turn encryption on or off while writing a message. Replying to an encrypted messages always turns on encryption.
 email-e2ee-automatism-pre =
     { -brand-short-name } can assist by automatically enabling or disabling encryption while composing an email.
