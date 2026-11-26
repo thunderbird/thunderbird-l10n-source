@@ -2692,7 +2692,9 @@
     "extension-thunderbird-compact-light-name",
     "extension-thunderbird-compact-light-description",
     "extension-thunderbird-compact-dark-name",
-    "extension-thunderbird-compact-dark-description"
+    "extension-thunderbird-compact-dark-description",
+    "extension-default-theme-description2",
+    "extension-default-theme-name2"
   ],
   "mail/browser/branding/brandings.ftl": [
     "-profiler-brand-name"
@@ -9187,6 +9189,9 @@
     "ignored-subtheads-feedback",
     "attachment-view-attachment-count",
     "allow-remote-content-resource.label",
+    "allow-remote-content-website.label",
+    "allow-remote-content-sender.label",
+    "allow-remote-content-sender-domain.label",
     "remote-content-option-allow-all.label",
     "tags-label-1",
     "tags-label-2",
@@ -10880,7 +10885,7 @@
   "mail/messenger/preferences/permissions.ftl": [
     "permissions-dialog-title",
     "remote-content-permissions-title",
-    "remote-content-permissions-description",
+    "remote-content-permissions-description-2",
     "cookie-permissions-title",
     "cookie-permissions-description",
     "website-address-label.value",
